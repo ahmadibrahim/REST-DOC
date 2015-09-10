@@ -26,6 +26,7 @@ Le choix de l'une ou de l'autre des modélisations est entièrement à l'appréc
 
 Dans les deux cas, rien n'empêche l'analyste métier de permettre l'accès aux drivers, véhicules ou locations directement via une clef d'accès unique. Là encore il s'agit d'un choix métier quant à l'exposition des ressources via l'API REST.
 
+
 #### Objets
 
 #### Collections
