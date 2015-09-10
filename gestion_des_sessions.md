@@ -18,4 +18,3 @@ La présence des deux indicateurs ```secure```et ```HttpOnly``` permet de sécur
 - L'indicateur ```secure``` empêche le cookie d'e^tre envoyé en clair sur le canal HTTP et force l'utilisation du protocole HTTPS.
 - L'indicateur ```HttpOnly```empêche le code JavaScript d'accéder au cookie, pratique courante dans les attaques de type XSS (Cross site scripting). 
 
-### Passage d'un identifiant visiteur
