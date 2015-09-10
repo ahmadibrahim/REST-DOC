@@ -22,10 +22,10 @@ Le choix de l'une ou de l'autre des modélisations est entièrement à l'appréc
 
 |Verbe HTTP | URI1 | / URI2 |
 | -- | -- | -- |
-| -- |l'analyste métier impose uniquement la connaissance du contrat de location pour accéder au drivers de la dite location.| -- |
+|  |l'analyste métier impose uniquement la connaissance du contrat de location pour accéder au drivers de la dite location.| Dans le second cas, |
 | GET | /rents/12345/drivers |/cars/6785/rents/1/drivers |
 
-Dans le second cas, 
+
 
 #### Collections
 #### Les intervalles
