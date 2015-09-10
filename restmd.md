@@ -31,4 +31,10 @@ Cette contrainte est la seule optionnelle des six contraintes REST imposées. El
 
 
 ## Concepts
+- Une ressource est accédée au travers d'une URI.
+- Une URI peut être invoquée via une ou plusieurs méthodes (GET / PUT / POST / DELETE) en fonction de l'opération que l'on souhaite exécuter (Lecture / Mise à jour / Création / Suppression).
+- Une invocation de service REST peut inclure dans le corps de la requête des paramètres en entrée représentant un objet métier et recupérer dans la réponse une représentation de l'objet métier dans le flux de retour.
+- Plusieurs variantes d'une représentation sont possibles. En génaral on retrouve les variantes JSON et XML.
 
+Le diagramme ci-dessous illsutre ces concepts.
+![Concepts REST](rest-concepts.png)
