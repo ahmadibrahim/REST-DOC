@@ -86,7 +86,7 @@ Cette URI désignant de manière unique la ressource, la valeur saisie par le cl
 ```
 GET http://api.europcar.com/patterns/email/validity?value=name@domain.com
 ```
-#### Les règles de nommage
+### Les règles de nommage
 Les objets sont exposés au client comme une hiérarchie de composition d'objets. C'est cette composition qui doit permettre d'obtenir l'URI d'accès à la ressource.
 
 Considérons le schéma relationnel suivant :
