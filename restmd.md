@@ -37,4 +37,7 @@ Cette contrainte est la seule optionnelle des six contraintes REST imposées. El
 - Plusieurs variantes d'une représentation sont possibles. En génaral on retrouve les variantes JSON et XML.
 
 Le diagramme ci-dessous illsutre ces concepts.
+
 ![Concepts REST](rest-concepts.png)
+
+
