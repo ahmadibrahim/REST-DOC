@@ -8,7 +8,6 @@
 * [HATEOAS](hateoas.md)
 * [Pagination](pagination.md)
 * [Filtre](filtre.md)
-   * filtrage prédéfini
 * [Tri](tri.md)
 * [Réponse HTTP](reponse_http.md)
 * [Versioning de services](versioning_de_services.md)
