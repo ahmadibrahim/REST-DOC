@@ -10,5 +10,5 @@
 * [Tri](tri.md)
 * [Réponse HTTP](reponse_http.md)
 * [Versioning de services](versioning_de_services.md)
-* Sécurisation des services
+* [Sécurisation des services](securisation_des_services.md)
 
