@@ -12,5 +12,5 @@
 * [Versioning de services](versioning_de_services.md)
 * [Sécurisation des services](securisation_des_services.md)
 * [Gestion du cache](gestion_du_cache.md)
-* Gestion des sessions
+* [Gestion des sessions](gestion_des_sessions.md)
 
