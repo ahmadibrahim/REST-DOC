@@ -28,6 +28,7 @@ Dans les deux cas, rien n'empêche l'analyste métier de permettre l'accès aux 
 
 #### Objets
 #### Collections
+
 #### Les dates
 Les dates sont transmises de deux manières différentes selon qu'elles soient précisées dans un entête HTTP ou dans le corps de la requête / réponse.
 
