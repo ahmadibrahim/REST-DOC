@@ -20,6 +20,8 @@ Ainsi la requête suivante renverra les 20 premiers clients à partir de la posi
 GET http://api.europcar.com/customers?offset=2&limit=20
 ```
 
+** todo préconiser query string car plus lisible
+
 ### Format de la réponse
  Uen requête de pagination, que ce soit via l'entête ou la query string doit renvoyer le nombre d'items retournés et le nombre total d'items.
  Cet entête se présente comme suit et indique que les 50 premiers items sur un total de 97 ont été renvoyés dans la réponse :
