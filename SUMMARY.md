@@ -8,4 +8,5 @@
 * [Pagination](pagination.md)
 * [Filtre](filtre.md)
 * [Tri](tri.md)
+* Réponse HTTP
 
