@@ -88,6 +88,7 @@ GET http://api.europcar.com/patterns/email/validity?value=name@domain.com
 ```
 
 ### Représentation des données en entrée / sortie
+
 #### objets
 #### collections
 #### les intervalles
