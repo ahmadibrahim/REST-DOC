@@ -7,6 +7,11 @@ Considérons le schéma relationnel suivant :
 
 ![Rental Diagram](rent.png)
 
+- Une location est le rapprochement d'un ou plusieurs drivers à un et un seul véhicule.
+- Un Driver peut n'avoir jamais loué de véhicule
+- Un véhicle peut ne jamais avoir été loué.
+
+
 
 #### Collections
 #### Les intervalles
