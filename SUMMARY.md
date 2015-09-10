@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [REST](rest.md)
+* [REST](restmd.md)
 
