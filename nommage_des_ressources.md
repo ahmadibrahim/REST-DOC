@@ -1,5 +1,5 @@
 ### Représentation des données en entrée / sortie
-#### Objets
+#### URIs
 
 Les objets sont exposés au client comme une hiérarchie de composition d'objets. C'est cette composition qui doit permettre d'obtenir l'URI d'accès à la ressource.
 
