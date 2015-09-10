@@ -30,7 +30,7 @@ Lors de l'accès à un objet, on peut vouloir le discriminer par un attribut. Lo
 
 Dans l'exemple ci-dessous, on souhaite les véficule de type VW.
 
-```/cars/VW``` est à proscrire car plusieurs véhicules peuvent être de type VW. uen requête correcte est la suivante : ``` /cars?type=VW``` et le retour sera une collection.
+```.../cars/VW``` est à proscrire car plusieurs véhicules peuvent être de type VW. uen requête correcte est la suivante : ```.../cars?type=VW``` et le retour sera une collection.
 
 
 #### Objets
