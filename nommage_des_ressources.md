@@ -100,6 +100,11 @@ Considérons le schéma relationnel suivant :
 
 Les structures de composition suivantes sont alors possibles :
 
+* todo Utiliser une logique d'association
+* Tous les objets top level doivent avoir leur API
+* Ensuite elles peuvent apparaître en sous ressource.
+
+
 |Type URI | Choix de conception |
 | -- | -- |
 |URI1 |![](rent3.png)|
@@ -144,4 +149,5 @@ Le choix du verbe (PUT, GET , POST, DELETE) dépendra de l'idempotence et de la 
 
 
 
-
+* todo Conserver l'intention métier 
+* 
