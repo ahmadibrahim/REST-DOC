@@ -6,7 +6,6 @@ Dans le premier cas, l'utilisateur s'appuie en général sur un couple identifia
 ```Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==```
 
 
-
 ####  Authentification de niveau partenaire (token)
 
    ####  Authentification de niveau user (user/password)
