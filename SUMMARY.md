@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [REST](restmd.md)
-* Les verbes HTTP
+* [Les verbes HTTP](les_verbes_http.md)
 
