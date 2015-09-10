@@ -10,7 +10,7 @@ Considérons le schéma relationnel suivant :
 - Une location est le rapprochement d'un ou plusieurs drivers à un et un seul véhicule.
 - Un Driver peut n'avoir jamais loué de véhicule
 - Un véhicle peut ne jamais avoir été loué.
-- 
+
 
 
 
