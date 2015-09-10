@@ -40,7 +40,7 @@ Dans l'exemple ci-dessous, on souhaite les véficule de type VW.
 de renvoyer l'objet dans l'objet renvoyé en retour s'ils font partie de l'objet renvoyé. Ainsi lors d'un accès par ID, l'ID devra être également inclus dans l'objet retourné.
 
 ``` /cars/12345 ``` renverra un véhicule 
-``` 
+
 ``` {
  "id":"12345",
  "type":"VW"
