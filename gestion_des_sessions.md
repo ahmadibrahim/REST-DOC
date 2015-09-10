@@ -15,7 +15,7 @@ Set-Cookie: jsessionid=ig2fac55; path=/; secure; HttpOnly
 
 La présence des deux indicateurs ```secure```et ```HttpOnly``` permet de sécuriser le cookie de la mnière suivante :
 
-L'indicateur ```secure``` empêche le cookie d'e^tre envoyé en clair sur le canal HTTP et force l'utilisation du protocole HTTPS.
-L'indicateur ```HttpOnly```empêche le code JavaScript d'accéder au cookie, pratique courante dans les attaques de type XSS (Cross site scripting). 
+- L'indicateur ```secure``` empêche le cookie d'e^tre envoyé en clair sur le canal HTTP et force l'utilisation du protocole HTTPS.
+- L'indicateur ```HttpOnly```empêche le code JavaScript d'accéder au cookie, pratique courante dans les attaques de type XSS (Cross site scripting). 
 
 ### Passage d'un identifiant visiteur
