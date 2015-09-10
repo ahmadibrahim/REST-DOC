@@ -28,6 +28,7 @@ Dans les deux cas, rien n'empêche l'analyste métier de permettre l'accès aux 
 
 
 #### Objets
+
 L'exposition d'une ressource fait fi de sa représentation réelle dans le système d'information (cf. exemple pattern précédent). 
 #### Collections
 
