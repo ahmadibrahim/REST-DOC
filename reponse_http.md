@@ -40,3 +40,4 @@ Exemple 2:
 }```
 
 
+** todo Pour chaque code erreur http décrire les erro code et messages possibles.
