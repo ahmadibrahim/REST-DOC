@@ -15,7 +15,7 @@ Dans ces cas, on remplacera le verbe par le substantif adéquat comme le montre 
 | Valider la location | PUT /rents/12345/validation | Mettre à jour du statut de validation |
 | Notifier le client | POST /drivers/789067/notification | Création d'une notification et association au driver |
 
-Dans le tableau ci-dessous, la description indique la perception qu'a le client du service REST. 
+Dans le tableau ci-dessus, la description indique la perception qu'a le client du service REST. 
 
 
 Le choix du verbe (PUT, GET , POST, DELETE) dépendra de l'idempotence et de la neutralité de l'action que l'on souhaite exécuter. 
