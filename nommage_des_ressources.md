@@ -151,3 +151,4 @@ Le choix du verbe (PUT, GET , POST, DELETE) dépendra de l'idempotence et de la 
 
 * todo Conserver l'intention métier 
 * todo /{id}/views/{viewname}. uniquement si accès à autre chose que la vue par défaut
+* 
