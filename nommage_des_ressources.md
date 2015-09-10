@@ -6,7 +6,9 @@ Dans les cas métiers (autres que CRUD), l'invocation d'un service REST renvoie 
 - Notifier le client
 
 
-Dans ces cas, on remplacera le verbe par le substantif adéquat 
+Dans ces cas, on remplacera le verbe par le substantif adéquat comme le montre le tableau ci-dessous :
+
+
 Le choix du verbe (PUT, GET , POST, DELETE) dépendra de l'idempotence et de la neutralité de l'action que l'on souhaite exécuter. 
 
 
