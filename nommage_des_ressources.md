@@ -10,12 +10,11 @@ Dans ces cas, on remplacera le verbe par le substantif adéquat comme le montre 
 
 
 
-|Verbe HTTP | /cars | /cars/{id} |
-| -- | -- | -- |
-| GET | 200 (OK), renvoi d'une liste de véhicules.| 200 (OK), renvoi d'un seul véhicule. 404 (NOT FOUND) si l'identifiant n'est pas trouvé ou est invalide. |
-| PUT | 404 (NOT FOUND) | 200 (OK) ou 204 (NO CONTNTENT). 404 (NOT FOUND) si l'identifiant n'est pas trouvé ou est invalide. |
-| POST | 201 (CREATED), avec l'entête "Location" valorisé avec le client /cars/{id} contenant le nouvel identifiant | 404 (NOT FOUND) |
-| DELETE | 404 (NOT FOUND), sauf si l'on souhaite supprimer toute la collection. | 200 (OK). 404 (NOT FOUND) si l'identifiant n'est pas trouvé ou est invalide.   |
+| Action | Exemple d'URI | Description|
+| -- | -- | -- | -- |
+| Signer le contrat | POST /rents/12345/signature | Créer une signature et l'associer au contrat |
+| Valider la location | PUT /rents/12345/validation | Mettre à jour du statut de validation |
+| Notifier le client | POST /drivers/789067/notification | Création d'une notification et association au driver |
 
 
 Le choix du verbe (PUT, GET , POST, DELETE) dépendra de l'idempotence et de la neutralité de l'action que l'on souhaite exécuter. 
