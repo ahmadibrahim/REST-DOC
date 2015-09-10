@@ -26,6 +26,7 @@ Le choix de l'une ou de l'autre des modélisations est entièrement à l'appréc
 | DELETE | 404 (NOT FOUND), sauf si l'on souhaite supprimer toute la collection. | 200 (OK). 404 (NOT FOUND) si l'identifiant n'est pas trouvé ou est invalide.   |
 
 
+
 #### Collections
 #### Les intervalles
 #### Les règles de nommage
