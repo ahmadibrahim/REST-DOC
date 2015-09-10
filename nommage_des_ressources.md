@@ -13,7 +13,7 @@ Considérons le schéma relationnel suivant :
 
 Les structures de composition suivantes sont alors possibles :
 
-|Approches | Diagramme |
+|Type URI | Diagramme |
 | -- | -- |
 |URI1 |![](rent3.png)|
 |URI2 |![](rent5.png)|
