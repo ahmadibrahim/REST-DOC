@@ -26,9 +26,17 @@ Le choix de l'une ou de l'autre des modélisations est entièrement à l'appréc
 
 Dans les deux cas, rien n'empêche l'analyste métier de permettre l'accès aux drivers, véhicules ou locations directement via une clef d'accès unique. Là encore il s'agit d'un choix métier quant à l'exposition des ressources via l'API REST.
 
+Lors de l'accès à un objet, on peut vouloir le discriminer par un attribut. Lorsque ceta ttribut identifie de manière unique dans la hiérarchie accédée la ressource, alors il fera partie de l'URI. Dans les autres cas, ce sera un critère de recherche. 
+
+Dans l'exemple ci-dessous, on souhaite les véficule de type VW.
+
+```/cars/VW``` est à proscrire car plusieurs véhicules peuvent être de type VW. uen requête correcte est la suivante : ``` /cars?type=VW``` et le retour sera une collection.
+
 
 #### Objets
 L'exposition d'une ressource fait fi de sa représentation réelle dans le système d'information (cf. exemple pattern précédent).
+
+
 
 #### Collections
 
