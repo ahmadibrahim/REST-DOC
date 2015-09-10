@@ -1,9 +1,11 @@
 ### Représentation des données en entrée / sortie
+#### Objets
 
-#### objets
-#### collections
-#### les intervalles
-#### les règles de nommage
+
+
+#### Collections
+#### Les intervalles
+#### Les règles de nommage
 #### Les dates
 Les dates sont transmises de deux manières différentes selon qu'elles soient précisées dans un entête HTTP ou dans le corps de la requête / réponse.
 
