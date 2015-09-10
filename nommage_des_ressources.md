@@ -47,7 +47,7 @@ de renvoyer l'objet dans l'objet renvoyé en retour s'ils font partie de l'objet
 } ```
 
 
-- L'objet renvoyé n'est jamais nommé. S'il sgit d'un type structur JSON, il se présentera avec les attributs encadrés par une accolade ouvrante et une accolade fermante comem cela est le cas dans l'exemple ci-dessus
+- L'objet renvoyé n'est jamais nommé. S'il sgit d'un type structur JSON, il se présentera avec les attributs encadrés par une accolade ouvrante et une accolade fermante comem cela est le cas dans l'exemple ci-dessus. Aucune attribut ne préfixe l'objet renvoyé
 
 
 
