@@ -11,7 +11,9 @@ Considérons le schéma relationnel suivant :
 - Un Driver peut n'avoir jamais loué de véhicule
 - Un véhicle peut ne jamais avoir été loué.
 
+Les structures de composition suivantes sont alors possibles :
 
+![](rent3.png) 
 
 
 
