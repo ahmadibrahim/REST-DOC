@@ -17,6 +17,7 @@ Les structures de composition suivantes sont alors possibles :
 ![](rent5.png)
 
 Le choix de l'une ou de l'autre des modélisations est entièrement à l'appréciation de l'analyste métier et de la vue hiérarcchique qu'il souhaite donner au système d'informations. Les URIs suivantes sont équivalentes :
+
 |Verbe HTTP | URI1 | / URI2 |
 | -- | -- | -- |
 | GET | 200 (OK), renvoi d'une liste de véhicules.| 200 (OK), renvoi d'un seul véhicule. 404 (NOT FOUND) si l'identifiant n'est pas trouvé ou est invalide. |
