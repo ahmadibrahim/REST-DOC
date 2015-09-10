@@ -24,7 +24,7 @@ Le choix de l'une ou de l'autre des modélisations est entièrement à l'appréc
 | Description |l'analyste métier impose uniquement la connaissance du contrat de location pour accéder au drivers de la dite location.| Dans le second cas, l'accès au drivers impose de connaître également le véhicule utilisé pour la location. |
 | GET | /rents/12345/drivers |/cars/6785/rents/1/drivers |
 
-Dans les deux cas, rien n'empêche l'analyste métier de permettre l'accès aux drivers, véhicules ou locations directement via une clef d'accès unique. Là encore il s'agit d'un choix quant à l'exposition des ressources via l'API REST.
+Dans les deux cas, rien n'empêche l'analyste métier de permettre l'accès aux drivers, véhicules ou locations directement via une clef d'accès unique. Là encore il s'agit d'un choix métier quant à l'exposition des ressources via l'API REST.
 
 #### Objets
 #### Collections
