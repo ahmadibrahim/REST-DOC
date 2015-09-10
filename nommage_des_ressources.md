@@ -36,7 +36,6 @@ Dans l'exemple ci-dessous, on souhaite les véficule de type VW.
 #### Objets
 
 - L'exposition d'une ressource fait fi de sa représentation réelle dans le système d'information (cf. exemple pattern précédent).
-
 - Lorsqu'un objet est renvoyé, il doit être auto-décrit. On retrouvera tous les critères ayant permis 
 de renvoyer l'objet dans l'objet renvoyé en retour.
 
