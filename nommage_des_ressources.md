@@ -3,7 +3,7 @@
 
 Les objets sont exposés au client comme une hiérarchie de composition d'objets. C'est cette composition qui doit permettre d'obtenir l'URI d'accès à la ressource.
 
-
+Considérons le schéma relationnel suivant :
 
 #### Collections
 #### Les intervalles
