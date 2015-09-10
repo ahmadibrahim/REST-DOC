@@ -5,6 +5,8 @@ Les objets sont exposés au client comme une hiérarchie de composition d'objets
 
 Considérons le schéma relationnel suivant :
 
+![Rental Diagram](rent.png)
+
 #### Collections
 #### Les intervalles
 #### Les règles de nommage
