@@ -120,4 +120,5 @@ Dans l'exemple ci-dessous, on souhaite les véficule de type VW.
 ``` .../cars/VW ``` est à proscrire car plusieurs véhicules peuvent être de type VW. uen requête correcte est la suivante : ``` .../cars?type=VW``` et le retour sera une collection.
 
 
-Nommage des framents de ressour
+###Nommage des framents de ressources ou des ressources résultant d'opérations complexes.
+
