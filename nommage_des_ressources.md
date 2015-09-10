@@ -1,4 +1,3 @@
-
 ### Représentation des données en entrée / sortie
 
 #### objets
