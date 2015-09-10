@@ -40,6 +40,8 @@ Lorsqu'un objet est renvoyé, il doit être auto-décrit. On retrouvera tous les
 de renvoyer l'objet dans l'objet renvoyé en retour.
 
 Ainsi lors d'un accès par ID, l'ID devra être également inclus dans l'objet retourné.
+
+
 #### Collections
 Lorsqu'une 
 #### Les dates
