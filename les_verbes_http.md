@@ -1,5 +1,5 @@
-## Les verbes HTTP
-Les verbes HTTP permettent de classer les opérations de service REST en trois catégories :
+## Les méthodes HTTP
+Les méthodes ou verbes HTTP permettent de classer les opérations de service REST en trois catégories :
 - Les verbes idempotents
 - Les verbes neutres
 - Le verbe POST
