@@ -43,7 +43,7 @@ de renvoyer l'objet dans l'objet renvoyé en retour s'ils font partie de l'objet
 
 ``` 
 {
- "id":"12345",
+ "id":"12345", // id est repris bien qu'il soit dans l'URI 
  "type":"VW"
   ...
 } ```
