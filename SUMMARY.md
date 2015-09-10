@@ -15,4 +15,5 @@
 * [Gestion des sessions](gestion_des_sessions.md)
 * [Les codes erreur HTTP](les_codes_erreur_http.md)
 * [Concevoir son API REST](concevoir_son_api_rest.md)
+* Représentation des données en E/S
 
