@@ -7,6 +7,7 @@ Considérons le schéma relationnel suivant :
 
 ![Rental Diagram](rent.png)
 
+
 #### Collections
 #### Les intervalles
 #### Les règles de nommage
