@@ -4,6 +4,7 @@
 * [Concepts REST](restmd.md)
 * [Les verbes HTTP](les_verbes_http.md)
 * [Nommage des ressources](nommage_des_ressources.md)
+* [Représentation des données en E/S](representation_des_donnees_en_es.md)
 * [HATEOAS](hateoas.md)
 * [Pagination](pagination.md)
 * [Filtre](filtre.md)
@@ -15,5 +16,4 @@
 * [Gestion des sessions](gestion_des_sessions.md)
 * [Les codes erreur HTTP](les_codes_erreur_http.md)
 * [Concevoir son API REST](concevoir_son_api_rest.md)
-* [Représentation des données en E/S](representation_des_donnees_en_es.md)
 
