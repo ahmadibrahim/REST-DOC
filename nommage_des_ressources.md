@@ -41,7 +41,8 @@ de renvoyer l'objet dans l'objet renvoyé en retour s'ils font partie de l'objet
 
 ``` /cars/12345 ``` renverra un véhicule 
 
-``` {
+``` 
+{
  "id":"12345",
  "type":"VW"
 } ```
