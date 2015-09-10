@@ -1,6 +1,5 @@
 ### Représentation des données en entrée / sortie
-#### Objets
-
+#### Les règles de nommage
 Les objets sont exposés au client comme une hiérarchie de composition d'objets. C'est cette composition qui doit permettre d'obtenir l'URI d'accès à la ressource.
 
 Considérons le schéma relationnel suivant :
@@ -27,9 +26,8 @@ Le choix de l'une ou de l'autre des modélisations est entièrement à l'appréc
 
 Dans les deux cas, rien n'empêche l'analyste métier de permettre l'accès aux drivers, véhicules ou locations directement via une clef d'accès unique. Là encore il s'agit d'un choix quant à l'exposition des ressources via l'API REST.
 
+#### Objets
 #### Collections
-#### Les intervalles
-#### Les règles de nommage
 #### Les dates
 Les dates sont transmises de deux manières différentes selon qu'elles soient précisées dans un entête HTTP ou dans le corps de la requête / réponse.
 
