@@ -5,5 +5,5 @@ Dans le premier cas, l'utilisateur s'appuie en général sur un couple identifia
 
 ```Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==```
 
-Dans le cadre d'un token, ce même entête HTTP pourra être utilisé. Dans ce cas par contre, le user et password correspondent à une API Key dédiée partagée par plusieurs utilisateurs potentiellement.
+Dans le cadre d'un token, ce même entête HTTP sera utilisé. Dans ce cas par contre, le user et password correspondent à une API Key dédiée partagée par plusieurs utilisateurs potentiellement.
 
