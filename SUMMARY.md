@@ -6,6 +6,6 @@
 * [Nommage des ressources](nommage_des_ressources.md)
 * [HATEOAS](hateoas.md)
 * [Pagination](pagination.md)
-* [Tri](tri.md)
 * [Filtre](filtre.md)
+* [Tri](tri.md)
 
