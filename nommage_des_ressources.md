@@ -40,6 +40,7 @@ Dans l'exemple ci-dessous, on souhaite les véficule de type VW.
 de renvoyer l'objet dans l'objet renvoyé en retour. Ainsi lors d'un accès par ID, l'ID devra être également inclus dans l'objet retourné.
 
 
+
 #### Collections
 Lorsqu'une 
 #### Les dates
