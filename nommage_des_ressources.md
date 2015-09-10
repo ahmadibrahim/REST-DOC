@@ -45,6 +45,7 @@ de renvoyer l'objet dans l'objet renvoyé en retour s'ils font partie de l'objet
 {
  "id":"12345",
  "type":"VW"
+ ...
 } ```
 
 
