@@ -16,6 +16,8 @@ Les structures de composition suivantes sont alors possibles :
 ![](rent3.png)
 ![](rent5.png)
 
+
+
 #### Collections
 #### Les intervalles
 #### Les règles de nommage
