@@ -13,7 +13,7 @@ Considérons le schéma relationnel suivant :
 
 Les structures de composition suivantes sont alors possibles :
 
-![](rent3.png) 
+![](rent3.png)
 
 
 
