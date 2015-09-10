@@ -7,4 +7,5 @@
 * [HATEOAS](hateoas.md)
 * [Pagination](pagination.md)
 * [Tri](tri.md)
+* Filtre
 
