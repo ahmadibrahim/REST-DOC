@@ -4,6 +4,7 @@
 * [Concepts REST](restmd.md)
 * [Les verbes HTTP](les_verbes_http.md)
 * [Nommage des ressources](nommage_des_ressources.md)
+   * Représentation des objets en E/S
 * [HATEOAS](hateoas.md)
 * [Pagination](pagination.md)
 * [Filtre](filtre.md)
