@@ -1,5 +1,5 @@
 ### Représentation des données en entrée / sortie
-#### URIs
+#### Objets
 
 Les objets sont exposés au client comme une hiérarchie de composition d'objets. C'est cette composition qui doit permettre d'obtenir l'URI d'accès à la ressource.
 
@@ -24,7 +24,6 @@ Le choix de l'une ou de l'autre des modélisations est entièrement à l'appréc
 | -- | -- | -- |
 | Description |l'analyste métier impose uniquement la connaissance du contrat de location pour accéder au drivers de la dite location.| Dans le second cas, l'accès au drivers impose de connaître également le véhicule utilisé pour la location. |
 | GET | /rents/12345/drivers |/cars/6785/rents/1/drivers |
-
 
 
 
