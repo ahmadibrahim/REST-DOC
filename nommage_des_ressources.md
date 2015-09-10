@@ -38,7 +38,12 @@ Dans l'exemple ci-dessous, on souhaite les véficule de type VW.
 - L'exposition d'une ressource fait fi de sa représentation réelle dans le système d'information (cf. exemple pattern précédent).
 - Lorsqu'un objet est renvoyé, il doit être auto-décrit. On retrouvera tous les critères ayant permis 
 de renvoyer l'objet dans l'objet renvoyé en retour s'ils font partie de l'objet renvoyé. Ainsi lors d'un accès par ID, l'ID devra être également inclus dans l'objet retourné.
+
+```
+```
+
 - L'objet renvoyé n'est jamais nommé. S'il sgit d'un type structur JSON, il se présentera avec les attributs encadrés par une accolade ouvrante et une accolade fermante.
+- 
 
 
 
