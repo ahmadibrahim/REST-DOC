@@ -37,7 +37,7 @@ Exemple 2:
 "status":"error",
 "message" : 
     {
-        code: UserAbsent"
+        code: UserAbsent",
         "The request is invalid. Rent no more present"
     }
 "details" : 
