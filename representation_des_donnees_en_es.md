@@ -41,4 +41,4 @@ Dans le corps de la requête ou de la réponse, les dates sont envoyées au form
 yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
 ```
 
-Pour une date sans heur, il faut quand même transmettre l'inforamtion horaire qui pourra être ignorée par l'appli
+Pour une date sans heur, il faut quand même transmettre l'inforamtion horaire qui pourra être ignorée par l'applicatif.
