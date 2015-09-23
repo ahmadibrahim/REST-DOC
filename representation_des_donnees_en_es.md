@@ -4,12 +4,11 @@
 #### Objets
 
 - Lorsqu'un objet est renvoyé, il doit être auto-décrit. On retrouvera tous les critères ayant permis 
-de renvoyer l'objet dans l'objet renvoyé en retour s'ils font partie de l'objet renvoyé. Ainsi lors d'un accès par ID, l'ID devra être également inclus dans l'objet retourné. ``` /orders/12345 ``` renverra une command comme suit :
+de renvoyer l'objet dans l'objet renvoyé en retour s'ils font partie de l'objet renvoyé. Ainsi lors d'un accès par ID, l'ID devra être également inclus dans l'objet retourné. ``` /orders/12345 ``` renverra une commande comme suit :
 
 ``` 
 {
  "id":"12345", // id est repris dans la réponse bien qu'il soit dans l'URI de la requête
- "type":"VW"
   ...
 } ```
 
