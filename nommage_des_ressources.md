@@ -137,7 +137,7 @@ Dans ces cas, on remplacera le verbe par le substantif adéquat comme le montre 
 | Action | Exemple d'URI | Description|
 | -- | -- | -- | -- |
 | Signer le contrat | POST /rents/12345/signature | Créer une signature et l'associer au contrat |
-| Valider la location | PUT /rents/12345/validation | Mettre à jour du statut de validation |
+| Valider la location | PUT /rents/12345/validation | Mettre à valide  du statut de location |
 | Notifier le client | POST /drivers/789067/notification | Création d'une notification et association au driver |
 
 Dans le tableau ci-dessus, la description indique la perception qu'a le client du service REST. Dans la réalité, les opérations qui ont lieu sur le S.I. sont beaucoup plus riches et complexes.
