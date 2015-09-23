@@ -35,7 +35,7 @@ Exemple 2:
 {
 "code":400,
 "status":"error",
-"message" : "The request is invalid. User does not existy"
+"message" : "The request is invalid. Rent no more present"
 "details" : 
     [
         { 
