@@ -12,7 +12,8 @@ Un verbe est dit idempotent lorsque l'application du verbe à une URI produit le
 ### Neutralité
 Un verbe est dit neutre lorsqu'il ne conduit à aucun effet de bord sur le serveur.
 Un verbe neutre est donc également idempotent.
-Les verbes GET, HEAD, OPTIONS et TRACE sont des verbes neutres.
+
+![Tip](lightbulb1.png)Les verbes GET, HEAD, OPTIONS et TRACE sont des verbes neutres.
 
  ### Le verbe GET pour la lecture
 La méthode HTTP GET est utilisée pour récupérer une ressource. En cas de succès, la méthode GET renvoit une représentation XML ou JSON de la ressource sollicitée et un code réponse HTTP 20X.
