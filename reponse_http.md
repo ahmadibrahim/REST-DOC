@@ -35,7 +35,11 @@ Exemple 2:
 {
 "code":400,
 "status":"error",
-"message" : "The request is invalid. Rent no more present"
+"message" : 
+    {
+        code: UserAbsent"
+        "The request is invalid. Rent no more present"
+    }
 "details" : 
     [
         { 
