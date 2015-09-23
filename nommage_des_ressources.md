@@ -98,7 +98,7 @@ Considérons le schéma relationnel suivant :
 - Un Driver peut n'avoir jamais loué de véhicule
 - Un véhicule peut ne jamais avoir été loué.
 
-Les structures d'associatio suivantes sont alors possibles :
+Les structures d'association suivantes sont alors possibles :
 
 * todo Utiliser une logique d'association
 * Tous les objets top level doivent avoir leur API
