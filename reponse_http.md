@@ -43,6 +43,15 @@ Exemple 2:
         { 
             "UnknownField", 
             "Unknown Field XYZ"
+        },
+"message" : [
+        { 
+            "InvalidArgument", 
+            "Parameter ABC should be a valid date"
+        }, 
+        { 
+            "UnknownField", 
+            "Unknown Field XYZ"
         }
 }```
 
