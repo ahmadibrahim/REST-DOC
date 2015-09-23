@@ -20,6 +20,7 @@ Dans l'exemple ci-dessous, on souhaite les véficule de type VW.
 
 ``` .../orders/20150910 ``` est à proscrire car plusieurs commandes peuvent avoir été  passées le 10/09/2015. Une requête correcte est la suivante : ``` .../orders?date=20150910``` et le retour sera une collection.
 
+
 ## exécution d'opérations
 Dans les cas métiers (autres que CRUD), l'invocation d'un service REST renvoie généralement le résultat de l'exécution d'un acte métier. On peut les actions métiers suivantes :
 - Signer le contrat
@@ -32,7 +33,7 @@ Dans ces cas, on remplacera le verbe par le substantif adéquat comme le montre 
 
 | Action | Exemple d'URI | Description|
 | -- | -- | -- | -- |
-| Signer le contrat | POST /rents/12345/signature | Créer une signature et l'associer au contrat |
+| Signer la commande | POST /orders/12345/signature | Créer une signature et l'associer à la commande |
 | Valider la location | PUT /rents/12345/validation | Mettre à valide  du statut de location |
 | Notifier le client | POST /drivers/789067/notification | Création d'une notification et association au driver |
 
