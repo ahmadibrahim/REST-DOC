@@ -22,6 +22,8 @@ Dans ce cas on préfixe l'URI par un numéro de version vXXX ou XXX désigne le 
 GET http://api.europcar.com/v2/customers/12345
 ```
 
+![Tip](lightbulb1.png) Le versioning via l'URI est à privilégier.
+
 Cela permet de placer des règles de routage d'URL assez facilement au niveau des serveurs HTTP intermédiaires.
 
 ### Conditions à la création d'une nouvelle version de l'API?
