@@ -30,7 +30,7 @@ Dès que la compatibilité ascendante est cassée, il faut impérativement crée
 - Renommage d'un attribut ou d'une entité
 - La suppression d'un attribut ou d'une entité
 - La modification du type d'un attribut
-- La modification des règles de validation d'un attribut ou d'une entité
+- La modification des règles de validation d'un attribut ou d'une entité qui rompt la compatibilité avec l'existant. 
 
 Par contre, dans les cas ci-dessous, il n'est pas nécessaire de créer une nouvelle version de l'API:
 
