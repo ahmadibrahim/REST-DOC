@@ -10,9 +10,9 @@ Le choix de l'une ou de l'autre des modélisations est entièrement à l'appréc
 |Verbe HTTP | URI1 | / URI2 |
 | -- | -- | -- |
 | Description |l'analyste métier impose uniquement la connaissance de la commande pour accéder aux lignes de commande de la dite commande.| Dans le second cas, l'accès aux lignes de commande impose de connaître également le client pour de la commande. |
-| GET | /orders/12345/lineitems |/customers/6785/orders/12345/lineitem |
+| GET | /orders/12345/lineitems |/customers/6785/orders/12345/lineitems |
 
-Dans les deux cas, rien n'empêche l'analyste métier de permettre l'accès aux commandes, clients ou locations directement via une clef d'accès unique. Là encore il s'agit d'un choix métier quant à l'exposition des ressources via l'API REST.
+Dans les deux cas, rien n'empêche l'analyste métier de permettre l'accès aux commandes, clients ou lignes de directement via une clef d'accès unique. Là encore il s'agit d'un choix métier quant à l'exposition des ressources via l'API REST.
 
 Lors de l'accès à un objet, on peut vouloir le discriminer par un attribut. Lorsque ceta ttribut identifie de manière unique dans la hiérarchie accédée la ressource, alors il fera partie de l'URI. Dans les autres cas, ce sera un critère de recherche. 
 
