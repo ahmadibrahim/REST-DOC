@@ -45,7 +45,7 @@ Une URI qui renvoie une liste est de préférences terminée par un segment au p
 GET http://api.europcar.com/orders/1234/linetitems
 ```
 
-Cet appel renvoie la vue par défaut. Pour envoyer une vue spécifique, on pourra suffixer par ```views/nomdelavue````
+Cet appel renvoie la vue par défaut. Pour envoyer une vue spécifique, on pourra suffixer par ```views/nomdelavue```
 
 
 
