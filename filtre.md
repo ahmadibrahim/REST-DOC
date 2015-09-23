@@ -10,7 +10,7 @@ Ainsi, l'URI suivante pourrait permettre de récupérer les clients  avec une co
 GET http://api.europcar.com/orders?filter=amount:gt:1000|count::1
 ```
 
-On peut complémenter les critères de filtres par des intervalles temporels  en ajoutant les paramètres "before" et "after". Ainsi dans l'exemple suivant on obtient les véhicules de la marque VW garées à Paris entre le 1er janvier 2015 et le 15 janvier 2015.
+On peut complémenter les critères de filtres par des intervalles temporels  en ajoutant les paramètres "before" et "after". Ainsi dans l'exemple suivant on obtient les commandes  précédentes entre le 1er janvier 2015 et le 15 janvier 2015.
 
 ```
 GET http://api.europcar.com/cars?filter=city::Paris|constructor::VW&after=timestamp&before=timestamp
