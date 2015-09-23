@@ -94,9 +94,9 @@ Les objets sont exposés au client comme une hiérarchie de composition d'objets
 
 Considérons le schéma relationnel suivant :
 
-![Rental Diagram](rent8.png)
+![Rental Diagram](rent9.png)
 
-- Une location est le rapprochement d'un ou plusieurs drivers à un et un seul véhicule.
+- Une commande est le rapprochement d'une ou plusieurs lignes de commandes à un et un seul client.
 - Un Driver peut n'avoir jamais loué de véhicule
 - Un véhicule peut ne jamais avoir été loué.
 
