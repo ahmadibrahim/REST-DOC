@@ -22,7 +22,21 @@ de renvoyer l'objet dans l'objet renvoyé en retour s'ils font partie de l'objet
 
 
 #### Collections
-Lorsqu'une 
+Les objets sont renvoyées comme une liste homogène de données, encadrées par un crochet ouvran tet un crocher ouvrant. Tout comme précédemment, les listes sont des objets et ne doivent donc jamais être nommées. Ci-dessous un exemple de liste avec deux éléments :
+``` 
+[
+{
+ "id":"12345", // id est repris dans la réponse bien qu'il soit dans l'URI de la requête
+  ...
+},
+{
+ "id":"12345", // id est repris dans la réponse bien qu'il soit dans l'URI de la requête
+  ...
+}
+]
+```
+
+
 #### Les dates
 Les dates sont transmises de deux manières différentes selon qu'elles soient précisées dans un entête HTTP ou dans le corps de la requête / réponse.
 
