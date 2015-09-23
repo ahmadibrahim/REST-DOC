@@ -6,7 +6,8 @@ Les méthodes ou verbes HTTP permettent de classer les opérations de service RE
 
 ### Idempotence
 Un verbe est dit idempotent lorsque l'application du verbe à une URI produit le même résultat qu'on l'applique une ou plusieurs fois.
-Les verbes PUT et DELETE (sauf dans certains cas pour ce dernier) sont dits idempotents
+
+![Tip](lightbulb1.png)Les verbes PUT et DELETE (sauf dans certains cas pour ce dernier) sont dits idempotents
 
 ### Neutralité
 Un verbe est dit neutre lorsqu'il ne conduit à aucun effet de bord sur le serveur.
