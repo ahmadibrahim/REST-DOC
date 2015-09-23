@@ -35,4 +35,9 @@ Pour les opérations de filtre encore plus complexes, il convient alors d'utilis
 ###Filtres prédéfinis
 Dans des cas complexes, certains filtres peuvent être prédéfinis sur le serveur et nommés. Dans ce cas, l'URI aura la forme suivante :
 
+````
+GET http://api.europcar.com/orders/filtername
+````
+
+
 
