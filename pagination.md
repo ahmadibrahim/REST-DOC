@@ -10,7 +10,7 @@ Ainsi une requête avec l'entête HTTP suivant renverra 20 items à partir du tr
 Range: items=2-22
 ```
 
-Cet entête se lit comm suit : Renvoyer 20 items à partir de l'item à la position 2.
+Cet entête se lit comme suit : Renvoyer 20 items à partir de l'item à la position 2.
 
 
  ### dans la query string
