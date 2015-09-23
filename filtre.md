@@ -32,6 +32,7 @@ Lorsque l'on souhaite des opérateurs plus riches, il faut alors définir une sy
 Pour les opérations de filtre encore plus complexes, il convient alors d'utiliser la librairie Apache Olingo qui implémente le concept de query défini dans [l'OpenData protocol (OData) Filter System Query Option ](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part2-url-conventions/odata-v4.0-errata02-os-part2-url-conventions-complete.html#_Toc406398094)
 
 
-
+###Filtres prédéfinis
+Dans des cas complexes, certains filtres peuvent être prédéfinis sur le serveur et nommés. Dans ce cas, l'URI aura la forme suivante :
 
 
