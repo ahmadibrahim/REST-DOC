@@ -145,8 +145,11 @@ Le choix du verbe (PUT, GET , POST, DELETE) dépendra de l'idempotence et de la 
 
 Lorsque l'on souhaite accéder à une vue particulière d'une ressource, par exemple pour le driver récupérer uniquement son identité ou uniquement ses informations de conduite. On préfixera la vue que l'on souhaite accéder par ```views```:
 
+```
+/drivers/12345/views/ident
 
-```/drivers/12345/views/driveinfo```
+/drivers/12345/views/driveinfo
+```
 
 L'absence du préfixe ```views```signifie que l'on souahite la vue par défaut:
 ```/drivers/12345```
