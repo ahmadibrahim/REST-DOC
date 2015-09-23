@@ -48,7 +48,7 @@ GET http://api.europcar.com/orders/1234/linetitems
 Cet appel renvoie la vue par défaut. Pour envoyer une vue spécifique, on pourra suffixer par ```views/nomdelavue```
 
 ````
-GET http://api.europcar.com/orders/1234/linetitems/views/items
+GET http://api.europcar.com/orders/1234/linetitems/views/ids
 ```
 
 #### Les dates
