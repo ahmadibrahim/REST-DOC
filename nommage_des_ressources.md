@@ -100,7 +100,6 @@ Considérons le schéma relationnel suivant :
 
 Les structures d'association suivantes sont alors possibles :
 
-* todo Utiliser une logique d'association
 * Tous les objets top level doivent avoir leur API
 * Ensuite elles peuvent apparaître en sous ressource.
 
