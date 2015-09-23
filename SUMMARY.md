@@ -13,6 +13,6 @@
 * [Sécurisation des services](securisation_des_services.md)
 * [Gestion du cache](gestion_du_cache.md)
 * [Gestion des sessions](gestion_des_sessions.md)
-* [HATEOAS](hateoas.md)
 * [Les codes erreur HTTP](les_codes_erreur_http.md)
+* [HATEOAS](hateoas.md)
 
