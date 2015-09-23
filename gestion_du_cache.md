@@ -11,4 +11,4 @@ Le cache est mis en oeuvre exclusivement pour les appels de type GET. Les entêt
 | Last-Modified | Date au format  RFC 1123 de dernière mise à jour de la ressource | Mon, 3 Aug 2015 09:26:12 GMT |
 
 
-![Tip](lightbulb1.png)Les règles de cache sont souvent exprimées au niveau des éléments d'infrastruture. Ils ne doivent généralement pas être positionnés par l'applicatif.
+![Tip](lightbulb1.png)Les règles de cache sont souvent exprimées au niveau des éléments d'infrastructure. Ils ne doivent généralement pas être positionnés par l'applicatif.
