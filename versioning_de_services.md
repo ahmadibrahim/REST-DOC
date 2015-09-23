@@ -36,7 +36,7 @@ Dès que la compatibilité ascendante est cassée, il faut impérativement crée
 
 Par contre, dans les cas ci-dessous, il n'est pas nécessaire de créer une nouvelle version de l'API:
 
-- Ajout de nouveaus attributs à la réponse
+- Ajout de nouveaux attributs à la réponse
 - Support de nouveaux formats
 - Support de nouvelles langues
 
