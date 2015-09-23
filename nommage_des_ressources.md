@@ -131,7 +131,7 @@ Dans les cas métiers (autres que CRUD), l'invocation d'un service REST renvoie 
 - Notifier le client
 
 
-![Tip](lightbulb1.png)Dans ces cas, on remplacera le verbe par le substantif adéquat comme le montre le tableau ci-dessous :
+Dans ces cas, on remplacera le verbe par le substantif adéquat comme le montre le tableau ci-dessous :
 
 
 | Action | Exemple d'URI | Description|
