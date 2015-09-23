@@ -100,9 +100,6 @@ Considérons le schéma relationnel suivant :
 
 Les structures d'association suivantes sont alors possibles :
 
-* Tous les objets top level doivent avoir leur API
-* Ensuite elles peuvent apparaître en sous ressource.
-
 
 |Type URI | Choix de conception |
 | -- | -- |
