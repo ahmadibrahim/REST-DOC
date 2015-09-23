@@ -20,7 +20,7 @@ Cet attribut est exclusivement présent lorsque le statut est "fail" ou "error".
 
 Un message est un objet avec deux attributs ```code``` et ```description```.
 
-Dans certains cas à la marge, il peut être utilse d'avoir des messages plus détaillés, auquel cas, il conviendra d'inclure un attribut ```details``` qui contient la liste des messages d'erreur détaillés.
+Dans certains cas à la marge, il peut être utilise d'avoir des messages plus détaillés, auquel cas, il conviendra d'inclure un attribut ```details``` qui contient la liste des messages d'erreur détaillés.
 
 ### l'attribut data
 Contient le corps de la réponse. En cas d'erreur (status égal à "fail" ou "error") il contient la liste des exceptions remontées.
