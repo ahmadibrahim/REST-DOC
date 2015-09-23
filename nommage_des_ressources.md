@@ -49,7 +49,7 @@ Lorsque l'on souhaite accéder à une vue particulière d'une ressource, par exe
 /customers/12345/views/payment
 ```
 
-L'absence du préfixe ```views```signifie que l'on souahite la vue par défaut:
+L'absence du préfixe ```views```signifie que l'on souhaite la vue par défaut:
 ```/drivers/12345```.
 
 
