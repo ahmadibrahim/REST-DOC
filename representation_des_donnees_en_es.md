@@ -40,7 +40,10 @@ Les objets sont renvoyées comme une liste homogène de données, encadrées par
 ]
 ```
 
-
+Une URI qui renvoie une liste est de préférences terminée par un segment au pluriel comme dans l'exemple suivant :
+```
+GET http://api.europcar.com/orders/1234/linetitems
+```
 
 
 #### Les dates
