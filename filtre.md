@@ -4,10 +4,10 @@
 Les options de filtrage sont placés dans la query-string uniquement sous la forme d'un paramètre supplémentaire : "filter".
 Le nom du critère est séparé de sa valeur par le chaine de caractères "::" et les critères de filtre sont séparés les uns des autres par le caractère '|'.
 
-Ainsi, l'URI suivante pourrait permettre de récupérer les clients de avec une commande d'un montant supérieur  1000€ et avec un nombre d'articles supérieurs à 5:
+Ainsi, l'URI suivante pourrait permettre de récupérer les clients  avec une commande d'un montant supérieur  1000€ et avec un szul article:
 
 ```
-GET http://api.europcar.com/cars?filter=city::Paris|constructor::VW
+GET http://api.europcar.com/orders?filter=amount:gt:1000|constructor::VW
 ```
 
 On peut complémenter les critères de filtres par des intervalles temporels  en ajoutant les paramètres "before" et "after". Ainsi dans l'exemple suivant on obtient les véhicules de la marque VW garées à Paris entre le 1er janvier 2015 et le 15 janvier 2015.
