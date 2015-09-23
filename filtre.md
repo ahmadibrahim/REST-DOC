@@ -7,7 +7,7 @@ Le nom du critère est séparé de sa valeur par le chaine de caractères "::" e
 Ainsi, l'URI suivante pourrait permettre de récupérer les clients  avec une commande d'un montant supérieur  1000€ et avec un seul article:
 
 ```
-GET http://api.europcar.com/orders?filter=amount:gt:1000|constructor::VW
+GET http://api.europcar.com/orders?filter=amount:gt:1000|count::1
 ```
 
 On peut complémenter les critères de filtres par des intervalles temporels  en ajoutant les paramètres "before" et "after". Ainsi dans l'exemple suivant on obtient les véhicules de la marque VW garées à Paris entre le 1er janvier 2015 et le 15 janvier 2015.
