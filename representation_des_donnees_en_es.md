@@ -51,6 +51,12 @@ Cet appel renvoie la vue par défaut. Pour envoyer une vue spécifique, on pourr
 GET http://api.europcar.com/orders/1234/linetitems/views/ids
 ```
 pourra produire la réponse suivante :
+``` 
+[
+        "id":"12345",
+        "id":"57643",
+]
+```
 
 
 
