@@ -35,9 +35,14 @@ Exemple 2:
 {
 "code":400,
 "status":"error",
-"message" : ["Parameter ABC should be a valid date", "Unknown Field XYZ"]
-"data": ["InvalidArgumentException", "UnknownFieldException"]
+"message" : [
+        { 
+            "InvalidArgumentException", 
+            "Parameter ABC should be a valid date"
+        }, 
+        { 
+            "UnknownFieldException", 
+            "Unknown Field XYZ"
+        }
 }```
 
-
-** todo Pour chaque code erreur http décrire les erro code et messages possibles (cf api navitia).
