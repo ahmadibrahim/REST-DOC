@@ -41,7 +41,7 @@ Par contre, dans les cas ci-dessous, il n'est pas nécessaire de créer une nouv
 - Support de nouvelles langues
 
 ### Le support de la dépréciation d'un service
-Si un service est déprécié mais qu'il contitnue d'être supporté, il faut l'indiquer dans l'entête "Deprecated" qui est de type boolean:
+Si un service est déprécié mais qu'il continue d'être supporté, il faut l'indiquer dans l'entête "Deprecated" qui est de type boolean:
 ```
 Deprecated: true
 ```
