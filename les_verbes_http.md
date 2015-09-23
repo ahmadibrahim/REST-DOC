@@ -16,7 +16,7 @@ Un verbe neutre est donc également idempotent.
 ![Tip](lightbulb1.png)Les verbes GET, HEAD, OPTIONS et TRACE sont des verbes neutres.
 
  ### Le verbe GET pour la lecture
-La méthode HTTP GET est utilisée pour récupérer une ressource. En cas de succès, la méthode GET renvoit une représentation XML ou JSON de la ressource sollicitée et un code réponse HTTP 20X.
+La méthode HTTP GET est utilisée pour récupérer une ressource. En cas de succès, la méthode GET renvoie une représentation XML ou JSON de la ressource sollicitée et un code réponse HTTP 20X.
 En cas d'erreur, cette méthode renvoie dans la plupart des cas un code réponse 404 (NOT FOUND) ou 400 (BAD REQUEST).
 
 Exemples:
