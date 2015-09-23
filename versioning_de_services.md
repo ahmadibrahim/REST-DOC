@@ -19,7 +19,8 @@ Lorsque la version ou le format demandé n'existent pas ou ne sont plus support�
 ### En utilisant l'URI
 Dans ce cas on préfixe l'URI par un numéro de version vXXX ou XXX désigne le numéro de version. Dans l'exemple ci-dessous on adresse un service dans sa version 2:
 ```
-GET http://api.europcar.com/v2/customers/12345
+GET http://api.europcar.com/v
+2/customers/12345
 ```
 Cela permet de placer des règles de routage d'URL assez facilement au niveau des serveurs HTTP intermédiaires.
 ![Tip](lightbulb1.png) Le versioning via l'URI est à privilégier. 
