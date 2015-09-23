@@ -9,3 +9,6 @@ Le cache est mis en oeuvre exclusivement pour les appels de type GET. Les entêt
 | Expires | Date absolue au format RFC 1123 à laquelle la ressource expire.  | Mon, 3 Aug 2015 09:26:12 GMT |
 | Pragma | Si la ressource ne doit pas être mise en cache, alors il faut rajouter cet entête avec la valeur no-cache | Pragma: no-cache |
 | Last-Modified | Date au format  RFC 1123 de dernière mise à jour de la ressource | Mon, 3 Aug 2015 09:26:12 GMT |
+
+
+Les règles de cahce sont souvent exprimées au niveau des éléments d'infrastruture. Ils ne doivent généralement pas être positionnés par l'applicatif.
