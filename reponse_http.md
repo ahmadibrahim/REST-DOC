@@ -43,12 +43,12 @@ Exemple 2:
 "details" : 
     [
         { 
-            "InvalidArgument", 
-            "Parameter ABC should be a valid date"
+            "code":"InvalidArgument", 
+            "description" :"Parameter ABC should be a valid date"
         }, 
         { 
-            "UnknownField", 
-            "Unknown Field XYZ"
+            "code":"UnknownField", 
+            "description" :"Unknown Field XYZ"
         }
     ]
 }```
