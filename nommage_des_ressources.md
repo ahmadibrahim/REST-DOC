@@ -18,7 +18,7 @@ Lors de l'accès à un objet, on peut vouloir le discriminer par un attribut. Lo
 
 Dans l'exemple ci-dessous, on souhaite les véficule de type VW.
 
-``` .../orders/20150910 ``` est à proscrire car plusieurs commandes peuvent avoir été  passées le 10/09/2015. uen requête correcte est la suivante : ``` .../cars?type=VW``` et le retour sera une collection.
+``` .../orders/20150910 ``` est à proscrire car plusieurs commandes peuvent avoir été  passées le 10/09/2015. Une requête correcte est la suivante : ``` .../orders?date=20150910``` et le retour sera une collection.
 
 TODO Ne pas permettre l'usage des index dans les URI.
 ## exécution d'opérations
