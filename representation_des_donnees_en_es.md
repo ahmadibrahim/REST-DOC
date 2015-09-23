@@ -53,6 +53,7 @@ GET http://api.europcar.com/orders/1234/linetitems/views/ids
 pourra produire la réponse suivante :
 
 
+
 #### Les dates
 Les dates sont transmises de deux manières différentes selon qu'elles soient précisées dans un entête HTTP ou dans le corps de la requête / réponse.
 
