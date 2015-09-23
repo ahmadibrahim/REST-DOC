@@ -39,5 +39,7 @@ Dans des cas complexes, certains filtres peuvent être prédéfinis sur le serve
 GET http://api.europcar.com/orders/filtername?param1=val1&...
 ````
 
+Dans cet exemple, le filtre est nommé ```filtername```.
+
 
 
