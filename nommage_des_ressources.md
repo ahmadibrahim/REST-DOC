@@ -108,7 +108,7 @@ Les structures d'association suivantes sont alors possibles :
 |Type URI | Choix de conception |
 | -- | -- |
 |URI1 |![](rent1.png)|
-|URI2 |![](rent2.png)|
+|URI2 |![](rent33.png)|
 
 Le choix de l'une ou de l'autre des modélisations est entièrement à l'appréciation de l'analyste métier et de la vue hiérarcchique qu'il souhaite donner au système d'informations. Les URIs suivantes sont équivalentes :
 
