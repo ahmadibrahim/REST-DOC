@@ -7,7 +7,7 @@ Cette contrainte se caractérise par quatre règles essentielles :
 L'approche sans état est clef dans REST. Elle signifie que l'ensemble des éléments requis à la manipulation des données est contenue dans l'URI, les paramètres de l'URI (query-string), le corps de la requête ou les entêtes. Une fois la requête traitée, le serveur renvoie au travers des entêtes, du corps ou du statut de la réponse , l'ensemble des informations requises pour d'éventuels appels ultérieurs.
 
 Cela tranche avec l'approche classique qui consiste à stocker en session des informations qui resteront présentes d'une requête HTTP à une autre. Dans l'approche REST, le client doit inclure toutes les informations requises par le serveur pour exécuter la requête.
-L'approche sans état offre une meilleure scalabilité des applications dans la mesure où le serveur n'a pas besoin de maintenir et/ou répliquer l'état de session. De plus, les composants de régulation de charge n'ont pas à se précoccuper de l'affinité de session qui complexifie les paramétrages d'infrastructure et le déploiement de nouvelles versions d'applications.
+L'approche sans état offre une meilleure scalabilité des applications dans la mesure où le serveur n'a pas besoin de maintenir et/ou répliquer l'état de session. De plus, les composants de régulation de charge n'ont pas à se préoccuper de l'affinité de session qui complexifie les paramétrages d'infrastructure et le déploiement de nouvelles versions d'applications.
 
 P.S. Il n'est pas toujours possible d'avoir une approche stateless. Des services tels que OAuth requiert le maintien d'informations de session. La compatibilité avec des versions antérieures de l'application sont également des raisons de maintien d'information de session.
 
