@@ -70,7 +70,7 @@ Dans notre cas, il n'y a pas d'entité Pattern en base, nosu serions tenté d'ut
 GET http://bad-api.europcar.com/pattern-valid
 ```
 
-Cela viole le principe hiérarchique. Une solution est de considérer qu'il existe  une multitude de patterns, nous pouvons donc en déduire que le pattern est une entité virtuelle qui sera désignée par un nom au pluriel. Pour valider l'email, nous pourrons considérer que l'identifiant "email" désigne notre patterns dans cette collection virtuelle inifinie de patterns.
+Cela viole le principe hiérarchique. Une solution est de considérer qu'il existe  une multitude de patterns, nous pouvons donc en déduire que le pattern est une entité virtuelle qui sera désignée par un nom au pluriel. Pour valider l'email, nous pourrons considérer que l'identifiant "email" désigne notre patterns dans cette collection virtuelle infinie de patterns.
 
 
 L'URI de désignation du pattern pourra alors être :
