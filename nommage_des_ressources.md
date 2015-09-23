@@ -97,7 +97,7 @@ Considérons le schéma relationnel suivant :
 ![Rental Diagram](rent9.png)
 
 - Une commande est le rapprochement d'une ou plusieurs lignes de commandes à un et un seul client.
-- Un client peut n'avoir jamais passé commande
+- Un client peut n'avoir jamais passé decommande
 - Un véhicule peut ne jamais avoir été loué.
 
 Les structures d'association suivantes sont alors possibles :
