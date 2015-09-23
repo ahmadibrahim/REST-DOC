@@ -35,16 +35,13 @@ Exemple 2:
 {
 "code":400,
 "status":"error",
-"message" : [
+"message" :
         { 
             "InvalidArgument", 
             "Parameter ABC should be a valid date"
-        }, 
-        { 
-            "UnknownField", 
-            "Unknown Field XYZ"
         },
-"details" : [
+"details" : 
+    [
         { 
             "InvalidArgument", 
             "Parameter ABC should be a valid date"
@@ -53,5 +50,6 @@ Exemple 2:
             "UnknownField", 
             "Unknown Field XYZ"
         }
+    ]
 }```
 
