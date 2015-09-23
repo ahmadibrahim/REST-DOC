@@ -35,11 +35,7 @@ Exemple 2:
 {
 "code":400,
 "status":"error",
-"message" :
-        { 
-            "InvalidArgument", 
-            "Parameter ABC should be a valid date"
-        },
+"message" : "The request is invalid"
 "details" : 
     [
         { 
