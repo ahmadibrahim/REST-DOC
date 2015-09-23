@@ -57,7 +57,7 @@ GET http://bad-api.europcar.com/customers/12345/create
 L'URI doit désigner une resssource et non une opération sur une ressource. L'URI doit être identique quelque soit l'opération qui sera effectuée sur la ressource (POST/ GET / PUT / DELETE)
 
 ### Pluriel versus singulier
-La règle à respecter est la suivante. Lorsque la ressource désigne une collection d'objets alors il faut utiliser le pluriel.
+![Tip](lightbulb1.png)La règle à respecter est la suivante. Lorsque la ressource désigne une collection d'objets alors il faut utiliser le pluriel.
 
 Mais que se passe-t-il lorsqu'aucune ressource n'existe réellement sur le serveur ?
 Considérons que nous souhaitions construire un service qui vérifie que l'email saisi respecte un pattern bien défini.
