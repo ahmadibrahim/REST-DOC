@@ -19,8 +19,7 @@ de renvoyer l'objet dans l'objet renvoyé en retour s'ils font partie de l'objet
 
 - L'exposition d'une ressource fait fi de sa représentation réelle dans le système d'information (cf. exemple pattern précédent). S'il s'agit d'une ressource résultant de l'aggrégation de plusieurs autres ressources, alors il elle doit être perçue comme étant un objet composé.
 
-**todo Dans les relations de composition on rnvoit l'objet
-** dans les relations d'association renvoyer le minimum (id / nom fonctionnel par exemple)
+Dans les relations de compositions, c'est l'objet tout entier qui doit être renvoyé. Dans les relations d'association, on renvoie  le minimum à savoir l'id et le nom fonctionctionnel par exemple.
 ** illistrer par un exemple
 
 #### Collections
