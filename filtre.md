@@ -4,7 +4,7 @@
 Les options de filtrage sont placés dans la query-string uniquement sous la forme d'un paramètre supplémentaire : "filter".
 Le nom du critère est séparé de sa valeur par le chaine de caractères "::" et les critères de filtre sont séparés les uns des autres par le caractère '|'.
 
-Ainsi, l'URI suivante pourrait permettre de récupérer les véhicules de la marque Volskwagen qui sont garés à Paris:
+Ainsi, l'URI suivante pourrait permettre de récupérer les clients de avec une commande d'un montant supérieur  1000€ et avec un nombre d'articles supérieurs à 5:
 
 ```
 GET http://api.europcar.com/cars?filter=city::Paris|constructor::VW
