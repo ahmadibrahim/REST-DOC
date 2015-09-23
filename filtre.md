@@ -13,7 +13,7 @@ GET http://api.europcar.com/orders?filter=amount:gt:1000|count::1
 On peut complémenter les critères de filtres par des intervalles temporels  en ajoutant les paramètres "before" et "after". Ainsi dans l'exemple suivant on obtient les commandes  précédentes entre le 1er janvier 2015 et le 15 janvier 2015.
 
 ```
-GET http://api.europcar.com/cars?filter=city::Paris|constructor::VW&after=timestamp&before=timestamp
+GET http://api.europcar.com/orders?filter=amount:gt:1000|count::1&after=timestamp&before=timestamp
 ```
 
 Dans les exemples de filtre ci-dessus, seule une égalité parfaite est utilisée. Lorsque l'on souhaite des opérateurs plus riches, il faut alors définir une syntaxe dédiée. Pour l'inégalité on pourra alors utiliser la syntaxe suivante :
