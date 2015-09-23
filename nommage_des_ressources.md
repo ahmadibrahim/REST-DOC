@@ -21,7 +21,9 @@ Le nommage des ressources peut être le suivant :
 | LigneDeCommande | lineitems |
 | Produit | products |
 
-Les ressources sont nommées au pluriel et en minuscules. Ceci est du au fait que le service renverra une collection d'objets lorsqu'aucun identifiant n'est présent dans l'URI.
+**Les ressources sont nommées au pluriel et en minuscules. 
+
+Ceci est du au fait que le service renverra une collection d'objets lorsqu'aucun identifiant n'est présent dans l'URI.
 Ci-dessous quelques exemples d'utilisation:
 
 
