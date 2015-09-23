@@ -16,7 +16,7 @@ Dans les deux cas, rien n'empêche l'analyste métier de permettre l'accès aux 
 
 Lors de l'accès à un objet, on peut vouloir le discriminer par un attribut. Lorsque cet attribut identifie de manière unique dans la hiérarchie accédée la ressource, alors il fera partie de l'URI. Dans les autres cas, ce sera un critère de recherche. 
 
-Dans l'exemple ci-dessous, on souhaite les véficule de type VW.
+Dans l'exemple ci-dessous, on souhaite les commandes passée le 10/09/2015.
 
 ``` .../orders/20150910 ``` est à proscrire car plusieurs commandes peuvent avoir été  passées le 10/09/2015. Une requête correcte est la suivante : ``` .../orders?date=20150910``` et le retour sera une collection.
 
