@@ -5,3 +5,4 @@ Dans l'exemple ci-dessous, on renvoie la liste des véhicules triés par marque 
 ```
 GET http://api.europcar.com/cars?sort=brand|-date_of_service
 ```
+Les attributs sur lesquels le tri peut être opéré doivent être indiqués dans la documentaiton de l'API
