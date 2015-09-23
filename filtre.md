@@ -16,7 +16,7 @@ On peut complémenter les critères de filtres par des intervalles temporels  en
 GET http://api.europcar.com/orders?filter=amount:gt:1000|count::1&after=timestamp&before=timestamp
 ```
 
-Dans les exemples de filtre ci-dessus, seule une égalité parfaite est utilisée. Lorsque l'on souhaite des opérateurs plus riches, il faut alors définir une syntaxe dédiée. Pour l'inégalité on pourra alors utiliser la syntaxe suivante :
+Lorsque l'on souhaite des opérateurs plus riches, il faut alors définir une syntaxe dédiée. Pour l'inégalité on pourra alors utiliser la syntaxe suivante :
 
 | Opérateur | Description |
 | -- | -- |
