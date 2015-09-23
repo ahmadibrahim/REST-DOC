@@ -7,7 +7,7 @@ La session peut être utile dans certains cas à la marge :
 - Compatibilité avec une application antérieure
 - Préchargement de certaines ressources métiers volumineuses utiles au traitement
 
-Dans ce cas, un identifiant de session est transmis au client au travres d'un cookie dans l'entête HTTP.
+Dans ce cas, un identifiant de session est transmis au client au travers d'un cookie dans l'entête HTTP.
 
 ```
 Set-Cookie: jsessionid=ig2fac55; path=/; secure; HttpOnly
