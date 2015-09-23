@@ -37,11 +37,11 @@ Exemple 2:
 "status":"error",
 "message" : [
         { 
-            "InvalidArgumentException", 
+            "InvalidArgument", 
             "Parameter ABC should be a valid date"
         }, 
         { 
-            "UnknownFieldException", 
+            "UnknownField", 
             "Unknown Field XYZ"
         }
 }```
