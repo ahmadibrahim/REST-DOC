@@ -10,7 +10,7 @@ Le choix de l'une ou de l'autre des modélisations est entièrement à l'appréc
 |Verbe HTTP | URI1 | / URI2 |
 | -- | -- | -- |
 | Description |l'analyste métier impose uniquement la connaissance de la commande pour accéder aux lignes de commande de la dite commande.| Dans le second cas, l'accès aux lignes de commande impose de connaître également le client pour de la commande. |
-| GET | /rents/12345/drivers |/cars/6785/rents/1/drivers |
+| GET | /orders/12345/lineit |/cars/6785/rents/1/drivers |
 
 Dans les deux cas, rien n'empêche l'analyste métier de permettre l'accès aux commandes, clients ou locations directement via une clef d'accès unique. Là encore il s'agit d'un choix métier quant à l'exposition des ressources via l'API REST.
 
