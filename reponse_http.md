@@ -18,6 +18,8 @@ Cet attribut contient un des 3 textes suivants :
 ### l'attribut message
 Cet attribut est exclusivement présent lorsque le statut est "fail" ou "error". Il contient la liste des messages d'erreur à prendre en compte par le client.
 
+Un message est un objet avec deux attributs code et description.
+
 ### l'attribut data
 Contient le corps de la réponse. En cas d'erreur (status égal à "fail" ou "error") il contient la liste des exceptions remontées.
 
