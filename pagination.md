@@ -20,7 +20,7 @@ Ainsi la requête suivante renverra les 20 premiers clients à partir de la posi
 GET http://api.europcar.com/customers?offset=2&limit=20
 ```
 
-** todo préconiser query string car plus lisible
+![Tip](lightbulb1.png) Privilgier la pagination au travers de paramètres dans la query string.
 
 ### Format de la réponse
  Uen requête de pagination, que ce soit via l'entête ou la query string doit renvoyer le nombre d'items retournés et le nombre total d'items.
