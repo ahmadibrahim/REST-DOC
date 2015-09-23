@@ -56,7 +56,7 @@ En cas de succès, le code réponse HTTP 201 est renvoyé avec l'entête "Locati
 
 
  ### Pourquoi et quand Utiliser POST au lieu de PUT
- Utiliser PUT lorsque :
+ ![Tip](lightbulb1.png)Utiliser PUT lorsque :
  - La ressource existe et doit être mise à jour
  - La ressource n'existe pas et le client est chargé de déterminer l'identifiant unique de la ressource
 
