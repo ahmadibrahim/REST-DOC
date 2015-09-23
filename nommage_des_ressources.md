@@ -7,7 +7,7 @@ Une API REST est constituée :
 - de représentations XML/JSON des ressources
 
 Chaque ressource du serveur est accessible au travers de l'URI. Par opposition à un verbe qui décrit une action, une ressource est un nom commun qui décrit une entité.
-Le nommage des URIs doit suivre une structure hierarchique cohérente afin de garantir son utilisabilité.
+Le nommage des URIs doit suivre une structure hiérarchique cohérente afin de garantir son utilisabilité.
 
 ### Les bonnes pratiques
 Pour illustrer les bonnes pratiques, nous nous appuyons sur les entités clients, commandes, lignes de commandes et produits.
