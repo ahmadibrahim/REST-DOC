@@ -42,12 +42,11 @@ Dans le tableau ci-dessus, la description indique la perception qu'a le client d
 
 Le choix du verbe (PUT, GET , POST, DELETE) dépendra de l'idempotence et de la neutralité de l'action que l'on souhaite exécuter. 
 
-Lorsque l'on souhaite accéder à une vue particulière d'une ressource, par exemple pour le client récupérer uniquement son identité ou uniquement ses données de paiemen. On préfixera la vue que l'on souhaite accéder par ```views```:
+Lorsque l'on souhaite accéder à une vue particulière d'une ressource, par exemple pour le client récupérer uniquement son identité ou uniquement ses données de paiement. On préfixera la vue que l'on souhaite accéder par ```views```:
 
 ```
-/drivers/12345/views/ident
-
-/drivers/12345/views/driveinfo
+/customers/12345/views/ident
+/customers/12345/views/payment
 ```
 
 L'absence du préfixe ```views```signifie que l'on souahite la vue par défaut:
