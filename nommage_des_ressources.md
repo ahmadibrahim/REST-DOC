@@ -125,7 +125,7 @@ Dans l'exemple ci-dessous, on souhaite les commandes passée le 10/09/2015.
 
 
 ## exécution d'opérations
-Dans les cas métiers (autres que CRUD), l'invocation d'un service REST renvoie généralement le résultat de l'exécution d'un acte métier. On peut les actions métiers suivantes :
+Dans les cas métiers (autres que CRUD), l'invocation d'un service REST renvoie généralement le résultat de l'exécution d'un acte métier. On peut citerles actions métiers suivantes :
 - Signer le contrat
 - Valider la location
 - Notifier le client
