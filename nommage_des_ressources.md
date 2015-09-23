@@ -50,7 +50,7 @@ Lorsque l'on souhaite accéder à une vue particulière d'une ressource, par exe
 ```
 
 L'absence du préfixe ```views```signifie que l'on souhaite la vue par défaut:
-```/drivers/12345```.
+```/custom/12345```.
 
 
 
