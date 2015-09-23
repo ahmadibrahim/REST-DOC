@@ -44,7 +44,7 @@ Exemple 2:
             "UnknownField", 
             "Unknown Field XYZ"
         },
-"message" : [
+"details" : [
         { 
             "InvalidArgument", 
             "Parameter ABC should be a valid date"
