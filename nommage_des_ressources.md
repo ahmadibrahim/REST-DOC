@@ -98,7 +98,7 @@ Considérons le schéma relationnel suivant :
 
 - Une commande est le rapprochement d'une ou plusieurs lignes de commandes à un et un seul client.
 - Un client peut n'avoir jamais passé de commande.
-- UUn produit peut n'avoir jamais été commandé.
+- Un produit peut n'avoir jamais été commandé.
 
 Les structures d'association suivantes sont alors possibles :
 
