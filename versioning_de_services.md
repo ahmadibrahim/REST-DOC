@@ -23,6 +23,7 @@ GET http://api.europcar.com/v2/customers/12345
 ```
 
 Cela permet de placer des règles de routage d'URL assez facilement au niveau des serveurs HTTP intermédiaires.
+
 ![Tip](lightbulb1.png) Le versioning via l'URI est à privilégier. 
 
 ### Conditions à la création d'une nouvelle version de l'API?
