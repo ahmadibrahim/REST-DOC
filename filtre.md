@@ -1,6 +1,5 @@
 ## Filtrage
 
-** todo Structure hiérarchique du filtrage 
 
 Les options de filtrage sont placés dans la query-string uniquement sous la forme d'un paramètre supplémentaire : "filter".
 Le nom du critère est séparé de sa valeur par le chaine de caractères "::" et les critères de filtre sont séparés les uns des autres par le caractère '|'.
