@@ -45,11 +45,13 @@ Une URI qui renvoie une liste est de préférences terminée par un segment au p
 GET http://api.europcar.com/orders/1234/linetitems
 ```
 
-Cet appel renvoie la vue par défaut. Pour envoyer une vue spécifique, on pourra suffixer par ```views/nomdelavue```
+Cet appel renvoie la vue par défaut. Pour envoyer une vue spécifique, on pourra suffixer par ```views/nomdelavue```. Dans l'exemple ci-dessous on souhaite restituer uniquement les ids des lignes de commande
 
 ````
 GET http://api.europcar.com/orders/1234/linetitems/views/ids
 ```
+pourra produire la réponse suivante :
+
 
 #### Les dates
 Les dates sont transmises de deux manières différentes selon qu'elles soient précisées dans un entête HTTP ou dans le corps de la requête / réponse.
