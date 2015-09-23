@@ -35,7 +35,7 @@ Dans ces cas, on remplacera le verbe par le substantif adéquat comme le montre 
 | -- | -- | -- | -- |
 | Signer la commande | POST /orders/12345/signature | Créer une signature et l'associer à la commande |
 | Valider la commande | PUT /orders/12345/validation | Mettre à valide  du statut de la commande |
-| Notifier le client | POST /customer/789067/notification | Création d'une notification et association au driver |
+| Notifier le client | POST /customers/789067/notification | Création d'une notification et association au clien |
 
 Dans le tableau ci-dessus, la description indique la perception qu'a le client du service REST. Dans la réalité, les opérations qui ont lieu sur le S.I. sont beaucoup plus riches et complexes.
 
