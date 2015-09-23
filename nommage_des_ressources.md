@@ -125,6 +125,7 @@ Dans l'exemple ci-dessous, on souhaite les véficule de type VW.
 ``` .../cars/VW ``` est à proscrire car plusieurs véhicules peuvent être de type VW. uen requête correcte est la suivante : ``` .../cars?type=VW``` et le retour sera une collection.
 
 
+
 ## exécution d'opérations
 Dans les cas métiers (autres que CRUD), l'invocation d'un service REST renvoie généralement le résultat de l'exécution d'un acte métier. On peut les actions métiers suivantes :
 - Signer le contrat
