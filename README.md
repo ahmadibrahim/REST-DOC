@@ -9,9 +9,7 @@ Ces six contraintes sont :
 - Mise en cache
 - Client / serveur
 - Structuré en couches
-- Exécution de code à la demande
+- Exécution de code à la demande (Optionnel)
 
 Ce document est un guide du développeur qui regroupe les bonnes pratiques à respecter dans la cadre de la réalisation d'une architecture de services à base de services REST. Il se limite exclusivement au protocole HTTP et aux formats JSON/XML.
-
-Vincent
 
