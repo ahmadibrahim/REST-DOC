@@ -69,10 +69,12 @@ Le verbe DELETE est utilisé pour supprimer la ressource identifiée par une URI
 Exemples:
 ```
 DELETE http://api.europcar.com/cars/12345 : Supprime le véhicule 12345
-DELETE http://api.europcar.com/cars/12345/drivers : Supprime tous les drivers du véhicule 12345
+DELETE http://api.europcar.com/command/12345/lineitems : Supprime toutes les lignes de la commande 12345
 ```
 
 Selon la spécification HTTP, la méthode DELETE est idempotente car la suppression d'une ressource plusieurs fois d'affilée produit le même résultat, la ressource n'étant plus là.
+Le DELETE correspond à une suppression physique d'une ressource qui ne sera ensuite plus accessible.
+A l'inverse, une suppression logique ou invalidation doit être traitée par un POST (la ressource demeure accessible)
 
 ### Codes réponses des verbes HTTP
 Le tableau ci-dessous dresse la liste des codes HTTP qu'il est recommandé de renvoyer quand l'opération s'applique à une liste ou une seule ressource.
@@ -83,3 +85,5 @@ Le tableau ci-dessous dresse la liste des codes HTTP qu'il est recommandé de re
 | PUT | 404 (NOT FOUND) | 200 (OK) ou 204 (NO CONTNTENT). 404 (NOT FOUND) si l'identifiant n'est pas trouvé ou est invalide. |
 | POST | 201 (CREATED), avec l'entête "Location" valorisé avec le client /cars/{id} contenant le nouvel identifiant | 404 (NOT FOUND) |
 | DELETE | 404 (NOT FOUND), sauf si l'on souhaite supprimer toute la collection. | 200 (OK). 404 (NOT FOUND) si l'identifiant n'est pas trouvé ou est invalide.   |
+
+Les verbes utilisés dans le contexte d'Europcar sont : GET, POST, PUT, DELETE
