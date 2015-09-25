@@ -159,6 +159,8 @@ L'usage de ces substantifs permet de conserver l'intention métier et le bon niv
 
 Le choix du verbe (PUT, GET , POST, DELETE) dépendra de l'idempotence et de la neutralité de l'action que l'on souhaite exécuter. 
 
+ToDo : déplacer la gestion des views dans le chapitre "Représentation des données en sortie"
+
 ![Tip](lightbulb1.png)Lorsque l'on souhaite accéder à une vue particulière d'une ressource, par exemple pour le client récupérer uniquement son identité ou uniquement ses données de paiement. On préfixera la vue que l'on souhaite accéder par ```views```:
 
 ```
