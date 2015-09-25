@@ -125,15 +125,17 @@ Le choix de l'une ou de l'autre des modélisations est entièrement à l'appréc
 
 Dans les deux cas, rien n'empêche l'analyste métier de permettre l'accès aux commandes, clients ou lignes de commande directement via une clef d'accès unique. Là encore il s'agit d'un choix métier quant à l'exposition des ressources via l'API REST.
 
-![Tip](lightbulb1.png)Lors de l'accès à un objet, on peut vouloir le discriminer par un attribut. Lorsque cet attribut identifie de manière unique dans la hiérarchie accédée la ressource, alors il fera partie de l'URI. Dans les autres cas, ce sera un critère de recherche. 
+![Tip](lightbulb1.png)Lors de l'accès à un objet, on peut vouloir le discriminer par un attribut. Lorsque cet attribut identifie de manière unique dans la hiérarchie accédée la ressource, alors il fera partie de l'URI. 
+L'accès à une sous-ressource sans identifiant peut être fait par une position / index 
+Dans les autres cas, ce sera un critère de recherche. 
 
 Dans l'exemple ci-dessous, on souhaite les commandes passée le 10/09/2015.
 
 ``` .../orders/20150910 ``` est à proscrire car plusieurs commandes peuvent avoir été  passées le 10/09/2015. Une requête correcte est la suivante : ``` .../orders?date=20150910``` et le retour sera une collection.
 
-![Tip](lightbulb1.png)Composition versus association : On modélisera une composition lorsque l'appel REST renverra dans le flux la sous-ressource, et une association lorsque l'appel REST renvoie uniquement un identifiant technique et/ou fonctionnel
+![Tip](lightbulb1.png)Composition versus association : On modélisera une composition lorsque l'appel REST renverra dans le flux la sous-ressource, et une association lorsque l'appel REST renvoie uniquement un identifiant technique et/ou fonctionnel accompagné d'un libellé (Cf. fragments externes / XF)
 
-## exécution d'opérations
+## exécution d'opérations métier
 Dans les cas métiers (autres que CRUD), l'invocation d'un service REST renvoie généralement le résultat de l'exécution d'un acte métier. On peut citer les actions métiers suivantes :
 - Signer le contrat
 - Valider la location
@@ -151,6 +153,9 @@ Dans ces cas, on remplacera le verbe par le substantif adéquat comme le montre 
 
 Dans le tableau ci-dessus, la description indique la perception qu'a le client du service REST. Dans la réalité, les opérations qui ont lieu sur le S.I. sont beaucoup plus riches et complexes.
 
+Note : suivant les cas métier, l'invocation du service sera accompagnée ou non d'un payload
+
+L'usage de ces substantifs permet de conserver l'intention métier et le bon niveau d'abstraction des opérations
 
 Le choix du verbe (PUT, GET , POST, DELETE) dépendra de l'idempotence et de la neutralité de l'action que l'on souhaite exécuter. 
 
@@ -163,6 +168,8 @@ Le choix du verbe (PUT, GET , POST, DELETE) dépendra de l'idempotence et de la 
 
 L'absence du préfixe ```views```signifie que l'on souhaite la vue par défaut:
 ```/customers/12345```.
+
+ToDo : aligner la gestion des views avec les cas de recherche (Filtres)
 
 
 
