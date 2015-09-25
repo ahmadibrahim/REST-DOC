@@ -1,5 +1,8 @@
 ## Les six contraintes de REST
 ### Une interface uniforme
+
+ToDo : ajouter la définition d'une ressource dans le contexte REST (Cf. Fielding)
+
 Cette contrainte se caractérise par quatre règles essentielles :
 - Identifiation unique des ressources : Chaque ressource est identifiée de manière unique au travers d'URIs. Le serveur renvoie une représentation de la ressource au client dans le respect d'un schéma prédéfini et indépendant de la représentation physique de la ressource sur le serveur. Les formats les plus communs sont JSON et XML encodés en UTF-8.
 
@@ -28,16 +31,20 @@ Un client ne peut pas savoir s'il est directement connecté au serveur d'applica
 ###Exécution de code à la demande (Optionnel)
 Cette contrainte est la seule optionnelle des six contraintes REST imposées. Elle permet de renvoyer au client du code qui sera exécuté sur le poste client pour étendre les fonctionnalités du serveur. Il peut s'agir d'applets Java ou de scripts javascript. Cela peut concerner notamment l'accès à des périphériques locaux.
 
+Note : Europcar n'a pas prévu d'utiliser cette approche
+
 
 
 ## Concepts
 - Une ressource est accédée au travers d'une URI.
 - Une URI peut être invoquée via une ou plusieurs méthodes (GET / PUT / POST / DELETE) en fonction de l'opération que l'on souhaite exécuter (Lecture / Mise à jour / Création / Suppression).
 - Une invocation de service REST peut inclure dans le corps de la requête des paramètres en entrée représentant un objet métier et recupérer dans la réponse une représentation de l'objet métier dans le flux de retour.
-- Plusieurs variantes d'une représentation sont possibles. En génaral on retrouve les variantes JSON et XML.
+- Plusieurs variantes d'une représentation sont possibles. En général on retrouve les variantes JSON et XML.
 
-Le diagramme ci-dessous illsutre ces concepts.
+Le diagramme ci-dessous illustre ces concepts.
 
 ![Concepts REST](rest-concepts.png)
+
+ToDo : indiquer la source du schéma (Apigee)
 
 
