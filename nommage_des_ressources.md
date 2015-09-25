@@ -48,6 +48,7 @@ GET http://bad-api.europcar.com/services?op=update_customer&id=12345&format=json
 Le problème de cette URI est qu'elle n'est pas auto-décrite.
 1. le verbe neutre GET désigne une opération qui ne l'est pas.
 2. L'URI possède une structure hiérarchique identique pour l'ensemble des ressources ne permettant pas de différencier les ressources accédées juste au travers de la lecture de l'URI.
+3. Le format du message retourné doit être indiqué dans le Header (champ dédié à préciser) . ToDo : indiquer pourquoi il ne doit pas être retourné dans l'URI
 
 Un autre contre-exemple est indiquer l'opération dans l'URI
 ```
@@ -89,8 +90,15 @@ Cette URI désignant de manière unique la ressource, la valeur saisie par le cl
 GET http://api.europcar.com/patterns/email/validity?value=name@domain.com
 ```
 ### Les règles de nommage
+ToDo : détailler ou supprimer 
+
 # exposition d'objets
-Les objets sont exposés au client comme une hiérarchie de composition d'objets. C'est cette composition qui doit permettre d'obtenir l'URI d'accès à la ressource.
+Les objets peuvent être exposés au client comme une hiérarchie de composition ou d'association d'objets. C'est cette composition ou association qui doit permettre d'obtenir l'URI d'accès à la ressource.
+
+Composition / aggregation : la hiérachie matérialise la relation entre une ressource est des sous-ressources qui la composent. Celles-ci ont le cycle de vie de la ressource principale et ne sont accessible que via cette dernière.
+
+Association : cette relation matérialise la navigabilité entre des ressources autonomes (qui peuvent exister en dehors de cette relation). 
+
 
 Considérons le schéma relationnel suivant :
 
