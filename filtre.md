@@ -1,8 +1,14 @@
 ## Filtrage
 
+Le filtrage correspond aux opérations de recherches sur les ressources
+
 
 Les options de filtrage sont placés dans la query-string uniquement sous la forme d'un paramètre supplémentaire : "filter".
 Le nom du critère est séparé de sa valeur par le chaîne de caractères "::" et les critères de filtre sont séparés les uns des autres par le caractère '|'.
+
+La spécification de l'API doit préciser les attributs sur lesquels peuvent être effectuées les recherches.
+Les critères de recherche d'appliquent à la ressource indiquée par l'URI.
+Le nommage des paramètres de la recherche est indépendant du nommage des attributs de la ressources considérée.
 
 Ainsi, l'URI suivante pourrait permettre de récupérer les clients  avec une commande d'un montant supérieur  1000€ et avec un seul article:
 
@@ -42,4 +48,4 @@ GET http://api.europcar.com/orders/filtername?param1=val1&...
 Dans cet exemple, le filtre est nommé ```filtername```.
 
 
-
+ToDo : aligner la gestion des views entre get et filter (URI vs param)
