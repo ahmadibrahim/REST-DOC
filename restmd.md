@@ -17,6 +17,7 @@ Si le maintien d'une session est indispensable, il faut :
 
 ### Mise en cache
 Les clients Web (Desktop et mobile) sont en mesure de mettre en cache les réponses. Les réponses doivent donc, implicitement ou explicitement, se définir comme étant candidates ou pas à être mises en cache pour éviter que le client ne fasse des requêtes serveurs inutiles ou utilise des informations obsolètes. Le bénéfice d'une bonne gestion de la mise en cache des données permet d'améliorer la scalabilité et la performance.
+L'approche REST permet de bénéficier des mécanismes standards de gestion du cache du web
 
 ### Client / Serveur
 Le client est à l'initiative de la requête.
@@ -27,6 +28,7 @@ Un client ne peut pas savoir s'il est directement connecté au serveur d'applica
 
 ###Exécution de code à la demande (Optionnel)
 Cette contrainte est la seule optionnelle des six contraintes REST imposées. Elle permet de renvoyer au client du code qui sera exécuté sur le poste client pour étendre les fonctionnalités du serveur. Il peut s'agir d'applets Java ou de scripts javascript. Cela peut concerner notamment l'accès à des périphériques locaux.
+Note : Europcar n'a pas prévu d'utiliser cette approche
 
 
 
@@ -34,10 +36,10 @@ Cette contrainte est la seule optionnelle des six contraintes REST imposées. El
 - Une ressource est accédée au travers d'une URI.
 - Une URI peut être invoquée via une ou plusieurs méthodes (GET / PUT / POST / DELETE) en fonction de l'opération que l'on souhaite exécuter (Lecture / Mise à jour / Création / Suppression).
 - Une invocation de service REST peut inclure dans le corps de la requête des paramètres en entrée représentant un objet métier et recupérer dans la réponse une représentation de l'objet métier dans le flux de retour.
-- Plusieurs variantes d'une représentation sont possibles. En génaral on retrouve les variantes JSON et XML.
+- Plusieurs variantes d'une représentation sont possibles. En général on retrouve les variantes JSON et XML.
 
-Le diagramme ci-dessous illsutre ces concepts.
+Le diagramme ci-dessous illustre ces concepts.
 
 ![Concepts REST](rest-concepts.png)
-
+=> ToDo : indiquer la source du schéma 
 
