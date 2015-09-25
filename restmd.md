@@ -1,6 +1,9 @@
 ## Les six contraintes de REST
 ### Une interface uniforme
 Cette contrainte se caractérise par quatre règles essentielles :
+
+ToDo : ajouter la définition d'une ressource dans le contexte REST (Cf. Fielding)
+
 - Identifiation unique des ressources : Chaque ressource est identifiée de manière unique au travers d'URIs. Le serveur renvoie une représentation de la ressource au client dans le respect d'un schéma prédéfini et indépendant de la représentation physique de la ressource sur le serveur. Les formats les plus communs sont JSON et XML encodés en UTF-8.
 
 ### Sans état
