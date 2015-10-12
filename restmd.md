@@ -44,6 +44,5 @@ Le diagramme ci-dessous illustre ces concepts.
 
 ![Concepts REST](rest-concepts.png)
 
-ToDo : indiquer la source du schéma (Apigee)
-
+Figure : http://www.apigee.com
 
