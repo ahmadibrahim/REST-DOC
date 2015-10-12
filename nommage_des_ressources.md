@@ -158,21 +158,3 @@ Note : suivant les cas métier, l'invocation du service sera accompagnée ou non
 L'usage de ces substantifs permet de conserver l'intention métier et le bon niveau d'abstraction des opérations
 
 Le choix du verbe (PUT, GET , POST, DELETE) dépendra de l'idempotence et de la neutralité de l'action que l'on souhaite exécuter. 
-
-ToDo : déplacer la gestion des views dans le chapitre "Représentation des données en sortie"
-
-![Tip](lightbulb1.png)Lorsque l'on souhaite accéder à une vue particulière d'une ressource, par exemple pour le client récupérer uniquement son identité ou uniquement ses données de paiement. On préfixera la vue que l'on souhaite accéder par ```views```:
-
-```
-/customers/12345/views/ident
-/customers/12345/views/payment
-```
-
-L'absence du préfixe ```views```signifie que l'on souhaite la vue par défaut:
-```/customers/12345```.
-
-ToDo : aligner la gestion des views avec les cas de recherche (Filtres)
-
-
-
-
