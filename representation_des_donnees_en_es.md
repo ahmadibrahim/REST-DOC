@@ -26,6 +26,7 @@ ToDo : préciser la notion de "auto décrit"
 
 
 ### Vues d'un objet
+
 ![Tip](lightbulb1.png)Lorsque l'on souhaite accéder à une vue particulière d'une ressource, par exemple pour le client récupérer uniquement son identité ou uniquement ses données de paiement. On préfixera la vue que l'on souhaite accéder par ```views```:
 
 ```
