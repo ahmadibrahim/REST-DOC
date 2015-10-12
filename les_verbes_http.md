@@ -85,3 +85,6 @@ Le tableau ci-dessous dresse la liste des codes HTTP qu'il est recommandé de re
 | PUT | 404 (NOT FOUND) | 200 (OK) ou 204 (NO CONTNTENT). 404 (NOT FOUND) si l'identifiant n'est pas trouvé ou est invalide. |
 | POST | 201 (CREATED), avec l'entête "Location" valorisé avec le client /cars/{id} contenant le nouvel identifiant | 404 (NOT FOUND) |
 | DELETE | 404 (NOT FOUND), sauf si l'on souhaite supprimer toute la collection. | 200 (OK). 404 (NOT FOUND) si l'identifiant n'est pas trouvé ou est invalide.   |
+
+Les verbes utilisés dans le contexte d'Europcar sont : GET, POST, PUT, DELETE
+

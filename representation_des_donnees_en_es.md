@@ -1,10 +1,14 @@
 ### Représentation des données en entrée / sortie
 
+Note : dans le contexte d'Europcar, on ne traite que de la gestion d'échanges JSON
+Note : ajouter un paragraphe sur le nommage des attributs (notamment, usage du camelCase)
 
 #### Objets
 
 - Lorsqu'un objet est renvoyé, il doit être auto-décrit. On retrouvera tous les critères ayant permis 
 de renvoyer l'objet dans l'objet renvoyé en retour s'ils font partie de l'objet renvoyé. Ainsi lors d'un accès par ID, l'ID devra être également inclus dans l'objet retourné. ``` /orders/12345 ``` renverra une commande comme suit :
+
+ToDo : préciser la notion de "auto décrit"
 
 ``` 
 {
@@ -18,7 +22,7 @@ de renvoyer l'objet dans l'objet renvoyé en retour s'ils font partie de l'objet
 
 - L'exposition d'une ressource fait fi de sa représentation réelle dans le système d'information (cf. exemple pattern précédent). S'il s'agit d'une ressource résultant de l'agrégation de plusieurs autres ressources, alors il elle doit être perçue comme étant un objet composé.
 
-![Tip](lightbulb1.png)Dans les relations de composition, c'est l'objet tout entier qui doit être renvoyé. Dans les relations d'association, on renvoie  le minimum à savoir l'id et le nom fonctionnel par exemple.
+![Tip](lightbulb1.png)Dans les relations de composition, c'est l'objet tout entier (ou une vue sur celui-ci) qui doit être renvoyé. Dans les relations d'association, on renvoie  le minimum à savoir l'id et le nom fonctionnel par exemple.
 
 
 #### Collections
@@ -27,14 +31,14 @@ Les objets sont renvoyées comme une liste homogène de données, encadrées par
 [
     {
         "id":"12345",
-        "firstame": "ABC",
-        "lastname":"DEF"
+        "firstName": "ABC",
+        "lastName":"DEF"
         ...
     },
     {
         "id":"57643",
-        "firstame": "XYZ",
-        "lastname":"UVW"
+        "firstName": "XYZ",
+        "lastName":"UVW"
         ...
     }
 ]
@@ -53,11 +57,12 @@ GET http://api.europcar.com/orders/1234/linetitems/views/ids
 pourra produire la réponse suivante :
 ``` 
 [
-    "id":"12345",
-    "id":"57643",
+    {"id":"12345"},
+    {"id":"57643"},
 ]
 ```
 
+ToDo : faire une illustration ou on remonte une vue avec plusieurs attributs / fragments  et donc un tableau d'objets
 
 
 #### Les dates
