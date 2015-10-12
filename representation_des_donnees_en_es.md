@@ -65,7 +65,7 @@ GET http://api.europcar.com/orders/1234/linetitems
 Cet appel renvoie la vue par défaut. Pour envoyer une vue spécifique, on pourra suffixer par ```views/nomdelavue```. Dans l'exemple ci-dessous on souhaite restituer uniquement les ids des lignes de commande
 
 ```
-GET http://api.europcar.com/orders/1234/linetitems/views/ids
+GET http://api.europcar.com/orders/1234/linetitems/views/names
 ```
 pourra produire la réponse suivante :
 ``` 
@@ -74,8 +74,6 @@ pourra produire la réponse suivante :
     {"id":"57643"},
 ]
 ```
-
-ToDo : faire une illustration ou on remonte une vue avec plusieurs attributs / fragments  et donc un tableau d'objets
 
 
 #### Les dates
