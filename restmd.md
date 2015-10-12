@@ -36,6 +36,7 @@ Note : Europcar n'a pas prévu d'utiliser l'exécution de code à la demande.
 
 
 ## Concepts
+- En REST, l'abstraction clef désignant l'unité d'information est la ressource. Tout information qui peut être nommée est potentiellement est une ressource. Plus généralement, tout concept qui peut être désigné par une référence hypertexte doit être considéré comme une ressource.
 - Une ressource est accédée au travers d'une URI.
 - Une URI peut être invoquée via une ou plusieurs méthodes (GET / PUT / POST / DELETE) en fonction de l'opération que l'on souhaite exécuter (Lecture / Mise à jour / Création / Suppression).
 - Une invocation de service REST peut inclure dans le corps de la requête des paramètres en entrée représentant un objet métier et recupérer dans la réponse une représentation de l'objet métier dans le flux de retour.
