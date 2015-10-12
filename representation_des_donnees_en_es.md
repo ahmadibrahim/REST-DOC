@@ -24,6 +24,20 @@ ToDo : préciser la notion de "auto décrit"
 
 ![Tip](lightbulb1.png)Dans les relations de composition, c'est l'objet tout entier (ou une vue sur celui-ci) qui doit être renvoyé. Dans les relations d'association, on renvoie  le minimum à savoir l'id et le nom fonctionnel par exemple.
 
+ToDo : déplacer la gestion des views dans le chapitre "Représentation des données en sortie"
+
+![Tip](lightbulb1.png)Lorsque l'on souhaite accéder à une vue particulière d'une ressource, par exemple pour le client récupérer uniquement son identité ou uniquement ses données de paiement. On préfixera la vue que l'on souhaite accéder par ```views```:
+
+```
+/customers/12345/views/ident
+/customers/12345/views/payment
+```
+
+L'absence du préfixe ```views```signifie que l'on souhaite la vue par défaut:
+```/customers/12345```.
+
+ToDo : aligner la gestion des views avec les cas de recherche (Filtres)
+
 
 #### Collections
 Les objets sont renvoyées comme une liste homogène de données, encadrées par un crochet ouvran tet un crocher ouvrant. Tout comme précédemment, les listes sont des objets et ne doivent donc jamais être nommées. Ci-dessous un exemple de liste avec deux éléments :
