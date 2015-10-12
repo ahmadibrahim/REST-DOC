@@ -36,7 +36,6 @@ ToDo : préciser la notion de "auto décrit"
 L'absence du préfixe ```views```signifie que l'on souhaite la vue par défaut:
 ```/customers/12345```.
 
-ToDo : aligner la gestion des views avec les cas de recherche (Filtres)
 
 
 #### Collections
