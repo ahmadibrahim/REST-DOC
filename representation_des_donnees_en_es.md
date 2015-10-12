@@ -70,8 +70,13 @@ GET http://api.europcar.com/orders/1234/linetitems/views/names
 pourra produire la réponse suivante :
 ``` 
 [
-    {"id":"12345"},
-    {"id":"57643"},
+    {
+    "id":"12345",
+    "name": "ABCF DEF"
+    },
+    {"id":"57643",
+    "name": "XYZ UVW"
+    }
 ]
 ```
 
