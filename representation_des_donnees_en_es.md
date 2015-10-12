@@ -83,3 +83,7 @@ yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
 ```
 
 Pour une date sans heur, il faut quand même transmettre l'information horaire qui pourra être ignorée par l'applicatif.
+
+
+
+
