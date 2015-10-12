@@ -25,7 +25,7 @@ ToDo : préciser la notion de "auto décrit"
 ![Tip](lightbulb1.png)Dans les relations de composition, c'est l'objet tout entier (ou une vue sur celui-ci) qui doit être renvoyé. Dans les relations d'association, on renvoie  le minimum à savoir l'id et le nom fonctionnel par exemple.
 
 
-### Vues d'un oebjts
+### Vues d'un objet
 ![Tip](lightbulb1.png)Lorsque l'on souhaite accéder à une vue particulière d'une ressource, par exemple pour le client récupérer uniquement son identité ou uniquement ses données de paiement. On préfixera la vue que l'on souhaite accéder par ```views```:
 
 ```
