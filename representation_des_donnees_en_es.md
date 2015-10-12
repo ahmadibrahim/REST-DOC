@@ -34,8 +34,7 @@ ToDo : préciser la notion de "auto décrit"
 /customers/12345/views/payment
 ```
 
-L'absence du préfixe ```views```signifie que l'on souhaite la vue par défaut:
-```/customers/12345```.
+L'absence du préfixe ```views```signifie que l'on souhaite la vue par défaut: ```/customers/12345```.
 
 
 
