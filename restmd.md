@@ -31,7 +31,7 @@ Un client ne peut pas savoir s'il est directement connecté au serveur d'applica
 ###Exécution de code à la demande (Optionnel)
 Cette contrainte est la seule optionnelle des six contraintes REST imposées. Elle permet de renvoyer au client du code qui sera exécuté sur le poste client pour étendre les fonctionnalités du serveur. Il peut s'agir d'applets Java ou de scripts javascript. Cela peut concerner notamment l'accès à des périphériques locaux.
 
-Note : Europcar n'a pas prévu d'utiliser cette approche
+Note : Europcar n'a pas prévu d'utiliser l'exécution de code à la demande.
 
 
 
