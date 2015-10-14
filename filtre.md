@@ -50,8 +50,8 @@ Dans cet exemple, le filtre est nommé ```name``` et les paramètres attendus pa
 
 Lorsque l'on souhaite restituer une vue particulière, on utilisera le mécanisme de vue décrit précédemment.
 
+Dans lm'exemple ci-dessous, la liste des commandes renvoyées va restreindre le resultat au attributs définis par la vue ```amounts```.
 ```
 GET http://api.europcar.com/orders/views/amounts?filtername=name&param1=val1&...
 ```
 
-La vue ici s'appelle ```amounts```.
