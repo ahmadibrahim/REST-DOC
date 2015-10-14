@@ -48,7 +48,7 @@ GET http://api.europcar.com/orders?filtername=name&param1=val1&...
 Dans cet exemple, le filtre est nommé ```name``` et les paramètres attendus par le filtre sont passés dans l'URI.
 
 
-Lorsque l'on souhaite restituer une vue particulière, on utilisera le même mécanisme de vue décrit précédemment.
+Lorsque l'on souhaite restituer une vue particulière, on utilisera le même mécanisme de vue décrit précédemment..
 
 ```
 GET http://api.europcar.com/orders/views/amounts?filtername=name&param1=val1&...
