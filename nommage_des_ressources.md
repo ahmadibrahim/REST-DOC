@@ -89,9 +89,6 @@ Cette URI désignant de manière unique la ressource, la valeur saisie par le cl
 ```
 GET http://api.europcar.com/patterns/email/validity?value=name@domain.com
 ```
-### Les règles de nommage
-ToDo : détailler ou supprimer 
-
 # exposition d'objets
 Les objets peuvent être exposés au client comme une hiérarchie de composition ou d'association d'objets. C'est cette composition ou association qui doit permettre d'obtenir l'URI d'accès à la ressource.
 
