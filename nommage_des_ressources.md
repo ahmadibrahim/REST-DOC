@@ -50,7 +50,7 @@ Le problème de cette URI est qu'elle n'est pas auto-décrite.
 2. L'URI possède une structure hiérarchique identique pour l'ensemble des ressources ne permettant pas de différencier les ressources accédées juste au travers de la lecture de l'URI.
 3. Le format du message retourné doit être indiqué dans le Header (Header ```Accept: application/json```). Il s'agit d'une information protocole indépendante du contexte fonctionnel de la requête, cette information doit donc être mise dans le Header.
 
-Un autre contre-exemple est indiquer l'opération dans l'URI
+Un autre contre-exemple est d'indiquer l'opération dans l'URI
 ```
 GET http://bad-api.europcar.com/customers/12345/create
 ```
