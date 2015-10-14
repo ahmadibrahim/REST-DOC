@@ -42,10 +42,10 @@ Pour les opérations de filtre encore plus complexes, il convient alors d'utilis
 Dans des cas complexes, certains filtres peuvent être prédéfinis sur le serveur et nommés. Dans ce cas, l'URI aura la forme suivante :
 
 ````
-GET http://api.europcar.com/orders/filtername?param1=val1&...
+GET http://api.europcar.com/orders?filtername=name&param1=val1&...
 ````
 
-Dans cet exemple, le filtre est nommé ```filtername```.
+Dans cet exemple, le filtre est nommé ```name``` et les paramètres attendus par le filtre sont passés dans l'URI.
 
 
-ToDo : aligner la gestion des views entre get et filter (URI vs param)
+Lorsque l'on souhaite restituer une vue particulière, on utilisera le même mécanisme de vue décrit précédemment.
