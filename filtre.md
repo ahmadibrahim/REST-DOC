@@ -50,4 +50,6 @@ Dans cet exemple, le filtre est nommé ```name``` et les paramètres attendus pa
 
 Lorsque l'on souhaite restituer une vue particulière, on utilisera le même mécanisme de vue décrit précédemment.
 
+```
 GET http://api.europcar.com/orders/views/amounts?filtername=name&param1=val1&...
+````
