@@ -91,7 +91,7 @@ That date as shown does not have access to milliseconds. The Java pattern to app
 EEE, dd MMM yyyy HH:mm:ss 'GMT'
 ```
 
-Dans le corps de la requête ou de la réponse, les dates sont envoyées au format ISO8601 :
+In the body of the request or response, the dates are sent to ISO8601 Format:
 ```
 yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
 ```
