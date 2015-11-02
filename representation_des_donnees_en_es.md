@@ -54,7 +54,7 @@ The objects are sent as a homogeneous list of data, framed by an opening bracket
 ]
 ```
 
-Une URI qui renvoie une liste est de préférences terminée par un segment au pluriel comme dans l'exemple suivant :
+A URI that returns a list of preferences ended with a segment in the plural as in the following example:
 ```
 GET http://api.europcar.com/orders/1234/linetitems
 ```
