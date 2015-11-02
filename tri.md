@@ -1,5 +1,6 @@
 ## Sort
 Sort options are placed in the query-string. 
+
 ![Tip](lightbulb1.png) The sort parameter is called "fate" and sort criteria are placed in the order separated by a vertical bar "|". When sorting a known criterion is down, it must be prefixed by the "-" character. In the example below, it returns a list of vehicles ordered by ascending brand descending by date of commissioning:
 Les options de tri sont placées dans la query-string. 
 
