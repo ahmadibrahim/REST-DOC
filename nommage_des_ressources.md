@@ -81,7 +81,8 @@ The URI could then be written::
 GET http://api.europcar.com/patterns/email
 ```
 
-La validité pourra être considérée comme une propriété et donc sera plus bas au niveau hiérarchique. L'URI définitive devient alors :
+The validity may be regarded as a property and thus will appear later in the hierarchy. The final URI becomes:
+
 ```
 GET http://api.europcar.com/patterns/email/validity
 ```
