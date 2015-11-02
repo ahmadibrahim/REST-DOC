@@ -23,13 +23,12 @@ When maintaining a session is essential, you must :
 ### Cache enabled
 Proxies as well as Web clients (whether desktop of mobile) are able to store responses in their own cache. Responses should thus, implicitly or explicitly, define themselves as cache candidates or not to avoid useless requests or use of obsolete data. Good use of caching may greatly improve scalability and performance.
 
+### Client / Server
+It is the client that initiates the request.
+The client and the server exchange data whose representation is independent from both, the server side data representation and the client side user interface. This allows both parties (client and server) to evolve independently from each other as long as the data interchange format is respected and stays compatible.
 
-### Client / Serveur
-Le client est à l'initiative de la requête.
-Le client et le serveur communiquent au travers d'une interface normalisée indépendante de la représentation des données sur le serveur et de l'interface utilisateur côté client. Cela permet aux deux parties (client et serveur) d'évoluer indépendamment l'une de l'autre tant que l'interface d'échange est respectée ou reste compatible.
-
-###Structuration en couches
-Un client ne peut pas savoir s'il est directement connecté au serveur d'application cible ou s'il est servi par un serveur intermédiaire de la chaine de liaison. Ces serveurs jouent en général le rôle de régulateur de charge, de cache partagé ou de service d'authentification et d'habilitation.
+### Layered System
+A client cannot guess if he is directly connected to the target application server or if he is served by a proxy server. Usually theses proxies may be load blancers, shared cache services or authentifcation and habiloitation services.
 
 ###Exécution de code à la demande (Optionnel)
 Cette contrainte est la seule optionnelle des six contraintes REST imposées. Elle permet de renvoyer au client du code qui sera exécuté sur le poste client pour étendre les fonctionnalités du serveur. Il peut s'agir d'applets Java ou de scripts javascript. Cela peut concerner notamment l'accès à des périphériques locaux.
