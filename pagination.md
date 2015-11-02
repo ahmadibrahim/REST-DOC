@@ -39,7 +39,8 @@ This header is as follows and indicates that the first 50 items out of 97 were s
 Content-Range: items 0-49/97
 ```
 
-Dans l'exemple suivant, on indique que les 10 derniers items ont été renvoyés
+In the following example, it is noted that the last 10 items were returned:
+
 ```
 Content-Range: items 87-96/97
 ```
