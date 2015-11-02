@@ -123,7 +123,7 @@ The choice of one or other of the models is entirely at the discretion of the bu
 | Description | The business analyst only requires knowledge of the order to access the order line of the said order.| In the second case, access to the order lines also requires to know the customer id. |
 | GET | /orders/12345/lineitems |/customers/6785/orders/12345/lineitems |
 
-Dans les deux cas, rien n'empêche l'analyste métier de permettre l'accès aux commandes, clients ou lignes de commande directement via une clef d'accès unique. Là encore il s'agit d'un choix métier quant à l'exposition des ressources via l'API REST.
+In either case, nothing prevents the business analyst  to provide access to orders, customers or command line directly via a unique access key. Again this is a profession choices about resource exposure via the REST API.
 
 ![Tip](lightbulb1.png)Lors de l'accès à un objet, on peut vouloir le discriminer par un attribut. Lorsque cet attribut identifie de manière unique dans la hiérarchie accédée la ressource, alors il fera partie de l'URI. 
 L'accès à une sous-ressource sans identifiant peut être fait par une position / index 
