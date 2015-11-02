@@ -65,7 +65,7 @@ This call returns the default view. To send a specific view, we can suffix by  `
 ```
 GET http://api.europcar.com/orders/1234/linetitems/views/names
 ```
-pourra produire la réponse suivante :
+will produce the following response :
 ``` 
 [
     {
