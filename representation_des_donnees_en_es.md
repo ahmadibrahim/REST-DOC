@@ -1,6 +1,5 @@
 ### Representation of data in Input / Output
 
-
 #### Objets
 
 - Lorsqu'un objet est renvoyé, il doit être auto-décrit.  Cela signifie qu'on retrouvera tous les critères ayant permis 
