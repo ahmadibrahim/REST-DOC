@@ -86,7 +86,7 @@ In the HTTP header, dates must comply with RFC 1123 by transmitting the date in 
 ````
 Mon, 3 Aug 2015 09:26:12 GMT
 ````
-Cette date comme on peut le voir ne permet pas d'avoir accès aux millisecondes. La pattern Java à appliquer pour l'obtenir est
+That date as shown does not have access to milliseconds. The Java pattern to apply to get it is
 ```
 EEE, dd MMM yyyy HH:mm:ss 'GMT'
 ```
