@@ -2,7 +2,7 @@
 ## Objet
 
 REST (Representational State Transfer) est un style d'architecture pour les systèmes hypermédia indépendant du protocole (HTTP /...) et du format (JSON/XML/ ...).
-REST est défini par six contraintes décrites à l'origine par [Roy Fielding](http://api.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) qui définissent les bases d'une API REST.
+REST est défini par six contraintes décrites à l'origine par [Roy Fielding](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf) qui définissent les bases d'une API REST.
 Ces six contraintes sont :
 - Interface uniforme
 - Sans état
