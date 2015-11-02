@@ -132,9 +132,9 @@ In any other case, this will be a search criteria
 
 In the example below, we want orders passed on 09.10.2015.
 
-``` .../orders/20150910 ``` should be avoided because several commands may have been passed on 09.10.2015. Acorrect query is: ``` .../orders?date=20150910``` and the result is a collectio.
+``` .../orders/20150910 ``` should be avoided because several commands may have been passed on 09.10.2015. Acorrect query is: ``` .../orders?date=20150910``` and the result is a collection.
 
-![Tip](lightbulb1.png)Composition versus association : On modélisera une composition lorsque l'appel REST renverra dans le flux la sous-ressource, et une association lorsque l'appel REST renvoie uniquement un identifiant technique et/ou fonctionnel accompagné d'un libellé (Cf. fragments externes / XF)
+![Tip](lightbulb1.png)Composition vs Association: We model a composition when the REST call return in the stream the sub-resource, and an association when the REST call returns only a technical and / or functional id with a label (see external fragments / XF)
 
 ## exécution d'opérations métier
 Dans les cas métiers (autres que CRUD), l'invocation d'un service REST renvoie généralement le résultat de l'exécution d'un acte métier. On peut citer les actions métiers suivantes :
