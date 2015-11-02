@@ -22,7 +22,7 @@
 When there is a association relation( UML sense), You should return the minimum namely id and functional name for example.
 
 
-#### Vues d'un objet
+#### Views
 
 ![Tip](lightbulb1.png) When it is desired to access a particular view of a resource, for example the client identity or retrieve only its payment data. You need to  prefix the view that you want to access by the word ```views```:
 
