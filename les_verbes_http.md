@@ -79,7 +79,7 @@ DELETE http://api.europcar.com/cars/12345/drivers : Delete all drivers of vehicl
 According to the HTTP specification, the DELETE method is idempotent because suppressing the same resource multiple times produces the same result, since the resource is no more there after the first call.
 
 ### HTTP response codes
-The table below lists the HTTP codes it is recommended to return when the operation is applied to a list oa a single resource.
+The table below lists the HTTP codes it is recommended to return when the operation is applied to a list or a single resource.
 
 | HTTP Verb | /cars | /cars/{id} |
 | -- | -- | -- |
