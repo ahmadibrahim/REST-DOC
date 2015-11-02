@@ -96,8 +96,7 @@ In the body of the request or response, the dates are sent to ISO8601 Format:
 yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
 ```
 
-Pour une date sans heur, il faut quand même transmettre l'information horaire qui pourra être ignorée par l'applicatif.
-
+For a date without the time, you must still pass the time information and that can be ignored by the application.
 
 
 
