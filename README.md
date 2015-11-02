@@ -12,7 +12,7 @@ REST is defined by six constraints originally described by [Roy Fielding](https:
 -  Layered System
 -  Code on demand
 
-This document is intended to be used as a developer guide as it contains best practices to respect 
+This document is intended to be used as a developer guide as it contains best practices to respect during the development of a REST based service oriented architecture. This guide focus on the HTTP protocol exclusively and the JSON/XML data exchange formats
 
 Ce document est un guide du développeur qui regroupe les bonnes pratiques à respecter dans la cadre de la réalisation d'une architecture de services à base de services REST. Il se limite exclusivement au protocole HTTP et aux formats JSON/XML.
 
