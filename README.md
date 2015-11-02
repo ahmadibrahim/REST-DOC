@@ -1,5 +1,5 @@
 
-## Objet
+## Purpose
 
 
 REST (Representational State Transfer) is a protocol (HTTP / ...) and forma t(JSON/XML/...) independent architecture style for hypermedia systems.
