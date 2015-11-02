@@ -87,8 +87,7 @@ The validity may be regarded as a property and thus will appear later in the hie
 GET http://api.europcar.com/patterns/email/validity
 ```
 
-Cette URI désignant de manière unique la ressource, la valeur saisie par le client sera transmise dans la query string. Cela nous donne l'appel suivant :
-
+The value entered by the customer will be sent in the query string. This gives us the following call:
 ```
 GET http://api.europcar.com/patterns/email/validity?value=name@domain.com
 ```
