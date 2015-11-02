@@ -1,10 +1,10 @@
 ## Naming resources (URI)
 In addition to using HTTP verbs properly, it is essential to create URI that make the use of simple and intuitive API.
 
-Une API REST est constituée :
-- d'une collection d'URIs
-- d'appels HTTP à ces URIs (les verbes)
-- de représentations XML/JSON des ressources
+A REST API consists of: 
+- A collection of URIs
+- HTTP calls to these URIs (verbs) 
+- XML representations / JSON resources
 
 Chaque ressource du serveur est accessible au travers de l'URI. Par opposition à un verbe qui décrit une action, une ressource est un nom commun qui décrit une entité.
 Le nommage des URIs doit suivre une structure hiérarchique cohérente afin de garantir son utilisabilité.
