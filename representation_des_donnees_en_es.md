@@ -33,7 +33,7 @@ When there is a association relation( UML sense), You should return the minimum 
 
 The absence of the prefix ```views``` means that we want the default view:
 
-```/customers/12345```.
+``` /customers/12345 ```.
 
 
 
