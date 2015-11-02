@@ -20,8 +20,9 @@ When maintaining a session is essential, you must :
 - Make sure that the session is available across the whole server farm (no session affinity).
 
 
-### Mise en cache
-Les clients Web (Desktop et mobile) sont en mesure de mettre en cache les réponses. Les réponses doivent donc, implicitement ou explicitement, se définir comme étant candidates ou pas à être mises en cache pour éviter que le client ne fasse des requêtes serveurs inutiles ou utilise des informations obsolètes. Le bénéfice d'une bonne gestion de la mise en cache des données permet d'améliorer la scalabilité et la performance.
+### Cache enabled
+Proxies as well as Web clients (whether desktop of mobile) are able to store responses in their own cache. Responses should thus, implicitly or explicitly, define themselves as cache candidates or not to avoid useless requests or use of obsolete data. Good use of caching may greatly improve scalability and performance.
+
 
 ### Client / Serveur
 Le client est à l'initiative de la requête.
