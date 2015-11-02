@@ -1,47 +1,50 @@
-## Versioning de services
-### En utilisant la négotiation de contenu
-Cette approhe est adaptée lorsque la version du service n'a pas changé mais qu'il existe plusieurs représentations possibles d'une ressource.
-Dans ce cas, l'entête HTTP "Accept" est utilisé. Dans l'exemple suivant, on demande la ressource au format JSON en version 1.
+## Versioning of services
+### By using content negotiation
+
+This approach is suitable when the version of the service has not changed, but that there are several possible representations of a resource. In this case, the HTTP header "Accept" is used. In the following example, we request a resource in JSON format in version 1.
 
 ```
 Accept: application/json; version=1
 ```
 
-La réponse renvoie alors dans l'entête HTTP "Content-Type" le format et la version retournée. Dans l'exemple suivant, la ressource est renvoyée au format JSON en version 1.
+The response contains in the "Content-Type" HTTP header the format and the version of the resource. In the example below, the header indicates that th response contains the resource in JSON format in version 1
 ```
 Content-Type: application/json; version=1
 ```
 
-Si le client ne précise aucune version, le serveur doit renvoyer la plus ancienne version supportée par la ressource. Cette règle s'applique également lors de la création ou de la mise à jour d'une ressource. Les données fournies doivent être considérées comme étant dans la plus ancienne représentation supportée.
+If the client does not request a specific version, the server should return the oldest version supported by the resource. This rule also applies when creating or updating a resource. The data transferred should be considered to be in the oldest supported representation.
 
-Lorsque la version ou le format demandé n'existent pas ou ne sont plus supportés, le code réponse HTTP 406 (NOT ACCEPTABLE) doit être renvoyé.
+When the requested version or format do not exist or are no longer supported, the HTTP response code 406 (NOT ACCEPTABLE) must be returned.
 
-### En utilisant l'URI
-Dans ce cas on préfixe l'URI par un numéro de version vXXX ou XXX désigne le numéro de version. Dans l'exemple ci-dessous on adresse un service dans sa version 2:
+### Using the URI
+In this case the URI is prefixed by a version number vXXX where XXX denotes the version number. In the example below we address service version 2:
+
 ```
 GET http://api.europcar.com/v2/customers/12345
 ```
 
-Cela permet de placer des règles de routage d'URL assez facilement au niveau des serveurs HTTP intermédiaires.
+This will allow to place URL routing rules quite easily at the intermediate HTTP servers.
 
-![Tip](lightbulb1.png) Le versioning via l'URI est à privilégier. 
 
-### Conditions à la création d'une nouvelle version de l'API?
-Dès que la compatibilité ascendante est cassée, il faut impérativement créer une nouvelle version. Cela concerne les cas suivants notamment :
+![Tip](lightbulb1.png) Versioning with the URI is preferred. 
 
-- Renommage d'un attribut ou d'une entité
-- La suppression d'un attribut ou d'une entité
-- La modification du type d'un attribut
-- La modification des règles de validation d'un attribut ou d'une entité qui rompt la compatibilité avec l'existant. 
+### Conditions for the creation of a new API version ?
 
-Par contre, dans les cas ci-dessous, il n'est pas nécessaire de créer une nouvelle version de l'API:
+As soon as backward compatibility is broken, it is imperative to create a new version. This concerns in particular the following cases:
 
-- Ajout de nouveaux attributs à la réponse
-- Support de nouveaux formats
-- Support de nouvelles langues
+- Renaming an attribute or entity 
+- Deleting an attribute or entity 
+- Changing the type of an attribute 
+- Modification of validation rules of an attribute or entity that breaks compatibility with the existing version. 
 
-### Le support de la dépréciation d'un service
-Si un service est déprécié mais qu'il continue d'être supporté, il faut l'indiquer dans l'entête "Deprecated" qui est de type boolean:
+By cons, in the cases below, it is not necessary to create a new version of the API: 
+
+- Adding new attributes to the answer 
+- Support for new formats 
+- Support for new languages
+
+### Depecating a service
+If a service is deprecated but continues to be supported, this should be indicated in the "Deprecated" header which is of type boolean:
 ```
 Deprecated: true
 ```
