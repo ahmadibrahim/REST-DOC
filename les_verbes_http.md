@@ -7,7 +7,7 @@ HTTP methods (also called verbs) allow us to classify REST services into three c
 ### Idempotence
 A verb is said to be idempotent where tha application of this verb to the URI produces the same result whether applied once or many times.
 
-![Tip](lightbulb1.png) The PUT and DELETE (except in certain cases for this last one) verbs are idempotents
+![Tip](lightbulb1.png) The PUT and DELETE (except in certain cases for this last one) verbs are idempotent
 
 
 ### Neutrality
