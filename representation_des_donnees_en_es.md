@@ -12,7 +12,7 @@
 } ```
 
 
-- L'objet renvoyé n'est jamais nommé. S'il s'agit d'un type structuré JSON, il se présentera avec les attributs encadrés par une accolade ouvrante et une accolade fermante comme cela est le cas dans l'exemple ci-dessus. Aucun attribut ne doit préfixer l'objet renvoyé.
+- the returned object is never named. If it is a JSON structured type, it will appear with the attributes framed by an opening brace and a closing brace, as is the case in the example above. No attribute must prefix the returned object.
 
 
 - L'exposition d'une ressource fait fi de sa représentation réelle dans le système d'information (cf. exemple pattern précédent). S'il s'agit d'une ressource résultant de l'agrégation de plusieurs autres ressources, alors il elle doit être perçue comme étant un objet composé.
