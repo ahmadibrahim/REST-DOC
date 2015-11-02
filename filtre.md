@@ -41,7 +41,7 @@ In complex cases, some filters can be preset on the server and named. In this ca
 GET http://api.europcar.com/orders?filtername=name&param1=val1&...
 ````
 
-Dans cet exemple, le filtre est nommé ```name``` et les paramètres attendus par le filtre sont passés dans l'URI.
+In this example, the filter is called ```name``` and the expected filter parameters are passed in the URI.
 
 
 Lorsque l'on souhaite restituer une vue particulière, on utilisera le mécanisme de vue décrit précédemment.
