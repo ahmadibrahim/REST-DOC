@@ -11,7 +11,7 @@ Paging can be initiated by the client or the server when the data volume is too 
 ### Pagination with the header
 In this case, the "Range" HTTP header is used with respect to the following format:
 
-``` items={position}-{nombre}```.
+```items={position}-{nombre}```.
 
 Ainsi une requête avec l'entête HTTP suivant renverra 20 items à partir du troisième item :
 ```
