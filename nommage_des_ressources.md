@@ -147,7 +147,7 @@ In these cases, it is replaced by the proper noun word as shown in the table bel
 
 | Action | URI Example | Description|
 | -- | -- | -- | -- |
-| Signer la commande | POST /orders/12345/signature | Créer une signature et l'associer à la commande |
+| Sign the order | POST /orders/12345/signature | Create the signature and associate it to the orde |
 | Valider la commande | PUT /orders/12345/validation | Mettre à valide  du statut de la commande |
 | Notifier le client | POST /customers/789067/notification | Création d'une notification et association au client |
 
