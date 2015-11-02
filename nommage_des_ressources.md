@@ -129,8 +129,6 @@ In either case, nothing prevents the business analyst to provide access to order
 Access to a sub-resource without an id may be done using an index or position
 In any other case, this will be a search criteria
 
-Dans les autres cas, ce sera un critère de recherche. 
-
 In the example below, we want orders passed on 09.10.2015.
 
 ``` .../orders/20150910 ``` est à proscrire car plusieurs commandes peuvent avoir été  passées le 10/09/2015. Une requête correcte est la suivante : ``` .../orders?date=20150910``` et le retour sera une collection.
