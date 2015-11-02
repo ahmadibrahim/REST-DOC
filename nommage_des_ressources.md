@@ -1,5 +1,5 @@
-## Naming reso (URI)
-En plus d'utiliser les verbes HTTP de manière appropriée, il est indispensable de créer des URI qui rendent l'usage de l'API simple et intuitive.
+## Naming resources (URI)
+In addition to using HTTP verbs properly, it is essential to create URI that make the use of simple and intuitive API.
 
 Une API REST est constituée :
 - d'une collection d'URIs
