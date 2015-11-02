@@ -1,30 +1,33 @@
-## Les méthodes HTTP
-Les méthodes ou verbes HTTP permettent de classer les opérations de service REST en trois catégories :
-- Les verbes idempotents
-- Les verbes neutres
-- Le verbe POST
+## HTTP methods
+HTTP methods (also called verbs) allow us to classify REST services into three categories :
+- idempotent verbs
+- neutral verbs
+- The POST verb
 
 ### Idempotence
-Un verbe est dit idempotent lorsque l'application du verbe à une URI produit le même résultat qu'on l'applique une ou plusieurs fois.
+A verb is said to be idempotent where tha application of this verb to the URI produces the same result whether applied once or many times.
 
-![Tip](lightbulb1.png)Les verbes PUT et DELETE (sauf dans certains cas pour ce dernier) sont dits idempotents
+![Tip](lightbulb1.png) The PUT and DELETE (except in certain cases for this last one) verbs are idempotents
 
-### Neutralité
-Un verbe est dit neutre lorsqu'il ne conduit à aucun effet de bord sur le serveur.
-Un verbe neutre est donc également idempotent.
 
-![Tip](lightbulb1.png)Les verbes GET, HEAD, OPTIONS et TRACE sont des verbes neutres.
+### Neutrality
+A verb is said to be neutral when it does not produce any side effect on the server.
+A neutral verb is thus also idempotent
 
- ### Le verbe GET pour la lecture
-La méthode HTTP GET est utilisée pour récupérer une ressource. En cas de succès, la méthode GET renvoie une représentation XML ou JSON de la ressource sollicitée et un code réponse HTTP 20X.
-En cas d'erreur, cette méthode renvoie dans la plupart des cas un code réponse 404 (NOT FOUND) ou 400 (BAD REQUEST).
+![Tip](lightbulb1.png) The verbs GET, HEAD, OPTIONS and TRACE are neutral verbs.
 
-Exemples:
+ ### The GET verb for reading
+The GET method is used to get a resource. When it succeed, this method returns a JSON/XML representation of the resources and a HTPP Code 20X.
+In case of failure, thi smethod returns in most cases a 404 (NOT FOUND) of 400 (BAD REQUEST) response code.
+
+Examples:
 ```
-GET http://api.europcar.com/api/cars/12345 : Récupère le véhicule 12345
-GET http://api.europcar.com/api/cars/12345/drivers : Récupère tous les drivers du véhicule 12345
+GET http://api.europcar.com/api/cars/12345 : return vehicle 12345
+GET http://api.europcar.com/api/cars/12345/drivers : returns all drivers of vehicle 12345
 ```
-Le verbe HTTP GET doit être utilisé exclusivement dans le cadre d'une opération neutre.
+
+The  HTTP GET verb should be used exclusively for neutral operations.
+
 
  ### Le verbe PUT pour la mise à jour
  La méthode PUT est utilisée dans le cadre de la mise à jour d'une ressource sur le serveur. Le corps de la requête contient alors au format JSON ou XML la représentation mise à jour de la ressource référencée.
