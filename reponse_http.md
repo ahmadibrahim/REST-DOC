@@ -1,12 +1,11 @@
 ## La réponse du service REST
-La structure de réponse d'un appel de service REST doit être la suivante :
+The response structure of a REST service call must be:
+- An HTTP response code 
+- A status 
+- A message 
+- The data.
 
-- Un code réponse HTTP
-- Un statut
-- Un message
-- Les données.
-
-### Le code réponse HTTP
+### The HTTP response code
 Il s'agit d'un entier indiquant le code réponse HTTP. Ce code pourra également être inclus dans le corps de la réponse sous la forme d'un attribut
 
 ### l'attribut status
