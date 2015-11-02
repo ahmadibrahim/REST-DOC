@@ -92,14 +92,14 @@ The value entered by the customer will be sent in the query string. This gives u
 GET http://api.europcar.com/patterns/email/validity?value=name@domain.com
 ```
 # Exposing objects
-Les objets peuvent être exposés au client comme une hiérarchie de composition ou d'association d'objets. C'est cette composition ou association qui doit permettre d'obtenir l'URI d'accès à la ressource.
+Objects can be exposed to the client as a hierarchy of composition or an association of objects. It is this composition or association which must result in the URI to the resource. 
 
-Composition / aggregation : la hiérachie matérialise la relation entre une ressource est des sous-ressources qui la composent. Celles-ci ont le cycle de vie de la ressource principale et ne sont accessible que via cette dernière.
+Composition / aggregation: the hierarchy materializes the relationship between a resource and sub-resources within it. These have the life cycle of the main resource and are only accessible via the latter. 
 
-Association : cette relation matérialise la navigabilité entre des ressources autonomes (qui peuvent exister en dehors de cette relation). 
+Association: this relationship materializes between autonomous  resources (which may exist outside this relationship). 
 
+Consider the following relational schema:
 
-Considérons le schéma relationnel suivant :
 
 ![Rental Diagram](rent9.png)
 
