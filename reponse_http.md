@@ -1,4 +1,4 @@
-## La réponse du service REST
+## REST service response
 The response structure of a REST service call must be:
 - An HTTP response code 
 - A status 
