@@ -39,7 +39,7 @@ Below are some examples:
 The examples below illustrate the concept of hierarchy to be applied and the traversability of the hierarchy via a unique ID that is interposed between the common names representatives the traversed entities.
 
  ### Practices to be avoided
- The first anti-pattern is to group REST services within a single URI and using the parameters of the query-string to distinguish services from one another. For example, update the URI of a customer could be:
+ The first anti-pattern is to group REST services within a single URI and using the parameters of the query-string to distinguish services from one another. For example, the update  URI of a customer could be:
 
 ```
 GET http://bad-api.europcar.com/services?op=update_customer&id=12345&format=json
