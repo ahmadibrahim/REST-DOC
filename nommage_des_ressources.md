@@ -128,6 +128,7 @@ In either case, nothing prevents the business analyst to provide access to order
 ![Tip](lightbulb1.png)When accessing an object, we may want to discriminate it by an attribute. When this attribute identifies the accessed resource in a unique way in the hierarchy, then it will be part of the URI.
 Access to a sub-resource without an id may be done using an index or position
 In any other case, this will be a search criteria
+
 Dans les autres cas, ce sera un critère de recherche. 
 
 In the example below, we want orders passed on 09.10.2015.
