@@ -1,7 +1,5 @@
 ### Representation of data in Input / Output
 
-Note : dans le contexte d'Europcar, on ne traite que de la gestion d'échanges JSON
-Note : ajouter un paragraphe sur le nommage des attributs (notamment, usage du camelCase)
 
 #### Objets
 
