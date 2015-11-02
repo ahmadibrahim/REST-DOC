@@ -149,7 +149,7 @@ In these cases, it is replaced by the proper noun word as shown in the table bel
 | -- | -- | -- | -- |
 | Sign the order | POST /orders/12345/signature | Create the signature and associate it with the order |
 | Validate the order | PUT /orders/12345/validation | Make valid the order status |
-| Notify the customer | POST /customers/789067/notification | Création d'une notification et association au client |
+| Notify the customer | POST /customers/789067/notification | Create a notification and associate it with a customer |
 
 Dans le tableau ci-dessus, la description indique la perception qu'a le client du service REST. Dans la réalité, les opérations qui ont lieu sur le S.I. sont beaucoup plus riches et complexes.
 
