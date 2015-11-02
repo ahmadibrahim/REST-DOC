@@ -1,4 +1,4 @@
-## Pagination
+## Paging
 Lorsque le volume de données à renvoyer est important, il peut être utile de découper le résultat en pages afin de permettre une meilleure lecture des données côté client et de limiter l'usage de la bande passante.
 La pagination consiste à renvoyer un certain nombre d'éléments à partir d'une position donnée. La position 0 décrivant le début de la collection.
 Ces deux informations, "position" et "nombre d'items" doivent être transmis par la requête pour limiter le nombre d'éléments à renvoyer par le serveur.
