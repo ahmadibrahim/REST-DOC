@@ -145,7 +145,7 @@ In business cases (other than CRUD), invoking a REST service typically returns t
 
 In these cases, it is replaced by the proper noun word as shown in the table below:
 
-| Action | Exemple d'URI | Description|
+| Action | URI Example | Description|
 | -- | -- | -- | -- |
 | Signer la commande | POST /orders/12345/signature | Créer une signature et l'associer à la commande |
 | Valider la commande | PUT /orders/12345/validation | Mettre à valide  du statut de la commande |
