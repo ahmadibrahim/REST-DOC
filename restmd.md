@@ -3,8 +3,9 @@
 
 This constraint is defined by the fact that each resource is uniquely identified through a URI. The server returns a representation of the resource to the client with respect to a predefined schema that is independent of the physical representation of the resource on the server. The most common formats are JSON and XML encoded as UTF-8 entities.
 
-### Sans état
-L'approche sans état est clef dans REST. Elle signifie que l'ensemble des éléments requis à la manipulation des données est contenue dans l'URI, les paramètres de l'URI (query-string), le corps de la requête ou les entêtes. Une fois la requête traitée, le serveur renvoie au travers des entêtes, du corps ou du statut de la réponse , l'ensemble des informations requises pour d'éventuels appels ultérieurs.
+### Stateless
+Stateless approach is key to the REST architecture style. It implies that all the data required to service the request is contained within the URI, the URI parameters (query-string), the body of the request and/or the headers. Once the request is serviced, the server returns the exhaustive information required to submit future requests through the headers, the body and the response status code.
+
 
 Cela tranche avec l'approche classique qui consiste à stocker en session des informations qui resteront présentes d'une requête HTTP à une autre. Dans l'approche REST, le client doit inclure toutes les informations requises par le serveur pour exécuter la requête.
 L'approche sans état offre une meilleure scalabilité des applications dans la mesure où le serveur n'a pas besoin de maintenir et/ou répliquer l'état de session. De plus, les composants de régulation de charge n'ont pas à se préoccuper de l'affinité de session qui complexifie les paramétrages d'infrastructure et le déploiement de nouvelles versions d'applications.
