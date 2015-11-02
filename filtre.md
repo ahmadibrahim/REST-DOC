@@ -12,7 +12,7 @@ Thus, the following URI could help capture customers with an order containing a 
 GET http://api.europcar.com/orders?filter=amount:gt:1000|count::1
 ```
 
-On peut complémenter les critères de filtres par des intervalles temporels  en ajoutant les paramètres "before" et "after". Ainsi dans l'exemple suivant on obtient les commandes  précédentes entre le 1er janvier 2015 et le 15 janvier 2015.
+One can complement the filter criteria by time intervals, adding parameters "before" and "after". So in the following example we get the previous commands between 1st of January 2015 and 15th of January 2015.
 
 ```
 GET http://api.europcar.com/orders?filter=amount:gt:1000|count::1&after=timestamp&before=timestamp
