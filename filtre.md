@@ -18,7 +18,7 @@ One can complement the filter criteria by time intervals, adding parameters "bef
 GET http://api.europcar.com/orders?filter=amount:gt:1000|count::1&after=timestamp&before=timestamp
 ```
 
-Lorsque l'on souhaite des opérateurs plus riches, il faut alors définir une syntaxe dédiée. Pour l'inégalité on pourra alors utiliser la syntaxe suivante :
+When richer operators are needed, it may be necessary to define a dedicated syntax. For the inequality we can then use the following syntax:
 
 | Opérateur | Description |
 | -- | -- |
