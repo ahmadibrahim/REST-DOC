@@ -7,7 +7,9 @@ This constraint is defined by the fact that each resource is uniquely identified
 Stateless approach is key to the REST architecture style. It implies that all the data required to service the request is contained within the URI, the URI parameters (query-string), the body of the request and/or the headers. Once the request is serviced, the server returns the exhaustive information required to submit future requests through the headers, the body and the response status code.
 
 
-Cela tranche avec l'approche classique qui consiste à stocker en session des informations qui resteront présentes d'une requête HTTP à une autre. Dans l'approche REST, le client doit inclure toutes les informations requises par le serveur pour exécuter la requête.
+
+This is a breaking change with the classical approach where data is stored in a server side session store and made available to any future requests from the same user in the same session. REST requires that each client includes all the data required by the server to execute the request.
+
 L'approche sans état offre une meilleure scalabilité des applications dans la mesure où le serveur n'a pas besoin de maintenir et/ou répliquer l'état de session. De plus, les composants de régulation de charge n'ont pas à se préoccuper de l'affinité de session qui complexifie les paramétrages d'infrastructure et le déploiement de nouvelles versions d'applications.
 
 P.S. Il n'est pas toujours possible d'avoir une approche stateless. Des services tels que OAuth requiert le maintien d'informations de session. La compatibilité avec des versions antérieures de l'application sont également des raisons de maintien d'information de session.
