@@ -41,7 +41,6 @@ The examples below illustrate the concept of hierarchy to be applied and the tra
  ### Practices to be avoided
  The first anti-pattern is to group REST services within a single URI and using the parameters of the query-string to distinguish services from one another. For example, update the URI of a customer could be:
 
-
 ```
 GET http://bad-api.europcar.com/services?op=update_customer&id=12345&format=json
 ````
