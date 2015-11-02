@@ -10,7 +10,8 @@ Stateless approach is key to the REST architecture style. It implies that all th
 
 This is a breaking change with the classical approach where data is stored in a server side session store and made available to any future requests from the same user in the same session. REST requires that each client includes all the data required by the server to execute the request.
 
-L'approche sans état offre une meilleure scalabilité des applications dans la mesure où le serveur n'a pas besoin de maintenir et/ou répliquer l'état de session. De plus, les composants de régulation de charge n'ont pas à se préoccuper de l'affinité de session qui complexifie les paramétrages d'infrastructure et le déploiement de nouvelles versions d'applications.
+The stateless approach brings more scalability to applications since the server does not need to maintain and/or replicate the session state. Moreover, load balancing components do not have to be aware of the session affinity that are usually complex to implement at the infrastructure level and makes deployment of a new version of the application less smooth since it requires all sessions to be shutdown first.
+
 
 P.S. Il n'est pas toujours possible d'avoir une approche stateless. Des services tels que OAuth requiert le maintien d'informations de session. La compatibilité avec des versions antérieures de l'application sont également des raisons de maintien d'information de session.
 
