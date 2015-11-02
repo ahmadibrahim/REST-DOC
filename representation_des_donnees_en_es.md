@@ -17,7 +17,9 @@
 
 - Exposure of a resource must ignore its real representation in the information system (see previous example about pattern). If there is a resource resulting from the aggregation of a number of other resources, then it must be seen as an compound object .
 
-![Tip](lightbulb1.png)Dans les relations de composition, c'est l'objet tout entier (ou une vue sur celui-ci) qui doit être renvoyé. Dans les relations d'association, on renvoie  le minimum à savoir l'id et le nom fonctionnel par exemple.
+![Tip](lightbulb1.png) When there is a composition relation (UML sense), the whole object(or a view of it) must be returned.
+
+When there is a association relation( UML sense), You should return the minimum namely id and functional name for example.
 
 
 #### Vues d'un objet
