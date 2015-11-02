@@ -1,7 +1,7 @@
 ## Les six contraintes de REST
 ### Une interface uniforme
 
-Cette contrainte se caractérise parle fait que chaque ressource est identifiée de manière unique au travers d'URIs. Le serveur renvoie une représentation de la ressource au client dans le respect d'un schéma prédéfini et indépendant de la représentation physique de la ressource sur le serveur. Les formats les plus communs sont JSON et XML encodés en UTF-8.
+Cette contrainte se caractérise par le fait que chaque ressource est identifiée de manière unique au travers d'URIs. Le serveur renvoie une représentation de la ressource au client dans le respect d'un schéma prédéfini et indépendant de la représentation physique de la ressource sur le serveur. Les formats les plus communs sont JSON et XML encodés en UTF-8.
 
 ### Sans état
 L'approche sans état est clef dans REST. Elle signifie que l'ensemble des éléments requis à la manipulation des données est contenue dans l'URI, les paramètres de l'URI (query-string), le corps de la requête ou les entêtes. Une fois la requête traitée, le serveur renvoie au travers des entêtes, du corps ou du statut de la réponse , l'ensemble des informations requises pour d'éventuels appels ultérieurs.
