@@ -59,7 +59,7 @@ A URI that returns a list of preferences ended with a segment in the plural as i
 GET http://api.europcar.com/orders/1234/linetitems
 ```
 
-This call returns the default view. To send a specific view, we can suffix by  ```views/nameofthevie```. In the example below we want to return the id and name of each order line
+This call returns the default view. To send a specific view, we can suffix by  ```views/nameoftheview```. In the example below we want to return the id and name of each order line.
 
 
 ```
