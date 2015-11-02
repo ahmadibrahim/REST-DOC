@@ -20,7 +20,7 @@ GET http://api.europcar.com/orders?filter=amount:gt:1000|count::1&after=timestam
 
 When richer operators are needed, it may be necessary to define a dedicated syntax. For the inequality we can then use the following syntax:
 
-| Opérateur | Description |
+| Opérator | Description |
 | -- | -- |
 | :: | Egalité |
 | :lt: | Inférieur |
