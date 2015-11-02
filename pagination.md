@@ -30,9 +30,11 @@ GET http://api.europcar.com/customers?offset=2&limit=20
 
 ![Tip](lightbulb1.png) Favour paging through parameters in the query string.
 
-### Format de la réponse
- Uen requête de pagination, que ce soit via l'entête ou la query string doit renvoyer le nombre d'items retournés et le nombre total d'items.
- Cet entête se présente comme suit et indique que les 50 premiers items sur un total de 97 ont été renvoyés dans la réponse :
+### Response format
+A paged query, whether through the header or the query string must return the number of returned items and the total number of items. 
+
+This header is as follows and indicates that the first 50 items out of 97 were sent back in the response:
+
 ```
 Content-Range: items 0-49/97
 ```
