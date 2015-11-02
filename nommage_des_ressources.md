@@ -116,7 +116,7 @@ The following combination of structures are possible:
 |URI1 |![](rent7.png)|
 |URI2 |![](rent10.png)|
 
-Le choix de l'une ou de l'autre des modélisations est entièrement à l'appréciation de l'analyste métier et de la vue hiérarchique qu'il souhaite donner au système d'informations. Les URIs suivantes sont équivalentes :
+The choice of one or other of the models is entirely at the discretion of the business analyst and the hierarchical view he wishes to give to the information system. The following URIs are equivalent:
 
 |Verbe HTTP | URI1 | / URI2 |
 | -- | -- | -- |
