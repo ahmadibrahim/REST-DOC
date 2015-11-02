@@ -91,7 +91,7 @@ The value entered by the customer will be sent in the query string. This gives u
 ```
 GET http://api.europcar.com/patterns/email/validity?value=name@domain.com
 ```
-# exposition d'objets
+# Exposing objects
 Les objets peuvent être exposés au client comme une hiérarchie de composition ou d'association d'objets. C'est cette composition ou association qui doit permettre d'obtenir l'URI d'accès à la ressource.
 
 Composition / aggregation : la hiérachie matérialise la relation entre une ressource est des sous-ressources qui la composent. Celles-ci ont le cycle de vie de la ressource principale et ne sont accessible que via cette dernière.
