@@ -17,7 +17,7 @@ A neutral verb is thus also idempotent
 ![Tip](lightbulb1.png) The verbs GET, HEAD, OPTIONS and TRACE are neutral verbs.
 
  ### The GET verb for reading
-The GET method is used to get a resource. When it succeed, this method returns a JSON/XML representation of the resources and a HTPP Code 20X.
+The GET method is used to get a resource. When it succeed, this method returns a JSON/XML representation of the resources and a HTTP Code 20X.
 In case of failure, this method returns in most cases a 404 (NOT FOUND) of 400 (BAD REQUEST) response code.
 
 Examples:
