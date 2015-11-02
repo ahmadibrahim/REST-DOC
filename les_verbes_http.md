@@ -28,66 +28,65 @@ GET http://api.europcar.com/api/cars/12345/drivers : returns all drivers of vehi
 
 The  HTTP GET verb should be used exclusively for neutral operations.
 
+ ### The PUT verb for updates
 
- ### Le verbe PUT pour la mise à jour
- La méthode PUT est utilisée dans le cadre de la mise à jour d'une ressource sur le serveur. Le corps de la requête contient alors au format JSON ou XML la représentation mise à jour de la ressource référencée.
+ The PUT verb is used exclusively in tyhe context of an update operation on the server. The body of the request should contain the reprenstation of the updated resources in JSON/XML format
+The PUT method may also be used in the contexte of resource creation, but only if the choice of the resource unique identifier is the responsibility of the client.
 
-La méthode PUT peut être également utilisée dans le cadre de la création d'une ressource mais uniquement lorsque le choix de l'identifiant de la ressource est de la responsabilité du client.
+When the operation succeed, the response code to return to the client is one of the following:
+- 200 code if the resource has been updated and the response body is not empty
+- 204 code if the resource has been updated and the response body is empty
+- 201 code if the resource has been created. In that case, the response body cannot be empty.
 
-En cas de succès, le code réponse à renvoyer est le suivant :
-- Code 200 s'il s'agit d'une mise à jour et que le corps de la réponse n'est pas vide
-- Code 204 s'il s'agit d'une mise à jour et que le corps de la réponse est vide
-- Code 201 s'il s'agit d'une création. Dans ce cas, le corps de la réponse peut être vide.
+PUT is not a neutral operation, but it is an idempotent one. It is thus important to ensure that multiple calls to the same method produce the same effect.
 
-PUT n'est pas une opération neutre mais une opération idempotente, il faut donc veiller à ce que plusieurs appels à la méthode produisent le même effet.
-
-Exemples :
+Examples :
 ```
-PUT http://api.europcar.com/cars/12345 : Met à jour le véhicule 12345
-PUT http://api.europcar.com/cars/12345/drivers/67890 : Met à jour le driver 67890 du véhicule 12345
+PUT http://api.europcar.com/cars/12345 : Update vehicle 12345
+PUT http://api.europcar.com/cars/12345/drivers/67890 : Update driver 67890 of vehicle 12345
 ```
 
- ### Le verbe POST pour la création
- Le verbe POST est souvent utilisé pour la création de nouvelles ressources. Le serveur est responsable de l'association d'un identifiant unique à la ressource.
+ ### The POSt verb for creating resources
+ The POST verb is often used to create new resources. It is the server responsibility to assign a unique identifier to the resource.
+ 
+Examples:
+```
+POST http://api.europcar.com/cars : Create a vehicle, data related to the vehicle are sent in the body of the request.
+POST http://api.europcar.com/cars/12345/drivers : Create a driver for vehicle 12345. data related to the driver are embedded in the body of the request.
+```
+When it succeeds, the 201 HTTP response code is sent back with the header "Location" set to tje link that directly reference the resource that has just been created.
+
+
+ ### Why and when to use POST insted of PUT ?
+ ![Tip](lightbulb1.png)Use PUT when :
+ - The resource exist and must be updated
+ - The resource does not exist and it is the client responsibility to assign the unique identifier to the new ly created resource.
+
+ Use POST when :
+ - The resource does not exist and the unique resource identifier is set by the code on the server
+ - The operation is neither idempotent, neither neutral.
+
+
+ ### The DELETE verb for deletion
+The DELTE verb is used to deleted the resource identified by the URI.
 
 Exemples:
 ```
-POST http://api.europcar.com/cars : Crée un véhicule, les données associées au véhicule sont transmises dans le corps de la requête
-POST http://api.europcar.com/cars/12345/drivers : Crée un driver pour le véhicule 12345.les données associées au driver sont transmises dans le corps de la requête.
-```
-En cas de succès, le code réponse HTTP 201 est renvoyé avec l'entête "Location" qui a pour valeur le lien qui référence directement la ressource ainsi créée.
-
-
- ### Pourquoi et quand Utiliser POST au lieu de PUT
- ![Tip](lightbulb1.png)Utiliser PUT lorsque :
- - La ressource existe et doit être mise à jour
- - La ressource n'existe pas et le client est chargé de déterminer l'identifiant unique de la ressource
-
- Utiliser POST lorsque :
- - La ressource n'existe pas et qu'elle doit être créée avec un identifiant déterminé par le serveur
- - Lorsque l'opération n'est ni idempotente, ni neutre.
-
-
- ### Le verbe DELETE pour la suppression
-Le verbe DELETE est utilisé pour supprimer la ressource identifiée par une URI.
-
-Exemples:
-```
-DELETE http://api.europcar.com/cars/12345 : Supprime le véhicule 12345
-DELETE http://api.europcar.com/cars/12345/drivers : Supprime tous les drivers du véhicule 12345
+DELETE http://api.europcar.com/cars/12345 : Delete vehicle 12345
+DELETE http://api.europcar.com/cars/12345/drivers : Delete all drivers of vehicle 12345
 ```
 
-Selon la spécification HTTP, la méthode DELETE est idempotente car la suppression d'une ressource plusieurs fois d'affilée produit le même résultat, la ressource n'étant plus là.
+According to the HTTP specification, the DELETE method is idempotent because suppressing the same resource multiple times produces the same result, since the resource is no more there after the first call.
 
-### Codes réponses des verbes HTTP
-Le tableau ci-dessous dresse la liste des codes HTTP qu'il est recommandé de renvoyer quand l'opération s'applique à une liste ou une seule ressource.
+### HTTP response codes
+The table below lists the HTTP codes it is recommended to return when the operation is applied to a list oa a single resource.
 
-|Verbe HTTP | /cars | /cars/{id} |
+| HTTP Verb | /cars | /cars/{id} |
 | -- | -- | -- |
-| GET | 200 (OK), renvoi d'une liste de véhicules.| 200 (OK), renvoi d'un seul véhicule. 404 (NOT FOUND) si l'identifiant n'est pas trouvé ou est invalide. |
-| PUT | 404 (NOT FOUND) | 200 (OK) ou 204 (NO CONTNTENT). 404 (NOT FOUND) si l'identifiant n'est pas trouvé ou est invalide. |
-| POST | 201 (CREATED), avec l'entête "Location" valorisé avec le client /cars/{id} contenant le nouvel identifiant | 404 (NOT FOUND) |
-| DELETE | 404 (NOT FOUND), sauf si l'on souhaite supprimer toute la collection. | 200 (OK). 404 (NOT FOUND) si l'identifiant n'est pas trouvé ou est invalide.   |
+| GET | 200 (OK), returns a list of vehicles.| 200 (OK), returns a single vehicle. 404 (NOT FOUND) if the identifier is not found or is invalid. |
+| PUT | 404 (NOT FOUND) | 200 (OK) or 204 (NO CONTENT). 404 (NOT FOUND) if the identifier is not found or is invalid. |
+| POST | 201 (CREATED), wih the header "Location" set to the link /cars/{id} where {id} designates the new identifier| 404 (NOT FOUND) |
+| DELETE | 404 (NOT FOUND), except if we want to delete the whole collection. | 200 (OK). 404 (NOT FOUND) if the identifier is not found or invalid.   |
 
-Les verbes utilisés dans le contexte d'Europcar sont : GET, POST, PUT, DELETE
+The verbs used in the context of Eurpcar are : GET, POST, PUT, DELETE
 
