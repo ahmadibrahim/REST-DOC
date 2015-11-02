@@ -125,11 +125,12 @@ The choice of one or other of the models is entirely at the discretion of the bu
 
 In either case, nothing prevents the business analyst to provide access to orders, customers or command line directly via a unique access key. Again this is a business choice about resource exposure via the REST API.
 
-![Tip](lightbulb1.png)Lors de l'accès à un objet, on peut vouloir le discriminer par un attribut. Lorsque cet attribut identifie de manière unique dans la hiérarchie accédée la ressource, alors il fera partie de l'URI. 
-L'accès à une sous-ressource sans identifiant peut être fait par une position / index 
+![Tip](lightbulb1.png)When accessing an object, we may want to discriminate it by an attribute. When this attribute identifies the accessed resource in a unique way in the hierarchy, then it will be part of the URI.
+Access to asub-resource without an id may be done using an index or position
+In any other case, this will be a search criteria
 Dans les autres cas, ce sera un critère de recherche. 
 
-Dans l'exemple ci-dessous, on souhaite les commandes passée le 10/09/2015.
+In the example below, we want orders passed on 09.10.2015.
 
 ``` .../orders/20150910 ``` est à proscrire car plusieurs commandes peuvent avoir été  passées le 10/09/2015. Une requête correcte est la suivante : ``` .../orders?date=20150910``` et le retour sera une collection.
 
