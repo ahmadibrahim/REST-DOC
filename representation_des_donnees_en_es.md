@@ -31,7 +31,9 @@ When there is a association relation( UML sense), You should return the minimum 
 /customers/12345/views/payment
 ```
 
-L'absence du préfixe ```views```signifie que l'on souhaite la vue par défaut: ```/customers/12345```.
+The absence of the prefix ```views``` means that we want the default view:
+
+```/customers/12345```.
 
 
 
