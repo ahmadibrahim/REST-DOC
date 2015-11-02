@@ -13,11 +13,12 @@ This is a breaking change with the classical approach where data is stored in a 
 The stateless approach brings more scalability to applications since the server does not need to maintain and/or replicate the session state. Moreover, load balancing components do not have to be aware of the session affinity that are usually complex to implement at the infrastructure level and makes deployment of a new version of the application less smooth since it requires all sessions to be shutdown first.
 
 
-P.S. Nonetheless, it is not always possible to have a stateless approach . Services like OAuth require information to be maintained in the session store. Compatibility with previous versions of the application may also be a motivation to maintain session data acros requests
+P.S. Nonetheless, it is not always possible to have a stateless approach . Services like OAuth require information to be maintained in the session store. Compatibility with previous versions of the application may also be a motivation to maintain session data across requests
 
-Si le maintien d'une session est indispensable, il faut :
-- retenir que dans la mesure du possible, les informations de session ne doivent pas servir comme maintien d'un état transitoire d'une requête HTTP à une autre mais uniquement comme un mécanisme de cache d'informations valide pendant toute la durée de la session.
-- s'assurer que la session est disponible sur l'ensemble des serveurs de la ferme (absence d'affinité de session).
+When maintining a session is essential, you must :
+- Make sure that the data in the session store are not used as a temporary state between HTTP requests mais exclusively used as a cache holding data that will stay valid during the whole session.
+- Make sure that the session is available across the whole server farm (no session affinity).
+
 
 ### Mise en cache
 Les clients Web (Desktop et mobile) sont en mesure de mettre en cache les réponses. Les réponses doivent donc, implicitement ou explicitement, se définir comme étant candidates ou pas à être mises en cache pour éviter que le client ne fasse des requêtes serveurs inutiles ou utilise des informations obsolètes. Le bénéfice d'une bonne gestion de la mise en cache des données permet d'améliorer la scalabilité et la performance.
