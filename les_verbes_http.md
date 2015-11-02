@@ -57,7 +57,7 @@ POST http://api.europcar.com/cars/12345/drivers : Create a driver for vehicle 12
 When it succeeds, the 201 HTTP response code is sent back with the header "Location" set to tje link that directly reference the resource that has just been created.
 
 
- ### Why and when to use POST insted of PUT ?
+ ### Why and when to use POST instead of PUT ?
  ![Tip](lightbulb1.png)Use PUT when :
  - The resource exist and must be updated
  - The resource does not exist and it is the client responsibility to assign the unique identifier to the new ly created resource.
