@@ -6,25 +6,26 @@ The response structure of a REST service call must be:
 - The data.
 
 ### The HTTP response code
-Il s'agit d'un entier indiquant le code réponse HTTP. Ce code pourra également être inclus dans le corps de la réponse sous la forme d'un attribut
+This is an integer indicating the HTTP response code. This code may also be included in the body of the response in the form of an attribute
 
 ### l'attribut status
-Cet attribut contient un des 3 textes suivants :
-- "fail" pour les codes réponse HTTP 5XX
-- "error" pour les codes réponse HTTP 4XX
-- "success" pour les codes réponse HTTP 1XX, 2XX et 3XX.
+This attribute contains one of the 3 following: 
+- "fail" for HTTP response codes 5XX
+- "error" for HTTP response codes 4XX 
+- "success" for HTTP response codes 1XX, 2XX and 3XX.
 
-### l'attribut message
-Cet attribut est exclusivement présent lorsque le statut est "fail" ou "error". Il contient la liste des messages d'erreur à prendre en compte par le client.
+### The message attribute
+This attribute is only present when the status is "done" or "error". It contains a list of error messages to be considered by the customer.
 
-Un message est un objet avec deux attributs ```code``` et ```description```.
+A message is an object with two attributes ```code``` and ```description```.
 
-Dans certains cas à la marge, il peut être utilise d'avoir des messages plus détaillés, auquel cas, il conviendra d'inclure un attribut ```details``` qui contient la liste des messages d'erreur détaillés.
+In some cases at the margin, it may be useful to have more detailed messages, in which case it will be necessary to include a ```details``` attribute that contains a list of detailed error messages.
 
-### l'attribut data
-Contient le corps de la réponse. En cas d'erreur (status égal à "fail" ou "error") il contient la liste des exceptions remontées.
 
-Exemple 1:
+### The data attribute
+Contains the body of the response. On error (status equal to "fail" or "error"), the data contains the list of exceptions lifts.
+
+Example 1:
 ```
 {
 "code":200,
@@ -33,7 +34,7 @@ Exemple 1:
 }```
 
 
-Exemple 2:
+Example 2:
 ```
 {
 "code":400,
