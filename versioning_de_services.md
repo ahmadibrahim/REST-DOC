@@ -44,7 +44,7 @@ By cons, in the cases below, it is not necessary to create a new version of the 
 - Support for new languages
 
 ### Depecating a service
-If a service is deprecated but continues to be supported, this should be indicated in the "Deprecated" header which is of boolean type :
+If a service is deprecated but continues to be supported, this should be indicated in the "Deprecated" header which is of Boolean type :
 ```
 Deprecated: true
 ```
