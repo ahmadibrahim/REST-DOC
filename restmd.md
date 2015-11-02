@@ -1,7 +1,7 @@
 ## The six constraints of REST
 ### Uniform Interface
 
-This constraints is defined by the fact that each resource is uniquely identified through a URI. The server returns a representation of the resource to the client with respect to a predefined schema that is independent of the physical representation of the resource on the server. The most common formats are JSON and XML encodés as UTF-8 entities.
+This constraints is defined by the fact that each resource is uniquely identified through a URI. The server returns a representation of the resource to the client with respect to a predefined schema that is independent of the physical representation of the resource on the server. The most common formats are JSON and XML encode as UTF-8 entities.
 
 
 ### Sans état
