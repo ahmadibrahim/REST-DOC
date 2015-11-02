@@ -30,8 +30,8 @@ The  HTTP GET verb should be used exclusively for neutral operations.
 
  ### The PUT verb for updates
 
- The PUT verb is used exclusively in the context of an update operation on the server. The body of the request should contain the reprenstation of the updated resources in JSON/XML format
-The PUT method may also be used in the contexte of resource creation, but only if the choice of the resource unique identifier is the responsibility of the client.
+ The PUT verb is used exclusively in the context of an update operation on the server. The body of the request should contain the representation of the updated resources in JSON/XML format
+The PUT method may also be used in the context of resource creation, but only if the choice of the resource unique identifier is the responsibility of the client.
 
 When the operation succeed, the response code to return to the client is one of the following:
 - 200 code if the resource has been updated and the response body is not empty
