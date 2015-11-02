@@ -9,4 +9,4 @@ Les options de tri sont placées dans la query-string.
 ```
 GET http://api.europcar.com/cars?sort=brand|-date_of_service
 ```
-Les attributs sur lesquels le tri peut être opéré doivent être indiqués dans la documentation de l'API
+The attributes on which sorting can be carried out must be included in the API documentation
