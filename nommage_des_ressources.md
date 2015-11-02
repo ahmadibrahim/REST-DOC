@@ -103,11 +103,6 @@ Consider the following relational schema:
 
 ![Rental Diagram](rent9.png)
 
-- Une commande est le rapprochement d'une ou plusieurs lignes de commandes à un et un seul client.
-- Un client peut n'avoir jamais passé de commande.
-- Un produit peut n'avoir jamais été commandé.
-
-Les structures d'association suivantes sont alors possibles :
 
 
 |Type URI | Choix de conception |
