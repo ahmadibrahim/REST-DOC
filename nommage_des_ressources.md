@@ -104,8 +104,14 @@ Consider the following relational schema:
 ![Rental Diagram](rent9.png)
 
 
+- A order is the combination of one or more order lines to one and only client. 
+- A client may never have placed an order. 
+- A product may never have been ordered. 
 
-|Type URI | Choix de conception |
+The following combination of structures are possible:
+
+
+|URI | Design choice |
 | -- | -- |
 |URI1 |![](rent7.png)|
 |URI2 |![](rent10.png)|
