@@ -126,7 +126,7 @@ The choice of one or other of the models is entirely at the discretion of the bu
 In either case, nothing prevents the business analyst to provide access to orders, customers or command line directly via a unique access key. Again this is a business choice about resource exposure via the REST API.
 
 ![Tip](lightbulb1.png)When accessing an object, we may want to discriminate it by an attribute. When this attribute identifies the accessed resource in a unique way in the hierarchy, then it will be part of the URI.
-Access to asub-resource without an id may be done using an index or position
+Access to a sub-resource without an id may be done using an index or position
 In any other case, this will be a search criteria
 Dans les autres cas, ce sera un critère de recherche. 
 
