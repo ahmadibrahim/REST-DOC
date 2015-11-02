@@ -8,7 +8,7 @@ The response structure of a REST service call must be:
 ### The HTTP response code
 This is an integer indicating the HTTP response code. This code may also be included in the body of the response in the form of an attribute
 
-### l'attribut status
+### The status attribute
 This attribute contains one of the 3 following: 
 - "fail" for HTTP response codes 5XX
 - "error" for HTTP response codes 4XX 
