@@ -80,9 +80,9 @@ will produce the following response :
 
 
 #### Dates
-Les dates sont transmises de deux manières différentes selon qu'elles soient précisées dans un entête HTTP ou dans le corps de la requête / réponse.
+Dates are transmitted in two different ways depending on whether they are specified in an HTTP header or in the body of the request / response.
 
-Dans l'entête HTTP, les dates doivent respecter la RFC 1123 qui consiste à transmettre la date au format suivant :
+In the HTTP header, dates must comply with RFC 1123 by transmitting the date in the following format:
 ````
 Mon, 3 Aug 2015 09:26:12 GMT
 ````
