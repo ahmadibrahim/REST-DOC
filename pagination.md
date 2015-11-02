@@ -18,7 +18,7 @@ Thus a query with the following HTTP header would return 20 items starting from 
 Range: items=2-22
 ```
 
-Cet entête se lit comme suit : Renvoyer 20 items à partir de l'item à la position 2.
+This header reads: : Return 20 items starting from item at position 2.
 
 
  ### dans la query string
