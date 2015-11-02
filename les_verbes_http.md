@@ -85,7 +85,7 @@ The table below lists the HTTP codes it is recommended to return when the operat
 | -- | -- | -- |
 | GET | 200 (OK), returns a list of vehicles.| 200 (OK), returns a single vehicle. 404 (NOT FOUND) if the identifier is not found or is invalid. |
 | PUT | 404 (NOT FOUND) | 200 (OK) or 204 (NO CONTENT). 404 (NOT FOUND) if the identifier is not found or is invalid. |
-| POST | 201 (CREATED), wih the header "Location" set to the link /cars/{id} where {id} designates the new identifier| 404 (NOT FOUND) |
+| POST | 201 (CREATED), with the header "Location" set to the link /cars/{id} where {id} designates the new identifier| 404 (NOT FOUND) |
 | DELETE | 404 (NOT FOUND), except if we want to delete the whole collection. | 200 (OK). 404 (NOT FOUND) if the identifier is not found or invalid.   |
 
 The verbs used in the context of Eurpcar are : GET, POST, PUT, DELETE
