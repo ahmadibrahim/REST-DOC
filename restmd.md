@@ -1,9 +1,9 @@
 ## The six constraints of REST
 ### Uniform Interface
 
-This constraints is defined by 4 mainrules:
+This constraints is defined by 4 main rules:
 
-Cette contrainte se caractérise par quatre règles essentielles :
+- Unique identification of resources 
 - Identifiation unique des ressources : Chaque ressource est identifiée de manière unique au travers d'URIs. Le serveur renvoie une représentation de la ressource au client dans le respect d'un schéma prédéfini et indépendant de la représentation physique de la ressource sur le serveur. Les formats les plus communs sont JSON et XML encodés en UTF-8.
 
 ### Sans état
