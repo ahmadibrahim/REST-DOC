@@ -21,7 +21,7 @@ Range: items=2-22
 This header reads: : Return 20 items starting from item at position 2.
 
 
- ### dans la query string
+ ### In the query string
 Dans ce cas on n'indique pas par un intervalle mais par une position initiale et un nombre maximum d'éléments à renvoyer.
 Ainsi la requête suivante renverra les 20 premiers clients à partir de la position 2 incluse.
 ```
