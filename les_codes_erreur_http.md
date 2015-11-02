@@ -3,7 +3,7 @@ The exhaustive list of HTTP error codes is available at the following address : 
 
 The main HTTP  REST codes are : 
 
-| Code | Libellé | Description |
+| Code | Label | Description |
 | -- | -- | -- |
 | 200 | OK | Generic success code |
 | 201 | CREATED | Resource successfully created via POST or PUT and the Location header set to the new created resource. |
