@@ -22,14 +22,14 @@ When richer operators are needed, it may be necessary to define a dedicated synt
 
 | Opérator | Description |
 | -- | -- |
-| :: | Egalité |
-| :lt: | Inférieur |
-| :gt: | Supérieur |
-| :le | Inférieur ou égal |
-| :ge: | Supérieur ou égal |
-| :starts-with: | Commence par |
-| :contains: | Contient |
-| :end-with: | Se termine par |
+| :: | Equality |
+| :lt: | Less than |
+| :gt: | Greater than |
+| :le | Less than or equal |
+| :ge: | Greater than or equal |
+| :starts-with: | Starts with |
+| :contains: | Contains |
+| :end-with: | ends with |
 
 Pour les opérations de filtre encore plus complexes, il convient alors d'utiliser la librairie Apache Olingo qui implémente le concept de query défini dans [l'OpenData protocol (OData) Filter System Query Option ](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part2-url-conventions/odata-v4.0-errata02-os-part2-url-conventions-complete.html#_Toc406398094)
 
