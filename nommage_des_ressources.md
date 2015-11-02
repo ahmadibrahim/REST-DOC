@@ -151,10 +151,10 @@ In these cases, it is replaced by the proper noun word as shown in the table bel
 | Validate the order | PUT /orders/12345/validation | Make valid the order status |
 | Notify the customer | POST /customers/789067/notification | Create a notification and associate it with a customer |
 
-Dans le tableau ci-dessus, la description indique la perception qu'a le client du service REST. Dans la réalité, les opérations qui ont lieu sur le S.I. sont beaucoup plus riches et complexes.
+In the above table, the description indicates the customer's perception of the REST service. In reality, the transactions that take place on the Information System are much richer and complex. 
 
-Note : suivant les cas métier, l'invocation du service sera accompagnée ou non d'un payload
+Note: Depending on the business case, the invocation of the service will be with or without a payload.
 
-L'usage de ces substantifs permet de conserver l'intention métier et le bon niveau d'abstraction des opérations
+The use of these nouns keeps the business intent and the right level of abstraction to describe the operations.
 
-Le choix du verbe (PUT, GET , POST, DELETE) dépendra de l'idempotence et de la neutralité de l'action que l'on souhaite exécuter. 
+The choice of the verb (PUT, GET, POST, DELETE) will depend on the idempotence and neutrality of the action that is to be run.
