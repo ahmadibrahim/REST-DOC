@@ -1,21 +1,23 @@
-##Gestion des sessions
-ST dans REST signifie State Transfer, ce qui signifie que les informations de session doivent être transférées au client et non stockées sous la forme d'objets en session. La règle est la suivante :
-- Toute état spécifique à la session en cours dans être stockée côté client.
-- Tout état spécifique à un objet métier est géré côté serveur.
+##Session management
+ST in REST means State Transfer. This means that session information must be transferred to the client and not stored as session objects on the server side. The rule is the following:
+- Any state specific to the current session must be stored on the client side
+- Any state specific to a business object and session independent must be stored on the server side.
 
-La session peut être utile dans certains cas à la marge :
-- Compatibilité avec une application antérieure
-- Préchargement de certaines ressources métiers volumineuses utiles au traitement
+The session may be useful in 
 
-Dans ce cas, un identifiant de session est transmis au client au travers d'un cookie dans l'entête HTTP.
+The session may be useful in some cases like :
+- Compatibility with previous versions of the application
+- Preloading of heavy resources to improve performance
+
+In this case, a session ID is transmitted to the client through a cookie in the HTTP header.
+
 
 ```
 Set-Cookie: jsessionid=ig2fac55; path=/; secure; HttpOnly
 ```
 
-La présence des deux indicateurs ```secure```et ```HttpOnly``` permet de sécuriser le cookie de la manière suivante :
 
-- L'indicateur ```secure``` empêche le cookie d'être envoyé en clair sur le canal HTTP et force l'utilisation du protocole HTTPS.
-- L'indicateur ```HttpOnly```empêche le code JavaScript d'accéder au cookie, pratique courante dans les attaques de type XSS (Cross site scripting). 
+- The ```secure``` flag prevents the cookie from being sent in clear text over HTTP channel and forces the use HTTPS.
+- The  ```HttpOnly``` flag prevents any JavaScript code to access the cookie, this practice is common in XSS attacks (Cross site scripting). 
 
-Ces deux indicateurs sont à positionner par l'applicatif.
+These flags are to be set by the application.
