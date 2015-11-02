@@ -45,10 +45,11 @@ The examples below illustrate the concept of hierarchy to be applied and the tra
 GET http://bad-api.europcar.com/services?op=update_customer&id=12345&format=json
 ````
 
-Le problème de cette URI est qu'elle n'est pas auto-décrite.
-1. le verbe neutre GET désigne une opération qui ne l'est pas.
-2. L'URI possède une structure hiérarchique identique pour l'ensemble des ressources ne permettant pas de différencier les ressources accédées juste au travers de la lecture de l'URI.
-3. Le format du message retourné doit être indiqué dans le Header (Header ```Accept: application/json```). Il s'agit d'une information protocole indépendante du contexte fonctionnel de la requête, cette information doit donc être mise dans le Header.
+The problem is that this URL is not self-described. 
+1. neutral GET verb designates a transaction which is not. 
+2. The URI has a hierarchical structure identical for all theresources. This does not allow to differentiate the resources accessed just through the reading of the URI. 
+3. The format of the returned message should be indicated in the header (Header `` `Accept: application / json```). This information is independent from the context of the application, this information must be in the header.
+
 
 Un autre contre-exemple est d'indiquer l'opération dans l'URI
 ```
