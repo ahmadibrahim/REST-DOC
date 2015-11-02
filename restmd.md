@@ -30,21 +30,23 @@ The client and the server exchange data whose representation is independent from
 ### Layered System
 A client cannot guess if he is directly connected to the target application server or if he is served by a proxy server. Usually theses proxies may be a load balancer, a shared cache service or an authentication and habilitation service.
 
-###Exécution de code à la demande (Optionnel)
-Cette contrainte est la seule optionnelle des six contraintes REST imposées. Elle permet de renvoyer au client du code qui sera exécuté sur le poste client pour étendre les fonctionnalités du serveur. Il peut s'agir d'applets Java ou de scripts javascript. Cela peut concerner notamment l'accès à des périphériques locaux.
 
-Note : Europcar n'a pas prévu d'utiliser l'exécution de code à la demande.
+###Code on demand (Optional)
+Of the six constraints required by REST, this constraint is the single optional one. It allows the client to return code that will be executed on the client side to extend server functionality. This code may be a Java applet or a JavaScript script to access local peripherals.
+
+Note : Europcar has not planned to use "code on demand".
+
 
 
 
 ## Concepts
-- En REST, l'abstraction clef désignant l'unité d'information est la ressource. Tout information qui peut être nommée est potentiellement est une ressource. Plus généralement, tout concept qui peut être désigné par une référence hypertexte doit être considéré comme une ressource.
-- Une ressource est accédée au travers d'une URI.
-- Une URI peut être invoquée via une ou plusieurs méthodes (GET / PUT / POST / DELETE) en fonction de l'opération que l'on souhaite exécuter (Lecture / Mise à jour / Création / Suppression).
-- Une invocation de service REST peut inclure dans le corps de la requête des paramètres en entrée représentant un objet métier et recupérer dans la réponse une représentation de l'objet métier dans le flux de retour.
-- Plusieurs variantes d'une représentation sont possibles. En général on retrouve les variantes JSON et XML.
+- In REST, the key abstraction to designate the unit of information is the resource. Any information that can be named is potentially a resource. More generally, any concept that may be designated by a hypertext reference must be considered as a resource.
+- A resource is accessed through a URI.
+- A URI may be invoked through on or multiple methods (GET / PUT / POST / DELETE) depending on the action we went to execute (Read / Update/ Create / Delete).
+- A REST Service invocation may include in the body of the request input parameters that represent the business object and get back in the response a representation of the business object.
+- Many variations of a representation are possible. The most widely used are JSON and XML.
 
-Le diagramme ci-dessous illustre ces concepts.
+The diagram below illsutrates those concepts.
 
 ![Concepts REST](rest-concepts.png)
 
