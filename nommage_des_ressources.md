@@ -61,9 +61,18 @@ The URL must designate a resource and not an operation on a resource. The URI mu
 ### Pluriel versus singulier
 ![Tip](lightbulb1.png)
 
+The rule to follow is this. When the resource refers to a collection of objects then we must use the plural.
+
+But what happens when no resource actually exists on the server ? Consider that we wanted to build a service that verifies that the email referred respects a well-defined pattern. 
+
+This is a neutral operation, the appropriate HTTP verb GET verb. 
+
+In our case, there is no pattern entity in the database, we would be tempted to use the singular with type URI:
 ```
 GET http://bad-api.europcar.com/pattern-valid
 ```
+
+This violates the principle of hierarchy. One solution is to consider that there are a multitude of patterns, we can deduce that the pattern is a virtual entity to be designated by a name in the plural. To validate the email, we can consider that the identifier "email" is our pattern in this virtual collection patterns.
 
 Cela viole le principe hiérarchique. Une solution est de considérer qu'il existe  une multitude de patterns, nous pouvons donc en déduire que le pattern est une entité virtuelle qui sera désignée par un nom au pluriel. Pour valider l'email, nous pourrons considérer que l'identifiant "email" désigne notre patterns dans cette collection virtuelle infinie de patterns.
 
