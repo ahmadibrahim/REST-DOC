@@ -79,7 +79,7 @@ will produce the following response :
 ```
 
 
-#### Les dates
+#### Dates
 Les dates sont transmises de deux manières différentes selon qu'elles soient précisées dans un entête HTTP ou dans le corps de la requête / réponse.
 
 Dans l'entête HTTP, les dates doivent respecter la RFC 1123 qui consiste à transmettre la date au format suivant :
