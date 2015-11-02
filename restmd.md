@@ -15,7 +15,7 @@ The stateless approach brings more scalability to applications since the server 
 
 P.S. Nonetheless, it is not always possible to have a stateless approach . Services like OAuth require information to be maintained in the session store. Compatibility with previous versions of the application may also be a motivation to maintain session data across requests
 
-When maintining a session is essential, you must :
+When maintaining a session is essential, you must :
 - Make sure that the data in the session store are not used as a temporary state between HTTP requests mais exclusively used as a cache holding data that will stay valid during the whole session.
 - Make sure that the session is available across the whole server farm (no session affinity).
 
