@@ -28,7 +28,7 @@ In this case there is no indication with an interval but with an initial positio
 GET http://api.europcar.com/customers?offset=2&limit=20
 ```
 
-![Tip](lightbulb1.png) Privilégier la pagination au travers de paramètres dans la query string.
+![Tip](lightbulb1.png) Favour paging through parameters in the query string.
 
 ### Format de la réponse
  Uen requête de pagination, que ce soit via l'entête ou la query string doit renvoyer le nombre d'items retournés et le nombre total d'items.
