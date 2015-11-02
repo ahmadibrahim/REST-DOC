@@ -120,7 +120,7 @@ The choice of one or other of the models is entirely at the discretion of the bu
 
 | HTTP Verb | URI1 | / URI2 |
 | -- | -- | -- |
-| Description |l'analyste métier impose uniquement la connaissance de la commande pour accéder aux lignes de commande de la dite commande.| Dans le second cas, l'accès aux lignes de commande impose de connaître également le client pour de la commande. |
+| Description | The business analyst only requires knowledge of the order to access the or line of the said order.| Dans le second cas, l'accès aux lignes de commande impose de connaître également le client pour de la commande. |
 | GET | /orders/12345/lineitems |/customers/6785/orders/12345/lineitems |
 
 Dans les deux cas, rien n'empêche l'analyste métier de permettre l'accès aux commandes, clients ou lignes de commande directement via une clef d'accès unique. Là encore il s'agit d'un choix métier quant à l'exposition des ressources via l'API REST.
