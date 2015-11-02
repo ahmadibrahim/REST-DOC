@@ -24,7 +24,7 @@ When there is a association relation( UML sense), You should return the minimum 
 
 #### Vues d'un objet
 
-![Tip](lightbulb1.png)Lorsque l'on souhaite accéder à une vue particulière d'une ressource, par exemple pour le client récupérer uniquement son identité ou uniquement ses données de paiement. On préfixera la vue que l'on souhaite accéder par ```views```:
+![Tip](lightbulb1.png) When it is desired to access a particular view of a resource, for example the client identity or retrieve only its payment data. You need to  prefix the view that you want to access by the word ```views```:
 
 ```
 /customers/12345/views/ident
