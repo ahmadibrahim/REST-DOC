@@ -13,7 +13,7 @@ This is a breaking change with the classical approach where data is stored in a 
 The stateless approach brings more scalability to applications since the server does not need to maintain and/or replicate the session state. Moreover, load balancing components do not have to be aware of the session affinity that are usually complex to implement at the infrastructure level and makes deployment of a new version of the application less smooth since it requires all sessions to be shutdown first.
 
 
-P.S. Nonetheless, it is not always possible to have a stateless approach . Services like OAuth require information to be maintained in the session store. Compatibility with previous versions of the application may also be a motivation to maintain session data accross requests
+P.S. Nonetheless, it is not always possible to have a stateless approach . Services like OAuth require information to be maintained in the session store. Compatibility with previous versions of the application may also be a motivation to maintain session data acros requests
 
 Si le maintien d'une session est indispensable, il faut :
 - retenir que dans la mesure du possible, les informations de session ne doivent pas servir comme maintien d'un état transitoire d'une requête HTTP à une autre mais uniquement comme un mécanisme de cache d'informations valide pendant toute la durée de la session.
