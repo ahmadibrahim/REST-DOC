@@ -1,4 +1,4 @@
-## Tri
+## Sort
 Les options de tri sont placées dans la query-string. 
 
 ![Tip](lightbulb1.png)Le paramètre de tri est nommé "sort" et les critères de tri sont placés dans l'ordre séparés par une barre verticale "|". Lorsque le tri su un critère est descendant, il doit être  préfixé par le caractère "-".
