@@ -1,4 +1,4 @@
-## Nommage des ressources (URI)
+## Naming reso (URI)
 En plus d'utiliser les verbes HTTP de manière appropriée, il est indispensable de créer des URI qui rendent l'usage de l'API simple et intuitive.
 
 Une API REST est constituée :
