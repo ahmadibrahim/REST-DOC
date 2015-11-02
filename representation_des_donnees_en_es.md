@@ -36,7 +36,7 @@ The absence of the prefix ```views``` means that we want the default view: ``` /
 
 
 #### Collections
-Les objets sont renvoyées comme une liste homogène de données, encadrées par un crochet ouvran tet un crocher ouvrant. Tout comme précédemment, les listes sont des objets et ne doivent donc jamais être nommées. Ci-dessous un exemple de liste avec deux éléments :
+The objects are sent as a homogeneous list of data, framed by an opening bracket and closing bracket. As before, the lists are objects and therefore should never be named. Below is an example of a list with two items:
 ``` 
 [
     {
