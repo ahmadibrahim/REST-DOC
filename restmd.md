@@ -1,7 +1,7 @@
 ## The six constraints of REST
 ### Uniform Interface
 
-This constraints is defined by the fact that each resource is uniquely identified through a URI. The server returns a representation of the resource to the client with respect to a predefined schema that is independent of the physical representation of the resource on the server. The most common formats are JSON and XML encoded as UTF-8 entities.
+This constraint is defined by the fact that each resource is uniquely identified through a URI. The server returns a representation of the resource to the client with respect to a predefined schema that is independent of the physical representation of the resource on the server. The most common formats are JSON and XML encoded as UTF-8 entities.
 
 ### Sans état
 L'approche sans état est clef dans REST. Elle signifie que l'ensemble des éléments requis à la manipulation des données est contenue dans l'URI, les paramètres de l'URI (query-string), le corps de la requête ou les entêtes. Une fois la requête traitée, le serveur renvoie au travers des entêtes, du corps ou du statut de la réponse , l'ensemble des informations requises pour d'éventuels appels ultérieurs.
