@@ -51,23 +51,16 @@ The problem is that this URL is not self-described.
 3. The format of the returned message should be indicated in the header (Header `` `Accept: application / json```). This information is independent from the context of the application, this information must be in the header.
 
 
-Another wrong use is to ment
+Another wrong use is to mention the operation in the URI:
 ```
 GET http://bad-api.europcar.com/customers/12345/create
 ```
 
-L'URI doit désigner une resssource et non une opération sur une ressource. L'URI doit être identique quelque soit l'opération qui sera effectuée sur la ressource (POST/ GET / PUT / DELETE)
+The URL must designate a resource and not an operation on a resource. The URI must be identical regardless of the operation that is performed on the resource (POST / GET / PUT / DELETE)
 
 ### Pluriel versus singulier
-![Tip](lightbulb1.png)La règle à respecter est la suivante. Lorsque la ressource désigne une collection d'objets alors il faut utiliser le pluriel.
+![Tip](lightbulb1.png)
 
-Mais que se passe-t-il lorsqu'aucune ressource n'existe réellement sur le serveur ?
-Considérons que nous souhaitions construire un service qui vérifie que l'email saisi respecte un pattern bien défini.
-
-Il s'agit d'une opération neutre, le verbe HTTP approprié est le verbe GET.
-
-
-Dans notre cas, il n'y a pas d'entité Pattern en base, nosu serions tenté d'utiliser le singulier avec une URI du type :
 ```
 GET http://bad-api.europcar.com/pattern-valid
 ```
