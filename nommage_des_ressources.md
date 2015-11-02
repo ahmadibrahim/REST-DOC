@@ -137,10 +137,10 @@ In the example below, we want orders passed on 09.10.2015.
 ![Tip](lightbulb1.png)Composition vs Association: We model a composition when the REST call return in the stream the sub-resource, and an association when the REST call returns only a technical and / or functional id with a label (see external fragments / XF)
 
 ## exécution d'opérations métier
-Dans les cas métiers (autres que CRUD), l'invocation d'un service REST renvoie généralement le résultat de l'exécution d'un acte métier. On peut citer les actions métiers suivantes :
-- Signer le contrat
-- Valider la location
-- Notifier le client
+In business cases (other than CRUD), invoking a REST service typically returns the result of execution of an business act. These include the following business activities: 
+- Sign the contract 
+- Validate rent 
+- Notify the customer
 
 
 Dans ces cas, on remplacera le verbe par le substantif adéquat comme le montre le tableau ci-dessous :
