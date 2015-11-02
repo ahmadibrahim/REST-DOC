@@ -143,8 +143,7 @@ In business cases (other than CRUD), invoking a REST service typically returns t
 - Notify the customer
 
 
-Dans ces cas, on remplacera le verbe par le substantif adéquat comme le montre le tableau ci-dessous :
-
+In these cases, it is replaced by the proper noun word as shown in the table below:
 
 | Action | Exemple d'URI | Description|
 | -- | -- | -- | -- |
