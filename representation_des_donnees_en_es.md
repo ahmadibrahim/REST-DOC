@@ -2,7 +2,7 @@
 
 #### Objets
 
-- When an object is returned, it must be self-described. This means that one will find all the criteria that enabled to return the object in the object returned back if they are part of the returned object. So when accessed by ID, the ID will also be included in the returned object. ``` / Orders / 12345 ``` will return a command as follows:
+- When an object is returned, it must be self-described. This means that one will find all the criteria that enabled to return the object in the object returned back if they are part of the returned object. So when accessed by ID, the ID will also be included in the returned object. ``` / Orders/12345 ``` will return a command as follows:
  
 
 - Lorsqu'un objet est renvoyé, il doit être auto-décrit.  Cela signifie qu'on retrouvera tous les critères ayant permis 
