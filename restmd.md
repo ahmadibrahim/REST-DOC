@@ -28,7 +28,7 @@ It is the client that initiates the request.
 The client and the server exchange data whose representation is independent from both, the server side data representation and the client side user interface. This allows both parties (client and server) to evolve independently from each other as long as the data interchange format is respected and stays compatible.
 
 ### Layered System
-A client cannot guess if he is directly connected to the target application server or if he is served by a proxy server. Usually theses proxies may be a load balancer, a shared cache service or an authentication and habilitation services.
+A client cannot guess if he is directly connected to the target application server or if he is served by a proxy server. Usually theses proxies may be a load balancer, a shared cache service or an authentication and habilitation service.
 
 ###Exécution de code à la demande (Optionnel)
 Cette contrainte est la seule optionnelle des six contraintes REST imposées. Elle permet de renvoyer au client du code qui sera exécuté sur le poste client pour étendre les fonctionnalités du serveur. Il peut s'agir d'applets Java ou de scripts javascript. Cela peut concerner notamment l'accès à des périphériques locaux.
