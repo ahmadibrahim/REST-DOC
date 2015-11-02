@@ -46,7 +46,7 @@ PUT http://api.europcar.com/cars/12345 : Update vehicle 12345
 PUT http://api.europcar.com/cars/12345/drivers/67890 : Update driver 67890 of vehicle 12345
 ```
 
- ### The POSt verb for creating resources
+ ### The POST verb for creating resources
  The POST verb is often used to create new resources. It is the server responsibility to assign a unique identifier to the resource.
  
 Examples:
