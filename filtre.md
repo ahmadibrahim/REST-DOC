@@ -4,7 +4,7 @@ Filtering apply to search operations on resources.
 
 The filtering options are placed in the query-string only as an additional parameter: "filter". The criterion name is separated from its value by the string "::" and the filter criteria are separated from each other by the '|' character. 
 
-The API specification must specify the attributes on which research can be conducted. The search criteria apply to the resource indicated by the URI. The naming of the parameters of the research is independent of the naming attributes of the considered resources. Thus, the following URI could help capture customers with an order of a higher amount € 1,000 and with only one item:
+The API specification must specify the attributes on which research can be conducted. The search criteria apply to the resource indicated by the URI. The naming of the parameters  is independent of the naming attributes of the considered resources. Thus, the following URI could help capture customers with an order of a higher amount € 1,000 and with only one item:
 
 Le filtrage correspond aux opérations de recherches sur les ressources
 
