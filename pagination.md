@@ -9,7 +9,10 @@ Both information "position" and "number of items" must be passed by the query to
 Paging can be initiated by the client or the server when the data volume is too high. In all cases, the server can impose its paging rules (which would induce a gap between customer demand and the actual result).
 
 ### Pagination with the header
-Dans ce cas, on utilise l'entête HTTP "Range" qui respecte le format suivant : items={position}-{nombre}.
+In this case, the "Range" HTTP header is used with respect to the following format:
+
+``` items={position}-{nombre}```.
+
 Ainsi une requête avec l'entête HTTP suivant renverra 20 items à partir du troisième item :
 ```
 Range: items=2-22
