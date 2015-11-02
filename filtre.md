@@ -6,19 +6,7 @@ The filtering options are placed in the query-string only as an additional param
 
 The API specification must specify the attributes on which research can be conducted. The search criteria apply to the resource indicated by the URI. The naming of the parameters  is independent of the naming attributes of the considered resources. 
 
-Thus, the following URI could help capture customers with an order of an amount  higher than €1,000 and with only one item:
-
-Le filtrage correspond aux opérations de recherches sur les ressources
-
-
-Les options de filtrage sont placés dans la query-string uniquement sous la forme d'un paramètre supplémentaire : "filter".
-Le nom du critère est séparé de sa valeur par le chaîne de caractères "::" et les critères de filtre sont séparés les uns des autres par le caractère '|'.
-
-La spécification de l'API doit préciser les attributs sur lesquels peuvent être effectuées les recherches.
-Les critères de recherche d'appliquent à la ressource indiquée par l'URI.
-Le nommage des paramètres de la recherche est indépendant du nommage des attributs de la ressources considérée.
-
-Ainsi, l'URI suivante pourrait permettre de récupérer les clients  avec une commande d'un montant supérieur  1000€ et avec un seul article:
+Thus, the following URI could help capture customers with an order containing a single article and with an amount  higher than €1,000:
 
 ```
 GET http://api.europcar.com/orders?filter=amount:gt:1000|count::1
