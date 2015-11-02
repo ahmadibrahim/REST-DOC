@@ -1,3 +1,3 @@
-# Annexe - HATEOAS
-### Le principe
-L'objectif de HATEOAS est de permettre la découvrabilité de l'API REST. La ressource accédée renvoie en plus de la réponse, le moyen d'accéder aux services suivants. Il est ainsi  possible de connaître quelles actions sont possibles sur la ressource accédée.
+# Annex - HATEOAS
+### The principle
+The objective is to enable HATEOAS discoverability of the REST API. The accessed resource returns in addition to the response, the way to access the following services. It is thus possible to know what actions are possible on the accessed resource.
