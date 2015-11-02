@@ -7,7 +7,7 @@
 
 ``` 
 {
- "id":"12345", // id est repris dans la réponse bien qu'il soit dans l'URI de la requête
+ "id":"12345", // id is included in the response despite being in the request URI
   ...
 } ```
 
