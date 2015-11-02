@@ -45,7 +45,7 @@ In the following example, it is noted that the last 10 items were returned:
 Content-Range: items 87-96/97
 ```
 
-Lorsque le nombre total d'items n'est pas connu au moment de la requête, il est possible de remplacer le nombre total par l'astérisque comme suit :
+When the total number of items is not known at the time of the response, it is possible to replace the number with an asterisk as follows:
 ```
 Content-Range: items 0-49/*
 ```
