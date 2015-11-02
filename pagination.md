@@ -22,6 +22,8 @@ This header reads: : Return 20 items starting from item at position 2.
 
 
  ### In the query string
+In this case there is no indication with an interval  but by an initial position and a maximum number of items to return. So the following query will return the first 20 customers from position 2 included.
+ 
 Dans ce cas on n'indique pas par un intervalle mais par une position initiale et un nombre maximum d'éléments à renvoyer.
 Ainsi la requête suivante renverra les 20 premiers clients à partir de la position 2 incluse.
 ```
