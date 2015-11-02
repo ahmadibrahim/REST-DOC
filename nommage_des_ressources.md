@@ -148,7 +148,7 @@ In these cases, it is replaced by the proper noun word as shown in the table bel
 | Action | URI Example | Description|
 | -- | -- | -- | -- |
 | Sign the order | POST /orders/12345/signature | Create the signature and associate it with the order |
-| Valider la commande | PUT /orders/12345/validation | Mettre à valide  du statut de la commande |
+| Validate the order | PUT /orders/12345/validation | Mettre à valide  du statut de la commande |
 | Notifier le client | POST /customers/789067/notification | Création d'une notification et association au client |
 
 Dans le tableau ci-dessus, la description indique la perception qu'a le client du service REST. Dans la réalité, les opérations qui ont lieu sur le S.I. sont beaucoup plus riches et complexes.
