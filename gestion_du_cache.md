@@ -1,6 +1,6 @@
 ## Cache management
 
-The cache is exclusively used for GET resquests. The following headersare used to support the cache mechanism:
+The cache is exclusively used for GET resquests. The following headers are used to support the cache mechanism:
 
 | Header | Description | Example |
 | -- | -- | -- |
