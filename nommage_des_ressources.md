@@ -118,7 +118,7 @@ The following combination of structures are possible:
 
 The choice of one or other of the models is entirely at the discretion of the business analyst and the hierarchical view he wishes to give to the information system. The following URIs are equivalent:
 
-|Verbe HTTP | URI1 | / URI2 |
+| HTTP Verb | URI1 | / URI2 |
 | -- | -- | -- |
 | Description |l'analyste métier impose uniquement la connaissance de la commande pour accéder aux lignes de commande de la dite commande.| Dans le second cas, l'accès aux lignes de commande impose de connaître également le client pour de la commande. |
 | GET | /orders/12345/lineitems |/customers/6785/orders/12345/lineitems |
