@@ -132,7 +132,7 @@ In any other case, this will be a search criteria
 
 In the example below, we want orders passed on 09.10.2015.
 
-``` .../orders/20150910 ``` est à proscrire car plusieurs commandes peuvent avoir été  passées le 10/09/2015. Une requête correcte est la suivante : ``` .../orders?date=20150910``` et le retour sera une collection.
+``` .../orders/20150910 ``` should be avoided because several commands may have been passed on 09.10.2015. Acorrect query: ``` .../orders?date=20150910``` et le retour sera une collection.
 
 ![Tip](lightbulb1.png)Composition versus association : On modélisera une composition lorsque l'appel REST renverra dans le flux la sous-ressource, et une association lorsque l'appel REST renvoie uniquement un identifiant technique et/ou fonctionnel accompagné d'un libellé (Cf. fragments externes / XF)
 
