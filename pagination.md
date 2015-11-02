@@ -2,13 +2,11 @@
 
 When the volume of data to return is important, it may be helpful to divide the result pages to allow a better reading of the data on the client-side and to limit the use of the bandwidth.
 
-Pagination is to return a number of items from a given position. The 0 position describing the start of the collection. Both information "position" and "number of items" must be passed by the query to limit the number of items to be returned by the server. Paging can be initiated by the client or the server returned when the data volume is too high. In all cases, the server can impose its paging rules (which would induce a gap between customer demand and the actual result).
+Pagination is to return a number of items from a given position. The 0 position describing the start of the collection.
 
+Both information "position" and "number of items" must be passed by the query to limit the number of items to be returned by the server.
 
-Lorsque le volume de données à renvoyer est important, il peut être utile de découper le résultat en pages afin de permettre une meilleure lecture des données côté client et de limiter l'usage de la bande passante.
-La pagination consiste à renvoyer un certain nombre d'éléments à partir d'une position donnée. La position 0 décrivant le début de la collection.
-Ces deux informations, "position" et "nombre d'items" doivent être transmis par la requête pour limiter le nombre d'éléments à renvoyer par le serveur.
-La pagination peut être à l'initiative du client ou du serveur lorsque le volume de données retourné est trop important. Dans tous les cas, le serveur peut imposer ses règles de pagination (qui induirait un décalage entre la demande du client et le résultat effectif).
+Paging can be initiated by the client or the server when the data volume is too high. In all cases, the server can impose its paging rules (which would induce a gap between customer demand and the actual result).
 
 ### Pagination avec le header
 Dans ce cas, on utilise l'entête HTTP "Range" qui respecte le format suivant : items={position}-{nombre}.
