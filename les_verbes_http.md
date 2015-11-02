@@ -70,7 +70,7 @@ When it succeeds, the 201 HTTP response code is sent back with the header "Locat
  ### The DELETE verb for deletion
 The DELTE verb is used to deleted the resource identified by the URI.
 
-Exemples:
+Examples:
 ```
 DELETE http://api.europcar.com/cars/12345 : Delete vehicle 12345
 DELETE http://api.europcar.com/cars/12345/drivers : Delete all drivers of vehicle 12345
