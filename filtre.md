@@ -31,7 +31,7 @@ When richer operators are needed, it may be necessary to define a dedicated synt
 | :contains: | Contains |
 | :end-with: | ends with |
 
-For more complex filter operations, you should use the Apache Olingo library that implements the Open Data protocol [OpenData protocol (OData) Filter System Query Option ](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part2-url-conventions/odata-v4.0-errata02-os-part2-url-conventions-complete.html#_Toc406398094)
+For more complex filter operations, you should use the Apache Olingo library that implements the [OpenData protocol (OData) Filter System Query Option ](http://docs.oasis-open.org/odata/odata/v4.0/errata02/os/complete/part2-url-conventions/odata-v4.0-errata02-os-part2-url-conventions-complete.html#_Toc406398094)
 
 
 ###Filtres prédéfinis
