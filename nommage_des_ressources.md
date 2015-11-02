@@ -6,10 +6,10 @@ A REST API consists of:
 - HTTP calls to these URIs (verbs) 
 - XML representations / JSON resources
 
-Chaque ressource du serveur est accessible au travers de l'URI. Par opposition à un verbe qui décrit une action, une ressource est un nom commun qui décrit une entité.
-Le nommage des URIs doit suivre une structure hiérarchique cohérente afin de garantir son utilisabilité.
+Each resource on the server server is accessible through the URI. As opposed to a verb that describes an action, a resource is a common name that describes an entity. The URI naming must follow a coherent hierarchical structure to ensure its usability.
 
-### Les bonnes pratiques
+
+### Best Practi
 Pour illustrer les bonnes pratiques, nous nous appuyons sur les entités clients, commandes, lignes de commandes et produits.
 
 Le nommage des ressources peut être le suivant :
