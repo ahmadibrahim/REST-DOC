@@ -13,7 +13,7 @@ In this case, the "Range" HTTP header is used with respect to the following form
 
 ``` items={position}-{nombre} ```.
 
-Thus a query with the following HTTP header in return 20 items from the third item:
+Thus a query with the following HTTP header would return 20 items from the third item:
 ```
 Range: items=2-22
 ```
