@@ -74,10 +74,9 @@ GET http://bad-api.europcar.com/pattern-valid
 
 This violates the principle of hierarchy. One solution is to consider that there are a multitude of patterns, we can deduce that the pattern is a virtual entity to be designated by a name in the plural. To validate the email, we can consider that the identifier "email" is our pattern in this virtual collection patterns.
 
-Cela viole le principe hiérarchique. Une solution est de considérer qu'il existe  une multitude de patterns, nous pouvons donc en déduire que le pattern est une entité virtuelle qui sera désignée par un nom au pluriel. Pour valider l'email, nous pourrons considérer que l'identifiant "email" désigne notre patterns dans cette collection virtuelle infinie de patterns.
 
 
-L'URI de désignation du pattern pourra alors être :
+The URi could then be written::
 ```
 GET http://api.europcar.com/patterns/email
 ```
