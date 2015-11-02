@@ -59,7 +59,7 @@ A URI that returns a list of preferences ended with a segment in the plural as i
 GET http://api.europcar.com/orders/1234/linetitems
 ```
 
-Cet appel renvoie la vue par défaut. Pour envoyer une vue spécifique, on pourra suffixer par ```views/nomdelavue```. Dans l'exemple ci-dessous on souhaite restituer uniquement les ids des lignes de commande
+This call returns the default view. Pour envoyer une vue spécifique, on pourra suffixer par ```views/nomdelavue```. Dans l'exemple ci-dessous on souhaite restituer uniquement les ids des lignes de commande
 
 ```
 GET http://api.europcar.com/orders/1234/linetitems/views/names
