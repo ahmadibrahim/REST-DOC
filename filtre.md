@@ -35,7 +35,7 @@ For more complex filter operations, you should use the Apache Olingo library tha
 
 
 ###Predefined filters
-Dans des cas complexes, certains filtres peuvent être prédéfinis sur le serveur et nommés. Dans ce cas, l'URI aura la forme suivante :
+In complex cases, some filters can be preset on the server and named. In this case, the URI has the following form:
 
 ````
 GET http://api.europcar.com/orders?filtername=name&param1=val1&...
