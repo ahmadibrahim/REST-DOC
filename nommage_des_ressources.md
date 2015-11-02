@@ -51,7 +51,7 @@ The problem is that this URL is not self-described.
 3. The format of the returned message should be indicated in the header (Header `` `Accept: application / json```). This information is independent from the context of the application, this information must be in the header.
 
 
-Un autre contre-exemple est d'indiquer l'opération dans l'URI
+Another wrong use is to ment
 ```
 GET http://bad-api.europcar.com/customers/12345/create
 ```
