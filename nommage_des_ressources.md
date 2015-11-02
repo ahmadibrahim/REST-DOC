@@ -9,38 +9,39 @@ A REST API consists of:
 Each resource on the server server is accessible through the URI. As opposed to a verb that describes an action, a resource is a common name that describes an entity. The URI naming must follow a coherent hierarchical structure to ensure its usability.
 
 
-### Best Practi
-Pour illustrer les bonnes pratiques, nous nous appuyons sur les entités clients, commandes, lignes de commandes et produits.
+### Best Practices
+To illustrate the best practices, we rely on customers entities, orders, order lines and products.
 
-Le nommage des ressources peut être le suivant :
+The naming of resources may be the following:
 
 | Ressource | Nommage de la ressource |
 | -- | -- |
 | Client | customers |
-| Commande | orders |
-| LigneDeCommande | lineitems |
-| Produit | products |
+| Order | orders |
+| Order Line | lineitems |
+| Product | products |
 
-![Tip](lightbulb1.png)Les ressources sont nommées au pluriel et en minuscules. 
+![Tip](lightbulb1.png)Resources are named in the plural and in lower case.
 
-Ceci est du au fait que le service renverra une collection d'objets lorsqu'aucun identifiant n'est présent dans l'URI.
-Ci-dessous quelques exemples d'utilisation:
+This is due to the fact that the service will send a collection of objects when no identifier is present in the URI. 
+Below are some examples:
 
 
-| Opération | URI|
+| Operation | URI|
 | -- | -- |
-| Création d'un nouveau client | POST http://api.europcar.com/customers |
-| Récupération/Mise à jour/Suppression du client 12345 | GET/PUT/DELETE http://api.europcar.com/customers/12345 |
-| Création d'une nouvelle commande pour le client 12345 | POST http://api.europcar.com/customers/12345/orders |
-| Récupération des commandes du client 12345 | GET http://api.europcar.com/customers/12345/orders |
-| Création d'une ligne de commande dans la commande 67890 pour le client 12345 | POST http://api.europcar.com/customers/12345/orders/67890/lineitems |
-| Récupération de la première ligne de commande dans la commande 67890 pour le client 12345 | GET http://api.europcar.com/customers/12345/orders/67890/lineitems/1 |
+| Create a new customer | POST http://api.europcar.com/customers |
+| Get/Update/Delete customer 12345 | GET/PUT/DELETE http://api.europcar.com/customers/12345 |
+| Create a new order for customer 12345 | POST http://api.europcar.com/customers/12345/orders |
+| Get orders of customer 12345 | GET http://api.europcar.com/customers/12345/orders |
+| Create an order line in the order 67890 pour the customer 12345 | POST http://api.europcar.com/customers/12345/orders/67890/lineitems |
+| Get the first forder line in the order 67890 for the customer 12345 | GET http://api.europcar.com/customers/12345/orders/67890/lineitems/1 |
 
-Les exemples ci-dessous illustrent le concept de hiérarchie à appliquer et la traversabilité de la hiérarchie au travers d'un identifiant unique qui vient s'intercaler entre les noms communs représentants les entités traversées.
+The examples below illustrate the concept of hierarchy to be applied and the traversability of the hierarchy via a unique ID that is interposed between the common names representatives the traversed entities.
 
- ### Pratiques à éviter absolument
-Le premier anti-pattern consiste à regrouper les services REST au sein d'une même URI et d'utiliser les paramètres de la query-string pour distinguer les services les uns des autres.
-Par exemple, l'URI de mise à jour d'un client pourrait être :
+ ### Practices to be avoided
+ The first anti-pattern is to group REST services within a single URI and using the parameters of the query-string to distinguish services from one another. For example, update the URI of a customer could be:
+
+
 ```
 GET http://bad-api.europcar.com/services?op=update_customer&id=12345&format=json
 ````
