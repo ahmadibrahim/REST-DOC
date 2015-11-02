@@ -76,7 +76,7 @@ This violates the principle of hierarchy. One solution is to consider that there
 
 
 
-The URi could then be written::
+The URI could then be written::
 ```
 GET http://api.europcar.com/patterns/email
 ```
