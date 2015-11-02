@@ -43,7 +43,7 @@ GET http://api.europcar.com/orders?filtername=name&param1=val1&...
 
 In this example, the filter is called ```name``` and the expected filter parameters are passed in the URI.
 
-When it is desired to return a particular view, the mechanism is used for previously described. In the example below, the list of returned orders will restrict the results to the attributes defined by the view
+When it is desired to return a particular view, the view mechanism described previously may be used. In the example below, the list of returned orders will restrict the results to the attributes defined by the view
 
 Lorsque l'on souhaite restituer une vue particulière, on utilisera le mécanisme de vue décrit précédemment.
 
