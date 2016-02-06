@@ -3,7 +3,7 @@
     ],
     "pluginsConfig": {
         "autocover": {
-            "title": "Valve Analytics",
+            "title": "REST : Gui de bonnes pratiques",
             "author": "Hayssam Saleh - Ebiznext",
             "font": {
                 "size": null,
