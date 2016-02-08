@@ -3,7 +3,7 @@
     ],
     "pluginsConfig": {
         "autocover": {
-            "title": "REST : Gui de bonnes pratiques",
+            "title": "REST : Guide de bonnes pratiques",
             "author": "Hayssam Saleh - Ebiznext",
             "font": {
                 "size": null,
