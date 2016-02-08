@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [REST Concepts](restmd.md)
+* [Concepts REST](restmd.md)
 * [Les verbes HTTP](les_verbes_http.md)
 * [Nommage des ressources](nommage_des_ressources.md)
 * [Représentation des données en E/S](representation_des_donnees_en_es.md)
