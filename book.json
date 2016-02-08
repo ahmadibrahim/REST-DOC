@@ -1,10 +1,10 @@
 {
-        "plugins": [
+    "plugins": [
     ],
     "pluginsConfig": {
         "autocover": {
-            "title": "REST : Guide de bonnes pratiques",
-            "author": "Ebiznext - 10 Octobre 2015",
+            "title": "Architecture applicative Valve Analytics",
+            "author": "ebiznext - v1.5.5",
             "font": {
                 "size": null,
                 "family": "Impact",
@@ -19,5 +19,4 @@
             }
         }
     }
-
 }
