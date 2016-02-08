@@ -15,5 +15,4 @@
 * [Gestion des sessions](gestion_des_sessions.md)
 * [Les codes erreur HTTP](les_codes_erreur_http.md)
 * [HATEOAS](hateoas.md)
-* [Test](test.md)
 
